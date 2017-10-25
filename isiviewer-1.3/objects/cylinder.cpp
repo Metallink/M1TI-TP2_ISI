@@ -1,56 +1,61 @@
 #include "cylinder.h"
 
 
-void Cylinder::traceVertex(float niveau){
+void Cylinder::traceVertex (float niveau){
 
 
     /* le point x se calcule suivant la formule suivante: x = rayon * cos (theta)
      * le point y se calcule suivant la formule suivante: y = rayon * sin (theta) */
 
-    for (int i= 1; i < m_inc+1; i++){
+    for (int i = 0; i < m_inc; i++){
 
         addVertex((m_rayon*cos(i*(m_angle))), (m_rayon*sin(i*(m_angle))), niveau);
     }
-    //addVertex(m_x, m_y, m_z);
 }
 
-void Cylinder::traceTrianglesCercles() {
+void Cylinder::traceTrianglesBase() {
 
     for(int i = 0; i<m_inc; i++){
 
-        addTriangle(m_inc,i%m_inc,(i+1)%m_inc);
-
+        addTriangle(0.f,i%m_inc+1,(i+1)%m_inc+1);
     }
 }
 
-void Cylinder::traceTrianglesPoly (float niveau) {
+void Cylinder::traceTrianglesCentre () {
 
-    float p1;
-    float p2;
-    float p3;
+    float p1,p2,p3;
 
-    for (int i = 0; i < niveau; i++) {
+    for (int niveau = 0; niveau < m_niveau; niveau++) {
 
-        for (int j = 0; j < m_inc; j++) {
+        for (int i = 0; i < m_inc; i++) {
 
-            p1 = (j % m_inc + m_inc * i + 1);
-            p2 = j % m_inc + m_inc * (i + 1) + 1;
-            p3 = ((j + 1) % m_inc + m_inc * i + 1);
+            p1 = (i % m_inc + m_inc * niveau + 1);
+            p2 = i % m_inc + m_inc * (niveau + 1) + 1;
+            p3 = ((i+1) % m_inc + m_inc * niveau + 1);
             addTriangle(p1, p2, p3);
 
-            p1 = (j % m_inc + m_inc * (i + 1) + 1);
-            p2 = ((j + 1) % m_inc + m_inc * (i + 1) + 1);
-            p3 = ((j + 1) % m_inc + m_inc * i + 1);
+            p1 = (i % m_inc + m_inc * (niveau + 1) + 1);
+            p2 = ((i + 1) % m_inc + m_inc * (niveau + 1) + 1);
+            p3 = ((i + 1) % m_inc + m_inc * niveau + 1);
             addTriangle(p1, p2, p3);
         }
     }
+}
 
-    computeNormalsT();  // to be fixed
-    computeNormalsV();  // to be fixed
+void Cylinder::traceTrianglesHaut() {
+
+    // le centre du cercle est le dernier sommet que l'on a ajouté au vector de sommets (ici 251)
+    int centre = (m_niveau+1)*m_inc+1;
+    // les sommets de la base sont les m_inc avant-derniers sommets, le dernier étant le centre du cercle de base (ici de 200 à 250)
+    int rangeSommets = centre-m_inc;
+
+    for(int i = 0; i<m_inc; i++){
+
+        addTriangle(centre,(i+1)%m_inc+rangeSommets,i%m_inc+rangeSommets);
+    }
 }
 
 
-// CONSTRUCTEUR
 Cylinder::Cylinder (int inc) {
 
     _name = "Cylinder";
@@ -58,45 +63,42 @@ Cylinder::Cylinder (int inc) {
     m_y = 0.f;
     m_z = -1.f;
     m_rayon = 1.f;
+    // je considere qu'il y a 4 "niveaux" dans ce polygone
     m_niveau = 4;
 
+    // on ajoute le premier sommet qui sera le centre du cercle du "bas"
     addVertex(m_x, m_y, m_z);
 
     // la valeur de résolution doit être d'au minimum 4 et au plus inc
     m_inc = inc < 4 ? 4 : inc;
 
-    //m_angle = ((2*M_PI)/m_inc);
+    m_angle = ((2*M_PI)/m_inc);
 
-    // IMPRO
-    //this->addVertex(0.f,0.f,-1.f); // centre du cercle du "bas"
+    // nous avons 5 niveaux par palier de +0.5 (ici -1,-0.5,0,+0.5 et +1)
+    for (float niveau = -1.f; niveau <= 1.f; niveau+=0.5f) {
 
-    for (float niveau = -1.f; niveau <= 1.00001f; niveau+=0.5f) {
-
-        //rez l'angle
-        m_angle = ((2*M_PI)/m_inc);
         // calcule des sommets par niveau
         traceVertex(niveau);
+        // donc niveau 0 (cercle du bas du cylindre) -> sommets 0(centre) à 50)
+        // donc niveau 1 -> sommets 51 à 100)
+        // etc..
+        // niveau 5 (cercle du haut) -> sommets 200 à 251
     }
 
-    // ajout du dernier point
-    //this->addVertex(0.f,0.f,1.f); // centre du cercle du "haut"
+    m_z=1.f;
+    // ajout du dernier point qui sera le centre du cercle du "haut" en 0 0 1
+    this->addVertex(m_x,m_y,m_z);
 
     // on trace le premier cercle, celui du bas
-    //this->traceTrianglesCercles();
+    this->traceTrianglesBase();
 
-    // on trace les triangles du polygone qui fait le tour du cylindre
-    this->traceTrianglesPoly(m_niveau);
+    // on trace les triangles du polygone de la partie centrale du cylindre
+    this->traceTrianglesCentre();
 
     // on trace le cercle du haut
-    this->traceTrianglesCercles();
+    this->traceTrianglesHaut();
 
 
     computeNormalsT();  // to be fixed
     computeNormalsV();  // to be fixed
 }
-
-
-// 1-0.5 = 0.5
-// 0.5-0.5 = 0
-// -0.5
-// -1

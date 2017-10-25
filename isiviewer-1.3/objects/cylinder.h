@@ -11,8 +11,9 @@ class Cylinder : public TriMesh {
 public:
 
     void traceVertex(float niveau);
-    void traceTrianglesCercles();
-    void traceTrianglesPoly(float niveau);
+    void traceTrianglesBase();
+    void traceTrianglesCentre();
+    void traceTrianglesHaut();
 
     Cylinder();
     Cylinder (int inc);

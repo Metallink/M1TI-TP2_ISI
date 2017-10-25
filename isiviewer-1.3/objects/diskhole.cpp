@@ -6,7 +6,7 @@ void DiskHole::traceVertex(){
     /* le point x se calcule suivant la formule suivante: x = rayon * cos (theta)
      * le point y se calcule suivant la formule suivante: y = rayon * sin (theta) */
 
-    for (int i= 1; i < m_inc+1; i++){
+    for (int i = 0; i < m_inc; i++){
 
         addVertex((m_rayon*cos(i*(m_angle))),(m_rayon*sin(i*(m_angle))),m_z);
     }
@@ -14,9 +14,7 @@ void DiskHole::traceVertex(){
 
 void DiskHole::traceTriangles() {
 
-    float p1 = 0.f;
-    float p2 = 0.f;
-    float p3 = 0.f;
+    float p1,p2,p3;
 
     for (int i = 0; i < 1; i++) {
 
@@ -33,14 +31,9 @@ void DiskHole::traceTriangles() {
             addTriangle(p1, p2, p3);
         }
     }
-
-    // on dessine les normales
-    computeNormalsT(); // to be fixed
-    computeNormalsV(); // to be fixed
 }
 
 
-// CONSTRUCTEUR
 DiskHole::DiskHole (float rayon, int inc) {
 
     _name = "DiskHole";
@@ -62,7 +55,7 @@ DiskHole::DiskHole (float rayon, int inc) {
     // on vérifie que l'on a pas un rayon > à 1 et négatif/non nul
     if (rayon > 1.f) {
         m_rayon = 1.f;
-    } else if (rayon <= 0.f) {
+    } else if (rayon <= 0.f) { // si valeur rayon invalide, on impose un minimum qui est 0.2
         m_rayon = 0.2f;
     } else {
         m_rayon = rayon;
@@ -77,11 +70,13 @@ DiskHole::DiskHole (float rayon, int inc) {
 
     // on revient au rayon d'origine
     m_rayon*=2;
-    // reset de l'angle
-    m_angle = ((2*M_PI)/m_inc);
     // on ajoute les sommets
     traceVertex();
 
     // tracons les triangles maintenant en reliant les sommets du petit et grand disque
     this->traceTriangles();
+
+
+    computeNormalsT(); // to be fixed
+    computeNormalsV(); // to be fixed
 }

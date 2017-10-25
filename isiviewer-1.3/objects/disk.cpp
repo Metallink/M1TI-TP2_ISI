@@ -1,13 +1,13 @@
 #include "disk.h"
 
 
-void Disk::traceVertex(){
+void Disk::traceVertex() {
 
 
     /* le point x se calcule suivant la formule suivante: x = rayon * cos (theta)
      * le point y se calcule suivant la formule suivante: y = rayon * sin (theta) */
 
-    for (int i= 1; i < m_inc+1; i++){
+    for (int i=0; i < m_inc; i++){
 
         addVertex((m_rayon*cos(i*(m_angle))),(m_rayon*sin(i*(m_angle))),m_z);
     }
@@ -18,15 +18,10 @@ void Disk::traceVertex(){
 
 void Disk::traceTriangles() {
 
-    for(int i = 1; i<m_inc+1; i++){
+    for(int i=0; i<m_inc; i++){
 
         addTriangle(m_inc,i%m_inc,(i+1)%m_inc);
-
     }
-
-    // on dessine les normales
-    computeNormalsT(); // to be fixed
-    computeNormalsV(); // to be fixed
 }
 
 
@@ -44,7 +39,12 @@ Disk::Disk (int inc) {
 
     m_angle = ((2*M_PI)/m_inc);
 
-    // construction sommets et triangles
+    // construction des sommets
     traceVertex();
+    // construction des triangles
     traceTriangles();
+
+
+    computeNormalsT(); // to be fixed
+    computeNormalsV(); // to be fixed
 }
