@@ -1,0 +1,25 @@
+digraph "DiskHole::DiskHole"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="DiskHole::DiskHole",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="DiskHole::traceTriangles",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDiskHole.html#accc50705c92dceeccfd9084cbf89d22e"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="TriMesh::addTriangle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classTriMesh.html#af42d53d768083eb29b591a712037fcef"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="TriMesh::computeNormalsT",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classTriMesh.html#a7a0ccea06db5bee5972cf601bd48510a"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="TriMesh::addNormalT",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classTriMesh.html#a32967a7d13c9cecd5ba93a89e0409f7d"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="TriMesh::computeNormalsV",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classTriMesh.html#a2afd756d3720ffa295ad29bab3d3a77e"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="TriMesh::addNormalV",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classTriMesh.html#a36f8783ffc98a97b5b022060609b7c55"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="DiskHole::traceVertex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDiskHole.html#a03f0e346f201b302e8e386d5b36680e8"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="TriMesh::addVertex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classTriMesh.html#ae0d2c0bdf6b91931ee86aa51c8bfc29d"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Object3D::extendBoundingBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classObject3D.html#a3b86fbd9b122140b1ed68461abb1e583"];
+}

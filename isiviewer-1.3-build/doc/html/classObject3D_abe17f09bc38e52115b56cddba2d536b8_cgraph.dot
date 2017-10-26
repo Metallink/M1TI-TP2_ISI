@@ -1,0 +1,19 @@
+digraph "Object3D::setName"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Object3D::setName",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Object3D::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classObject3D.html#a684fd3d4f083db533f855430e97d19f7"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Object3D::drawNormals",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classObject3D.html#a821f2ce108f100575befb2355cd3cd0f"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Object3D::extendBoundingBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classObject3D.html#a3b86fbd9b122140b1ed68461abb1e583"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Object3D::getBoundingBox\lCenter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classObject3D.html#a0f8f06be2cdbaac07e7f3de6143ffe85"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Object3D::toOStream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classObject3D.html#aa98582d326ed1d3d8987f44a542efa65"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Object3D::toString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classObject3D.html#a1847587421f8a45650632dc4358f163f"];
+}

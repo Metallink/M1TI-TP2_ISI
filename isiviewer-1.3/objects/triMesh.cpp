@@ -50,16 +50,25 @@ void TriMesh::computeBoundingBox(){
 void TriMesh::computeNormalsT(){
   _normalsT.empty();
 
-  // Compute a normal for each triangle
-  // and put it in normalsT vector.
+  // v1, v2, v3 sont les 3 sommets du triangle ABC
+  // u et v sont les vecteurs AB et AC
+  Vertex v1, v2, v3, u, v, normale;
 
-  // Replace code below
+  // nous parcourous l'ensemble des triangles et calculons pour chaque triangle sa normale
+  for (int i=0; i<_triangles.size(); i++) {
 
-  Normal n(1,1,0);
+      v1 = _vertices[_triangles[i][0]]; // A
+      v2 = _vertices[_triangles[i][1]]; // B
+      v3 = _vertices[_triangles[i][2]]; // C
 
-  for(unsigned int t=0; t<_triangles.size(); ++t) {
-      addNormalT(n);
-    }
+      u = v2-v1; // AB = coord(B)-coord(A)
+      v = v3-v1; // AC = coord(C)-coord(A)
+
+      // la normale de u et v est le produit vectorielle de u et v
+      normale = glm::cross(u,v); // comme indiqué sur le sujet du TP, nous utilisons la fonction cross de glm
+      glm::normalize(normale); // on normalise
+      this->addNormalT(normale);
+  }
 }
 
 

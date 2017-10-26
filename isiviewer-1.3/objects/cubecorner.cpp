@@ -56,7 +56,7 @@ CubeCorner::CubeCorner() : TriMesh() {
         this->addTriangle(t[i][0], t[i][1], t[i][2]);
 
     // Fill normals vectors
-    bool use_computed_normals = false;
+    bool use_computed_normals = true;
 
     if (use_computed_normals) {
 

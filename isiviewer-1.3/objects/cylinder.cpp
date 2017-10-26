@@ -26,7 +26,7 @@ void Cylinder::traceTrianglesCentre () {
     float p1,p2,p3;
 
     for (int niveau = 0; niveau < m_niveau; niveau++) {
-
+        // voir schema pour explication
         for (int i = 0; i < m_inc; i++) {
 
             p1 = (i % m_inc + m_inc * niveau + 1);

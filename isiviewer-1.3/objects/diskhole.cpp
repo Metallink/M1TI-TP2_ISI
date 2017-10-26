@@ -19,7 +19,7 @@ void DiskHole::traceTriangles() {
     for (int i = 0; i < 1; i++) {
 
         for (int j = 0; j < m_inc; j++) {
-
+            // voir schema pour explication
             p1 = (j % m_inc + m_inc * i + 1);
             p2 = j % m_inc + m_inc * (i + 1) + 1;
             p3 = ((j + 1) % m_inc + m_inc * i + 1);

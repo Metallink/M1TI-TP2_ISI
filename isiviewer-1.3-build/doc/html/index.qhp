@@ -1,0 +1,1195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+  <namespace>org.doxygen.isiviewer</namespace>
+  <virtualFolder>doc</virtualFolder>
+  <filterSection>
+    <filterAttribute>doxygen</filterAttribute>
+    <toc>
+      <section title="ISIviewer 2006-2013" ref="index.html">
+        <section title="Classes" ref="annotated.html">
+          <section title="Class List" ref="annotated.html">
+            <section title="Cone" ref="classCone.html">
+              <section title="Cone" ref="classCone.html#a6c402937b17b320a2a57ad0ff664f1dc" />
+              <section title="~Cone" ref="classCone.html#af7d0a73eb5d2f5e4c0681cee99e80561" />
+              <section title="traceTrianglesBase" ref="classCone.html#ab800b2e9031b79265b11f8a2779bb6d2" />
+              <section title="traceTrianglesHaut" ref="classCone.html#a06aa186d4f65c7bfefc48f2f7a56aca4" />
+              <section title="traceTrianglesMilieu" ref="classCone.html#a5f79646eb53435a4a52f3c9e38858cf4" />
+              <section title="traceVertex" ref="classCone.html#ac1eb2a36357b66d25cd40bf22d66c7be" />
+              <section title="m_angle" ref="classCone.html#a31f63de6bc3d3c35f0eff87f6497a06c" />
+              <section title="m_inc" ref="classCone.html#afd3b252f3d2007db0bf51e94e89e4cf3" />
+              <section title="m_niveau" ref="classCone.html#a62fe2fdbc8163540705d9369e44b6733" />
+              <section title="m_rayon" ref="classCone.html#a93d14e427c5737c61a62827d86245bbf" />
+              <section title="m_x" ref="classCone.html#a180db0adb221051b3dd81b9cf8c264c0" />
+              <section title="m_y" ref="classCone.html#a298ce934ae9b4c17f10cb3d343f10260" />
+              <section title="m_z" ref="classCone.html#a72570a2f5b657caeebaae5ecaa78ffed" />
+            </section>
+            <section title="Cube" ref="classCube.html">
+              <section title="Cube" ref="classCube.html#a06f3d86fb63e3aad08623610aa3c17b4" />
+              <section title="~Cube" ref="classCube.html#a600d629a60344171d18ae77b3fb43912" />
+            </section>
+            <section title="CubeCorner" ref="classCubeCorner.html">
+              <section title="CubeCorner" ref="classCubeCorner.html#a66a4ae599f5710baeec097abbcf9b494" />
+              <section title="~CubeCorner" ref="classCubeCorner.html#a9c83af3bdb8ac0b9c2183b731e797d7e" />
+            </section>
+            <section title="Cylinder" ref="classCylinder.html">
+              <section title="Cylinder" ref="classCylinder.html#a01dc978cb576f834b9545e43d4dad2a2" />
+              <section title="Cylinder" ref="classCylinder.html#a76d21abbae6081c79753575495f6ddbf" />
+              <section title="~Cylinder" ref="classCylinder.html#a62b974fc969958cc05fa7d72cb5a4395" />
+              <section title="traceTrianglesBase" ref="classCylinder.html#ac5cf510b34bb508ac99448515f234941" />
+              <section title="traceTrianglesCentre" ref="classCylinder.html#a8c17d6a2edbfd6cc38fc4d6f46cc5ffd" />
+              <section title="traceTrianglesHaut" ref="classCylinder.html#a9cdaa4730d300debba65e6db04fb2ac1" />
+              <section title="traceVertex" ref="classCylinder.html#ab9f5ffdbf851d7c1d21d2e5467cc4853" />
+              <section title="m_angle" ref="classCylinder.html#ad5d0a1d9e683dc3f167fe1a4a165d543" />
+              <section title="m_inc" ref="classCylinder.html#a02b4f2408be47226fb05667fa66d1ebf" />
+              <section title="m_niveau" ref="classCylinder.html#aeafb3f618b9b669d6729495b995d0bd8" />
+              <section title="m_rayon" ref="classCylinder.html#aded64871d09296c165afaad413806907" />
+              <section title="m_x" ref="classCylinder.html#afb3552c0aa984a31a63cad7d875eb109" />
+              <section title="m_y" ref="classCylinder.html#a8182ea5d5427a367b075cdee5cc97d5d" />
+              <section title="m_z" ref="classCylinder.html#a7d06af5f9916cc7c2a7d998932b818a5" />
+            </section>
+            <section title="Disk" ref="classDisk.html">
+              <section title="Disk" ref="classDisk.html#a7b4e578f63bfbf395e1f6e24a0e43bf4" />
+              <section title="Disk" ref="classDisk.html#a8afbe078e9500868e7ba675756ee8b24" />
+              <section title="~Disk" ref="classDisk.html#a3acdee0c3647086009b5dba33141ccfb" />
+              <section title="traceTriangles" ref="classDisk.html#a45d3c7c2d7fc682b5b13bec84e401f26" />
+              <section title="traceVertex" ref="classDisk.html#ad531e78dd9d9547edd93ec5af723c1a1" />
+              <section title="m_angle" ref="classDisk.html#aaaff81d4bd5fcea823095050a7f67a82" />
+              <section title="m_inc" ref="classDisk.html#a3f143b476a077b41411803a064a8985e" />
+              <section title="m_rayon" ref="classDisk.html#aca408b582ba386b8f3fc5e0f6c35dbe6" />
+              <section title="m_x" ref="classDisk.html#a14a393129bf8a689bb6d7024b9a3ef7d" />
+              <section title="m_y" ref="classDisk.html#afa7d7b82749906bcd15ba9f1f4410122" />
+              <section title="m_z" ref="classDisk.html#aae63e28508a1d6df14471a087ade3560" />
+            </section>
+            <section title="DiskHole" ref="classDiskHole.html">
+              <section title="DiskHole" ref="classDiskHole.html#a16545717dbcc2ad849a7d4adb5260355" />
+              <section title="DiskHole" ref="classDiskHole.html#a6e60e7638b60ca6ede03265e22da92cf" />
+              <section title="~DiskHole" ref="classDiskHole.html#a41fc17455cd37c2b71cc29368e159bee" />
+              <section title="traceTriangles" ref="classDiskHole.html#accc50705c92dceeccfd9084cbf89d22e" />
+              <section title="traceVertex" ref="classDiskHole.html#a03f0e346f201b302e8e386d5b36680e8" />
+              <section title="m_angle" ref="classDiskHole.html#a94f0715bd625559bf7531e74fb9bce81" />
+              <section title="m_inc" ref="classDiskHole.html#ae24570d5ed188afea0ee4ad25d86cf44" />
+              <section title="m_rayon" ref="classDiskHole.html#aec7b3fcc599d622104a9abfbd4fd595b" />
+              <section title="m_x" ref="classDiskHole.html#a5b849c169c43d2607fe6b902f5956133" />
+              <section title="m_y" ref="classDiskHole.html#a48ded0e5f8bb504e22462953d34c2d0b" />
+              <section title="m_z" ref="classDiskHole.html#a7d8da2dee8c85cd2a42c7a9ccd7efe39" />
+            </section>
+            <section title="MyMainWindow" ref="classMyMainWindow.html">
+              <section title="MyMainWindow" ref="classMyMainWindow.html#a695339a56877e536d37c63ceb88088f9" />
+              <section title="slotAbout" ref="classMyMainWindow.html#acbae9d2dda0f04dda1722c45606b8881" />
+              <section title="_myScene" ref="classMyMainWindow.html#a0d7ebbd64ecf5e3e19d566c0ddfd6e6a" />
+              <section title="_ui" ref="classMyMainWindow.html#aa85150e2cec240e1522e6c0025939386" />
+            </section>
+            <section title="MyQGLViewer" ref="classMyQGLViewer.html">
+              <section title="MyQGLViewer" ref="classMyQGLViewer.html#aa2e94685fc91a2f4e0e4e909f079eb13" />
+              <section title="draw" ref="classMyQGLViewer.html#a5119027de225936b837f689d0f7ecc1e" />
+              <section title="init" ref="classMyQGLViewer.html#af231a0313ce6839d6fcd5b1f0fbcc04d" />
+              <section title="keyPressEvent" ref="classMyQGLViewer.html#a85151895c53f940fda4e69b7805be7d6" />
+              <section title="setMyScene" ref="classMyQGLViewer.html#a8e959c24b6541e198de74a83a014c77e" />
+              <section title="_myScene" ref="classMyQGLViewer.html#afdd0d1f32bb1699b94b272413189607f" />
+            </section>
+            <section title="MyScene" ref="classMyScene.html">
+              <section title="displayModeType" ref="classMyScene.html#a3f8ef7370a3e75fc5f278703cbcfa8dd">
+                <section title="WIREFRAME" ref="classMyScene.html#a3f8ef7370a3e75fc5f278703cbcfa8dda9522de35cfc340248e61351c071409d2" />
+                <section title="SMOOTH" ref="classMyScene.html#a3f8ef7370a3e75fc5f278703cbcfa8dda495d6276ea59a2af6cb3111c7d5751a4" />
+                <section title="NORMALS" ref="classMyScene.html#a3f8ef7370a3e75fc5f278703cbcfa8dda00a32d4e085ae0a3b578dd69a6d042ca" />
+              </section>
+              <section title="MyScene" ref="classMyScene.html#a6b67e5428ba302a5808661cd2bbb517c" />
+              <section title="~MyScene" ref="classMyScene.html#a0e6e8660d77680f29de571fa2e966a64" />
+              <section title="addObject" ref="classMyScene.html#ac831be74049ad54603badd0fef4d3b71" />
+              <section title="currentObject" ref="classMyScene.html#a223e11b9e24ae03887645ec396c2729a" />
+              <section title="displayMode" ref="classMyScene.html#afb791beceea5de9f0dc8fb47b5ec76c8" />
+              <section title="draw" ref="classMyScene.html#a11c35160110cfedb595e405077564bd7" />
+              <section title="init" ref="classMyScene.html#ab4f8f47610059e0eaaf07601a8225691" />
+              <section title="keyPressEvent" ref="classMyScene.html#a9ba290c04395ddb516325e2c23bbac7d" />
+              <section title="radius" ref="classMyScene.html#aeedf698dbf5c3cf8f7c4cbc22036a57e" />
+              <section title="radiusIncr" ref="classMyScene.html#a782e87414a79c87ff17778c2c6c6d183" />
+              <section title="radiusMax" ref="classMyScene.html#a59c4d9a72e36fae1c23cc6bdfcbe60ac" />
+              <section title="radiusMin" ref="classMyScene.html#add386630678eee06fc1aa28ca937cf73" />
+              <section title="setCurrentObject" ref="classMyScene.html#a73d73f5a7ce4c3ba4878718fdd8951a7" />
+              <section title="setDisplayMode" ref="classMyScene.html#a77e9102cef13e8bde68a8f799ee3604d" />
+              <section title="setRadius" ref="classMyScene.html#abfbf9297e676d8a5601040d62f8733cf" />
+              <section title="sigCurrentObjectChanged" ref="classMyScene.html#a3ef1135ffe93af395024dda7d00b9c1c" />
+              <section title="sigDisplayModeChanged" ref="classMyScene.html#ae304d120bad0d657422a516575eb7b86" />
+              <section title="sigDisplayNormalsChanged" ref="classMyScene.html#a03b09d59391e3558752ea40560bdb856" />
+              <section title="sigFlipNormalsChanged" ref="classMyScene.html#a20c130ec4789144432c6785f2df39e84" />
+              <section title="sigRadiusChanged" ref="classMyScene.html#aa3948a6670bb04fc9ac89172d18575ce" />
+              <section title="sigSmoothChanged" ref="classMyScene.html#a192763333c954d7a44abb9eb7382d3be" />
+              <section title="sigWireframeChanged" ref="classMyScene.html#a7a37834e7a3efeb4fe4be9c69bcade0d" />
+              <section title="slotSetCurrentObject" ref="classMyScene.html#a51fe7bb581b5ace63cea7fd6dec49ada" />
+              <section title="slotSetDisplayMode" ref="classMyScene.html#abe49f17d3e74e03a8df2bf66841cdd0f" />
+              <section title="slotSetDisplayNormals" ref="classMyScene.html#ad422ee6a76dca6ad7d1bac7da9d42fe3" />
+              <section title="slotSetFlipNormals" ref="classMyScene.html#ac9f701c50f43ff1e5c09b811b8d649c1" />
+              <section title="slotSetRadius" ref="classMyScene.html#ac1e81aa30f27b71638b774d9723d7e7a" />
+              <section title="slotSetSmooth" ref="classMyScene.html#a743ac1b6720dff62a660b36458be618a" />
+              <section title="slotSetWireframe" ref="classMyScene.html#ace3a90ce717fcdf20d1c6bc97255fb80" />
+              <section title="_currentObject" ref="classMyScene.html#a29e1f44881eb2c4bbbe1008b95da5388" />
+              <section title="_displayMode" ref="classMyScene.html#a53b8b43c74f584535b56f12589298a04" />
+              <section title="_displayWireframe" ref="classMyScene.html#a3120eeaf5a70b46a163b5140daaca82d" />
+              <section title="_normalsFlipped" ref="classMyScene.html#ad8609451844f7f32317678e66ebc48ee" />
+              <section title="_objects" ref="classMyScene.html#af652aa952b837a86aa1ae7392ce67db8" />
+              <section title="_radius" ref="classMyScene.html#a711e30a7d5a84e70acd9c623607533f6" />
+              <section title="_radiusIncr" ref="classMyScene.html#ab0bea34df9bdd5203bcf6ead822ee0c4" />
+              <section title="_radiusMax" ref="classMyScene.html#aba71c91a332e2ce9ffe4ed79089611ab" />
+              <section title="_radiusMin" ref="classMyScene.html#a1812c153076757914f96be0cf1ee7d63" />
+            </section>
+            <section title="Object3D" ref="classObject3D.html">
+              <section title="Object3D" ref="classObject3D.html#ae3a1b17fb43ab59f5cf7b0ee21b9120b" />
+              <section title="~Object3D" ref="classObject3D.html#a73b016a1aa7eb3be3c49671f3054565d" />
+              <section title="draw" ref="classObject3D.html#a684fd3d4f083db533f855430e97d19f7" />
+              <section title="drawNormals" ref="classObject3D.html#a821f2ce108f100575befb2355cd3cd0f" />
+              <section title="extendBoundingBox" ref="classObject3D.html#a3b86fbd9b122140b1ed68461abb1e583" />
+              <section title="getBoundingBoxCenter" ref="classObject3D.html#a0f8f06be2cdbaac07e7f3de6143ffe85" />
+              <section title="getName" ref="classObject3D.html#aa80515b56146b062e55d91c01cbbba02" />
+              <section title="setName" ref="classObject3D.html#abe17f09bc38e52115b56cddba2d536b8" />
+              <section title="toOStream" ref="classObject3D.html#aa98582d326ed1d3d8987f44a542efa65" />
+              <section title="toString" ref="classObject3D.html#a1847587421f8a45650632dc4358f163f" />
+              <section title="operator&lt;&lt;" ref="classObject3D.html#ae84f28dc392fc50e897f2150281c6db5" />
+              <section title="_bBempty" ref="classObject3D.html#a46cb707a35870d0e585ecb7674bb049c" />
+              <section title="_bBoxMax" ref="classObject3D.html#a4ed5d3a72f81cd9d9607b04ca524eea6" />
+              <section title="_bBoxMin" ref="classObject3D.html#a7f30c09ab6671a937c35bd6281d91c17" />
+              <section title="_name" ref="classObject3D.html#aeef6c2e09d0835fb66070aa217e2a43d" />
+            </section>
+            <section title="Pyramid" ref="classPyramid.html">
+              <section title="Pyramid" ref="classPyramid.html#aa78baa6faa1c3fbcca510e8ddf37de49" />
+              <section title="~Pyramid" ref="classPyramid.html#a4312cdd103b0794609354fccdc969092" />
+            </section>
+            <section title="Sphere" ref="classSphere.html">
+              <section title="Sphere" ref="classSphere.html#a890a63ff583cb88e7ec4e840b4ef5eb9" />
+              <section title="Sphere" ref="classSphere.html#a0f052b24f8fec4885a2a7ba8542062f2" />
+              <section title="~Sphere" ref="classSphere.html#acde2697064cbc2c64ea34aed1b3efac7" />
+              <section title="traceTrianglesBas" ref="classSphere.html#ae711e17778007305a44ea51a9ad8c66c" />
+              <section title="traceTrianglesCentre" ref="classSphere.html#a4e1827fcb4b00f9be9f8e6a24cff2213" />
+              <section title="traceTrianglesHaut" ref="classSphere.html#a94ed99831def4365f499982dac39828c" />
+              <section title="traceVertex" ref="classSphere.html#ad2ed60a8436aff897ed7562e384799a4" />
+              <section title="m_angle_phi" ref="classSphere.html#ace6cb9faed15bc4ba45e86d3405267c8" />
+              <section title="m_angle_theta" ref="classSphere.html#ad814fe96b90fa65d43fe85dc30215aa2" />
+              <section title="m_inc" ref="classSphere.html#a00cba9e294db5b2eee9fd58e47543a12" />
+              <section title="m_niveau" ref="classSphere.html#a6813ceccd3cbf34c76c484f9c9565ed3" />
+              <section title="m_rayon" ref="classSphere.html#ae51a8ec43e3e460999c3f5ccb8abab9f" />
+              <section title="m_x" ref="classSphere.html#a7dad96f088fc9ae9537bc5b3f062b9d4" />
+              <section title="m_y" ref="classSphere.html#aa2e7b4ff8af08b119efe7bf343d5aee2" />
+              <section title="m_z" ref="classSphere.html#a8e9ca5b4c842c9fb57e0aeeded5eb283" />
+            </section>
+            <section title="TriMesh" ref="classTriMesh.html">
+              <section title="TriMesh" ref="classTriMesh.html#a826986fcfb35b980cc02b99824f691f0" />
+              <section title="~TriMesh" ref="classTriMesh.html#a30eb61f20aaf4d37a8185843980638ee" />
+              <section title="addNormalT" ref="classTriMesh.html#a32967a7d13c9cecd5ba93a89e0409f7d" />
+              <section title="addNormalV" ref="classTriMesh.html#a36f8783ffc98a97b5b022060609b7c55" />
+              <section title="addTriangle" ref="classTriMesh.html#af42d53d768083eb29b591a712037fcef" />
+              <section title="addTriangle" ref="classTriMesh.html#a2cc40e62813ae3737ea8498fdba9ab1f" />
+              <section title="addVertex" ref="classTriMesh.html#ae0d2c0bdf6b91931ee86aa51c8bfc29d" />
+              <section title="addVertex" ref="classTriMesh.html#a78f595a1296f700c87454c0923b157cf" />
+              <section title="computeBoundingBox" ref="classTriMesh.html#af2cb6957cb485045567e17c3ffb932c0" />
+              <section title="computeNormalsT" ref="classTriMesh.html#a7a0ccea06db5bee5972cf601bd48510a" />
+              <section title="computeNormalsV" ref="classTriMesh.html#a2afd756d3720ffa295ad29bab3d3a77e" />
+              <section title="draw" ref="classTriMesh.html#a16398a072c5f6b923d60931df6643838" />
+              <section title="drawNormals" ref="classTriMesh.html#ad4f59396283a880584e898f63a01670d" />
+              <section title="drawVertices" ref="classTriMesh.html#a74128459efb1828e4bb8a5c09b4f0c40" />
+              <section title="getVertex" ref="classTriMesh.html#aa939c68cb0c594b9747a5668eaa67a1d" />
+              <section title="normalize" ref="classTriMesh.html#a361e706dd2186cf6801097177b144bb6" />
+              <section title="toOStream" ref="classTriMesh.html#a1d6593d6800d384870c666f5754c3041" />
+              <section title="toString" ref="classTriMesh.html#a1b5ffabc6ca61838a769a0f94a7d0034" />
+              <section title="_normalsT" ref="classTriMesh.html#a8c30d4188c9532763e31dba7a542f14a" />
+              <section title="_normalsV" ref="classTriMesh.html#ad260f3f29ed0994c656a4affdfc82008" />
+              <section title="_triangles" ref="classTriMesh.html#a59cdc5948dea9d5579311f3dbc34bde1" />
+              <section title="_vertices" ref="classTriMesh.html#ac8b70cd7c38760ae52b626d869cdcade" />
+            </section>
+          </section>
+          <section title="Class Hierarchy" ref="hierarchy.html">
+            <section title="Object3D" ref="classObject3D.html">
+              <section title="TriMesh" ref="classTriMesh.html">
+                <section title="Cone" ref="classCone.html" />
+                <section title="Cube" ref="classCube.html" />
+                <section title="CubeCorner" ref="classCubeCorner.html" />
+                <section title="Cylinder" ref="classCylinder.html" />
+                <section title="Disk" ref="classDisk.html" />
+                <section title="DiskHole" ref="classDiskHole.html" />
+                <section title="Pyramid" ref="classPyramid.html" />
+                <section title="Sphere" ref="classSphere.html" />
+              </section>
+            </section>
+            <section title="QGLViewer">
+              <section title="MyQGLViewer" ref="classMyQGLViewer.html" />
+            </section>
+            <section title="QMainWindow">
+              <section title="MyMainWindow" ref="classMyMainWindow.html" />
+            </section>
+            <section title="QObject">
+              <section title="MyScene" ref="classMyScene.html" />
+            </section>
+          </section>
+          <section title="Class Members" ref="functions.html">
+            <section title="All" ref="functions.html" />
+            <section title="Functions" ref="functions_func.html" />
+            <section title="Variables" ref="functions_vars.html" />
+            <section title="Enumerations" ref="functions_enum.html" />
+            <section title="Enumerator" ref="functions_eval.html" />
+            <section title="Related Functions" ref="functions_rela.html" />
+          </section>
+        </section>
+        <section title="Files">
+          <section title="File List" ref="files.html">
+            <section title="objects" ref="dir_645ec83fa4e243a732144956da80a200.html">
+              <section title="cone.cpp" ref="cone_8cpp.html" />
+              <section title="cone.h" ref="cone_8h.html">
+                <section title="Cone" ref="classCone.html">
+                  <section title="Cone" ref="classCone.html#a6c402937b17b320a2a57ad0ff664f1dc" />
+                  <section title="~Cone" ref="classCone.html#af7d0a73eb5d2f5e4c0681cee99e80561" />
+                  <section title="traceTrianglesBase" ref="classCone.html#ab800b2e9031b79265b11f8a2779bb6d2" />
+                  <section title="traceTrianglesHaut" ref="classCone.html#a06aa186d4f65c7bfefc48f2f7a56aca4" />
+                  <section title="traceTrianglesMilieu" ref="classCone.html#a5f79646eb53435a4a52f3c9e38858cf4" />
+                  <section title="traceVertex" ref="classCone.html#ac1eb2a36357b66d25cd40bf22d66c7be" />
+                  <section title="m_angle" ref="classCone.html#a31f63de6bc3d3c35f0eff87f6497a06c" />
+                  <section title="m_inc" ref="classCone.html#afd3b252f3d2007db0bf51e94e89e4cf3" />
+                  <section title="m_niveau" ref="classCone.html#a62fe2fdbc8163540705d9369e44b6733" />
+                  <section title="m_rayon" ref="classCone.html#a93d14e427c5737c61a62827d86245bbf" />
+                  <section title="m_x" ref="classCone.html#a180db0adb221051b3dd81b9cf8c264c0" />
+                  <section title="m_y" ref="classCone.html#a298ce934ae9b4c17f10cb3d343f10260" />
+                  <section title="m_z" ref="classCone.html#a72570a2f5b657caeebaae5ecaa78ffed" />
+                </section>
+              </section>
+              <section title="cube.cpp" ref="cube_8cpp.html" />
+              <section title="cube.h" ref="cube_8h.html">
+                <section title="Cube" ref="classCube.html">
+                  <section title="Cube" ref="classCube.html#a06f3d86fb63e3aad08623610aa3c17b4" />
+                  <section title="~Cube" ref="classCube.html#a600d629a60344171d18ae77b3fb43912" />
+                </section>
+              </section>
+              <section title="cubecorner.cpp" ref="cubecorner_8cpp.html" />
+              <section title="cubecorner.h" ref="cubecorner_8h.html">
+                <section title="CubeCorner" ref="classCubeCorner.html">
+                  <section title="CubeCorner" ref="classCubeCorner.html#a66a4ae599f5710baeec097abbcf9b494" />
+                  <section title="~CubeCorner" ref="classCubeCorner.html#a9c83af3bdb8ac0b9c2183b731e797d7e" />
+                </section>
+              </section>
+              <section title="cylinder.cpp" ref="cylinder_8cpp.html" />
+              <section title="cylinder.h" ref="cylinder_8h.html">
+                <section title="Cylinder" ref="classCylinder.html">
+                  <section title="Cylinder" ref="classCylinder.html#a01dc978cb576f834b9545e43d4dad2a2" />
+                  <section title="Cylinder" ref="classCylinder.html#a76d21abbae6081c79753575495f6ddbf" />
+                  <section title="~Cylinder" ref="classCylinder.html#a62b974fc969958cc05fa7d72cb5a4395" />
+                  <section title="traceTrianglesBase" ref="classCylinder.html#ac5cf510b34bb508ac99448515f234941" />
+                  <section title="traceTrianglesCentre" ref="classCylinder.html#a8c17d6a2edbfd6cc38fc4d6f46cc5ffd" />
+                  <section title="traceTrianglesHaut" ref="classCylinder.html#a9cdaa4730d300debba65e6db04fb2ac1" />
+                  <section title="traceVertex" ref="classCylinder.html#ab9f5ffdbf851d7c1d21d2e5467cc4853" />
+                  <section title="m_angle" ref="classCylinder.html#ad5d0a1d9e683dc3f167fe1a4a165d543" />
+                  <section title="m_inc" ref="classCylinder.html#a02b4f2408be47226fb05667fa66d1ebf" />
+                  <section title="m_niveau" ref="classCylinder.html#aeafb3f618b9b669d6729495b995d0bd8" />
+                  <section title="m_rayon" ref="classCylinder.html#aded64871d09296c165afaad413806907" />
+                  <section title="m_x" ref="classCylinder.html#afb3552c0aa984a31a63cad7d875eb109" />
+                  <section title="m_y" ref="classCylinder.html#a8182ea5d5427a367b075cdee5cc97d5d" />
+                  <section title="m_z" ref="classCylinder.html#a7d06af5f9916cc7c2a7d998932b818a5" />
+                </section>
+              </section>
+              <section title="disk.cpp" ref="disk_8cpp.html" />
+              <section title="disk.h" ref="disk_8h.html">
+                <section title="Disk" ref="classDisk.html">
+                  <section title="Disk" ref="classDisk.html#a7b4e578f63bfbf395e1f6e24a0e43bf4" />
+                  <section title="Disk" ref="classDisk.html#a8afbe078e9500868e7ba675756ee8b24" />
+                  <section title="~Disk" ref="classDisk.html#a3acdee0c3647086009b5dba33141ccfb" />
+                  <section title="traceTriangles" ref="classDisk.html#a45d3c7c2d7fc682b5b13bec84e401f26" />
+                  <section title="traceVertex" ref="classDisk.html#ad531e78dd9d9547edd93ec5af723c1a1" />
+                  <section title="m_angle" ref="classDisk.html#aaaff81d4bd5fcea823095050a7f67a82" />
+                  <section title="m_inc" ref="classDisk.html#a3f143b476a077b41411803a064a8985e" />
+                  <section title="m_rayon" ref="classDisk.html#aca408b582ba386b8f3fc5e0f6c35dbe6" />
+                  <section title="m_x" ref="classDisk.html#a14a393129bf8a689bb6d7024b9a3ef7d" />
+                  <section title="m_y" ref="classDisk.html#afa7d7b82749906bcd15ba9f1f4410122" />
+                  <section title="m_z" ref="classDisk.html#aae63e28508a1d6df14471a087ade3560" />
+                </section>
+              </section>
+              <section title="diskhole.cpp" ref="diskhole_8cpp.html" />
+              <section title="diskhole.h" ref="diskhole_8h.html">
+                <section title="DiskHole" ref="classDiskHole.html">
+                  <section title="DiskHole" ref="classDiskHole.html#a16545717dbcc2ad849a7d4adb5260355" />
+                  <section title="DiskHole" ref="classDiskHole.html#a6e60e7638b60ca6ede03265e22da92cf" />
+                  <section title="~DiskHole" ref="classDiskHole.html#a41fc17455cd37c2b71cc29368e159bee" />
+                  <section title="traceTriangles" ref="classDiskHole.html#accc50705c92dceeccfd9084cbf89d22e" />
+                  <section title="traceVertex" ref="classDiskHole.html#a03f0e346f201b302e8e386d5b36680e8" />
+                  <section title="m_angle" ref="classDiskHole.html#a94f0715bd625559bf7531e74fb9bce81" />
+                  <section title="m_inc" ref="classDiskHole.html#ae24570d5ed188afea0ee4ad25d86cf44" />
+                  <section title="m_rayon" ref="classDiskHole.html#aec7b3fcc599d622104a9abfbd4fd595b" />
+                  <section title="m_x" ref="classDiskHole.html#a5b849c169c43d2607fe6b902f5956133" />
+                  <section title="m_y" ref="classDiskHole.html#a48ded0e5f8bb504e22462953d34c2d0b" />
+                  <section title="m_z" ref="classDiskHole.html#a7d8da2dee8c85cd2a42c7a9ccd7efe39" />
+                </section>
+              </section>
+              <section title="pyramid.cpp" ref="pyramid_8cpp.html" />
+              <section title="pyramid.h" ref="pyramid_8h.html">
+                <section title="Pyramid" ref="classPyramid.html">
+                  <section title="Pyramid" ref="classPyramid.html#aa78baa6faa1c3fbcca510e8ddf37de49" />
+                  <section title="~Pyramid" ref="classPyramid.html#a4312cdd103b0794609354fccdc969092" />
+                </section>
+              </section>
+              <section title="sphere.cpp" ref="sphere_8cpp.html" />
+              <section title="sphere.h" ref="sphere_8h.html">
+                <section title="Sphere" ref="classSphere.html">
+                  <section title="Sphere" ref="classSphere.html#a890a63ff583cb88e7ec4e840b4ef5eb9" />
+                  <section title="Sphere" ref="classSphere.html#a0f052b24f8fec4885a2a7ba8542062f2" />
+                  <section title="~Sphere" ref="classSphere.html#acde2697064cbc2c64ea34aed1b3efac7" />
+                  <section title="traceTrianglesBas" ref="classSphere.html#ae711e17778007305a44ea51a9ad8c66c" />
+                  <section title="traceTrianglesCentre" ref="classSphere.html#a4e1827fcb4b00f9be9f8e6a24cff2213" />
+                  <section title="traceTrianglesHaut" ref="classSphere.html#a94ed99831def4365f499982dac39828c" />
+                  <section title="traceVertex" ref="classSphere.html#ad2ed60a8436aff897ed7562e384799a4" />
+                  <section title="m_angle_phi" ref="classSphere.html#ace6cb9faed15bc4ba45e86d3405267c8" />
+                  <section title="m_angle_theta" ref="classSphere.html#ad814fe96b90fa65d43fe85dc30215aa2" />
+                  <section title="m_inc" ref="classSphere.html#a00cba9e294db5b2eee9fd58e47543a12" />
+                  <section title="m_niveau" ref="classSphere.html#a6813ceccd3cbf34c76c484f9c9565ed3" />
+                  <section title="m_rayon" ref="classSphere.html#ae51a8ec43e3e460999c3f5ccb8abab9f" />
+                  <section title="m_x" ref="classSphere.html#a7dad96f088fc9ae9537bc5b3f062b9d4" />
+                  <section title="m_y" ref="classSphere.html#aa2e7b4ff8af08b119efe7bf343d5aee2" />
+                  <section title="m_z" ref="classSphere.html#a8e9ca5b4c842c9fb57e0aeeded5eb283" />
+                </section>
+              </section>
+              <section title="triMesh.cpp" ref="triMesh_8cpp.html" />
+              <section title="triMesh.h" ref="triMesh_8h.html">
+                <section title="TriMesh" ref="classTriMesh.html">
+                  <section title="TriMesh" ref="classTriMesh.html#a826986fcfb35b980cc02b99824f691f0" />
+                  <section title="~TriMesh" ref="classTriMesh.html#a30eb61f20aaf4d37a8185843980638ee" />
+                  <section title="addNormalT" ref="classTriMesh.html#a32967a7d13c9cecd5ba93a89e0409f7d" />
+                  <section title="addNormalV" ref="classTriMesh.html#a36f8783ffc98a97b5b022060609b7c55" />
+                  <section title="addTriangle" ref="classTriMesh.html#af42d53d768083eb29b591a712037fcef" />
+                  <section title="addTriangle" ref="classTriMesh.html#a2cc40e62813ae3737ea8498fdba9ab1f" />
+                  <section title="addVertex" ref="classTriMesh.html#ae0d2c0bdf6b91931ee86aa51c8bfc29d" />
+                  <section title="addVertex" ref="classTriMesh.html#a78f595a1296f700c87454c0923b157cf" />
+                  <section title="computeBoundingBox" ref="classTriMesh.html#af2cb6957cb485045567e17c3ffb932c0" />
+                  <section title="computeNormalsT" ref="classTriMesh.html#a7a0ccea06db5bee5972cf601bd48510a" />
+                  <section title="computeNormalsV" ref="classTriMesh.html#a2afd756d3720ffa295ad29bab3d3a77e" />
+                  <section title="draw" ref="classTriMesh.html#a16398a072c5f6b923d60931df6643838" />
+                  <section title="drawNormals" ref="classTriMesh.html#ad4f59396283a880584e898f63a01670d" />
+                  <section title="drawVertices" ref="classTriMesh.html#a74128459efb1828e4bb8a5c09b4f0c40" />
+                  <section title="getVertex" ref="classTriMesh.html#aa939c68cb0c594b9747a5668eaa67a1d" />
+                  <section title="normalize" ref="classTriMesh.html#a361e706dd2186cf6801097177b144bb6" />
+                  <section title="toOStream" ref="classTriMesh.html#a1d6593d6800d384870c666f5754c3041" />
+                  <section title="toString" ref="classTriMesh.html#a1b5ffabc6ca61838a769a0f94a7d0034" />
+                  <section title="_normalsT" ref="classTriMesh.html#a8c30d4188c9532763e31dba7a542f14a" />
+                  <section title="_normalsV" ref="classTriMesh.html#ad260f3f29ed0994c656a4affdfc82008" />
+                  <section title="_triangles" ref="classTriMesh.html#a59cdc5948dea9d5579311f3dbc34bde1" />
+                  <section title="_vertices" ref="classTriMesh.html#ac8b70cd7c38760ae52b626d869cdcade" />
+                </section>
+                <section title="Normal" ref="triMesh_8h.html#a36460bbb80d099954f507c10d6d4dce9" />
+                <section title="Triangle" ref="triMesh_8h.html#a5b9ef839543e135c8a9ec252b1d64201" />
+                <section title="Vertex" ref="triMesh_8h.html#ab68e11af2d2fafc83ac07bb0c2cd0254" />
+              </section>
+            </section>
+            <section title="main.cpp" ref="main_8cpp.html">
+              <section title="main" ref="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" />
+              <section title="usage" ref="main_8cpp.html#a1ad940455be56209415d328d78622715" />
+            </section>
+            <section title="my_main_window.cpp" ref="my__main__window_8cpp.html" />
+            <section title="my_main_window.h" ref="my__main__window_8h.html">
+              <section title="MyMainWindow" ref="classMyMainWindow.html">
+                <section title="MyMainWindow" ref="classMyMainWindow.html#a695339a56877e536d37c63ceb88088f9" />
+                <section title="slotAbout" ref="classMyMainWindow.html#acbae9d2dda0f04dda1722c45606b8881" />
+                <section title="_myScene" ref="classMyMainWindow.html#a0d7ebbd64ecf5e3e19d566c0ddfd6e6a" />
+                <section title="_ui" ref="classMyMainWindow.html#aa85150e2cec240e1522e6c0025939386" />
+              </section>
+            </section>
+            <section title="my_object3d.cpp" ref="my__object3d_8cpp.html">
+              <section title="operator&lt;&lt;" ref="my__object3d_8cpp.html#ae84f28dc392fc50e897f2150281c6db5" />
+            </section>
+            <section title="my_object3d.h" ref="my__object3d_8h.html">
+              <section title="Object3D" ref="classObject3D.html">
+                <section title="Object3D" ref="classObject3D.html#ae3a1b17fb43ab59f5cf7b0ee21b9120b" />
+                <section title="~Object3D" ref="classObject3D.html#a73b016a1aa7eb3be3c49671f3054565d" />
+                <section title="draw" ref="classObject3D.html#a684fd3d4f083db533f855430e97d19f7" />
+                <section title="drawNormals" ref="classObject3D.html#a821f2ce108f100575befb2355cd3cd0f" />
+                <section title="extendBoundingBox" ref="classObject3D.html#a3b86fbd9b122140b1ed68461abb1e583" />
+                <section title="getBoundingBoxCenter" ref="classObject3D.html#a0f8f06be2cdbaac07e7f3de6143ffe85" />
+                <section title="getName" ref="classObject3D.html#aa80515b56146b062e55d91c01cbbba02" />
+                <section title="setName" ref="classObject3D.html#abe17f09bc38e52115b56cddba2d536b8" />
+                <section title="toOStream" ref="classObject3D.html#aa98582d326ed1d3d8987f44a542efa65" />
+                <section title="toString" ref="classObject3D.html#a1847587421f8a45650632dc4358f163f" />
+                <section title="operator&lt;&lt;" ref="classObject3D.html#ae84f28dc392fc50e897f2150281c6db5" />
+                <section title="_bBempty" ref="classObject3D.html#a46cb707a35870d0e585ecb7674bb049c" />
+                <section title="_bBoxMax" ref="classObject3D.html#a4ed5d3a72f81cd9d9607b04ca524eea6" />
+                <section title="_bBoxMin" ref="classObject3D.html#a7f30c09ab6671a937c35bd6281d91c17" />
+                <section title="_name" ref="classObject3D.html#aeef6c2e09d0835fb66070aa217e2a43d" />
+              </section>
+              <section title="PI" ref="my__object3d_8h.html#a598a3330b3c21701223ee0ca14316eca" />
+              <section title="operator&lt;&lt;" ref="my__object3d_8h.html#ae84f28dc392fc50e897f2150281c6db5" />
+            </section>
+            <section title="my_qglviewer.cpp" ref="my__qglviewer_8cpp.html" />
+            <section title="my_qglviewer.h" ref="my__qglviewer_8h.html">
+              <section title="MyQGLViewer" ref="classMyQGLViewer.html">
+                <section title="MyQGLViewer" ref="classMyQGLViewer.html#aa2e94685fc91a2f4e0e4e909f079eb13" />
+                <section title="draw" ref="classMyQGLViewer.html#a5119027de225936b837f689d0f7ecc1e" />
+                <section title="init" ref="classMyQGLViewer.html#af231a0313ce6839d6fcd5b1f0fbcc04d" />
+                <section title="keyPressEvent" ref="classMyQGLViewer.html#a85151895c53f940fda4e69b7805be7d6" />
+                <section title="setMyScene" ref="classMyQGLViewer.html#a8e959c24b6541e198de74a83a014c77e" />
+                <section title="_myScene" ref="classMyQGLViewer.html#afdd0d1f32bb1699b94b272413189607f" />
+              </section>
+            </section>
+            <section title="my_scene.cpp" ref="my__scene_8cpp.html" />
+            <section title="my_scene.h" ref="my__scene_8h.html">
+              <section title="MyScene" ref="classMyScene.html">
+                <section title="displayModeType" ref="classMyScene.html#a3f8ef7370a3e75fc5f278703cbcfa8dd">
+                  <section title="WIREFRAME" ref="classMyScene.html#a3f8ef7370a3e75fc5f278703cbcfa8dda9522de35cfc340248e61351c071409d2" />
+                  <section title="SMOOTH" ref="classMyScene.html#a3f8ef7370a3e75fc5f278703cbcfa8dda495d6276ea59a2af6cb3111c7d5751a4" />
+                  <section title="NORMALS" ref="classMyScene.html#a3f8ef7370a3e75fc5f278703cbcfa8dda00a32d4e085ae0a3b578dd69a6d042ca" />
+                </section>
+                <section title="MyScene" ref="classMyScene.html#a6b67e5428ba302a5808661cd2bbb517c" />
+                <section title="~MyScene" ref="classMyScene.html#a0e6e8660d77680f29de571fa2e966a64" />
+                <section title="addObject" ref="classMyScene.html#ac831be74049ad54603badd0fef4d3b71" />
+                <section title="currentObject" ref="classMyScene.html#a223e11b9e24ae03887645ec396c2729a" />
+                <section title="displayMode" ref="classMyScene.html#afb791beceea5de9f0dc8fb47b5ec76c8" />
+                <section title="draw" ref="classMyScene.html#a11c35160110cfedb595e405077564bd7" />
+                <section title="init" ref="classMyScene.html#ab4f8f47610059e0eaaf07601a8225691" />
+                <section title="keyPressEvent" ref="classMyScene.html#a9ba290c04395ddb516325e2c23bbac7d" />
+                <section title="radius" ref="classMyScene.html#aeedf698dbf5c3cf8f7c4cbc22036a57e" />
+                <section title="radiusIncr" ref="classMyScene.html#a782e87414a79c87ff17778c2c6c6d183" />
+                <section title="radiusMax" ref="classMyScene.html#a59c4d9a72e36fae1c23cc6bdfcbe60ac" />
+                <section title="radiusMin" ref="classMyScene.html#add386630678eee06fc1aa28ca937cf73" />
+                <section title="setCurrentObject" ref="classMyScene.html#a73d73f5a7ce4c3ba4878718fdd8951a7" />
+                <section title="setDisplayMode" ref="classMyScene.html#a77e9102cef13e8bde68a8f799ee3604d" />
+                <section title="setRadius" ref="classMyScene.html#abfbf9297e676d8a5601040d62f8733cf" />
+                <section title="sigCurrentObjectChanged" ref="classMyScene.html#a3ef1135ffe93af395024dda7d00b9c1c" />
+                <section title="sigDisplayModeChanged" ref="classMyScene.html#ae304d120bad0d657422a516575eb7b86" />
+                <section title="sigDisplayNormalsChanged" ref="classMyScene.html#a03b09d59391e3558752ea40560bdb856" />
+                <section title="sigFlipNormalsChanged" ref="classMyScene.html#a20c130ec4789144432c6785f2df39e84" />
+                <section title="sigRadiusChanged" ref="classMyScene.html#aa3948a6670bb04fc9ac89172d18575ce" />
+                <section title="sigSmoothChanged" ref="classMyScene.html#a192763333c954d7a44abb9eb7382d3be" />
+                <section title="sigWireframeChanged" ref="classMyScene.html#a7a37834e7a3efeb4fe4be9c69bcade0d" />
+                <section title="slotSetCurrentObject" ref="classMyScene.html#a51fe7bb581b5ace63cea7fd6dec49ada" />
+                <section title="slotSetDisplayMode" ref="classMyScene.html#abe49f17d3e74e03a8df2bf66841cdd0f" />
+                <section title="slotSetDisplayNormals" ref="classMyScene.html#ad422ee6a76dca6ad7d1bac7da9d42fe3" />
+                <section title="slotSetFlipNormals" ref="classMyScene.html#ac9f701c50f43ff1e5c09b811b8d649c1" />
+                <section title="slotSetRadius" ref="classMyScene.html#ac1e81aa30f27b71638b774d9723d7e7a" />
+                <section title="slotSetSmooth" ref="classMyScene.html#a743ac1b6720dff62a660b36458be618a" />
+                <section title="slotSetWireframe" ref="classMyScene.html#ace3a90ce717fcdf20d1c6bc97255fb80" />
+                <section title="_currentObject" ref="classMyScene.html#a29e1f44881eb2c4bbbe1008b95da5388" />
+                <section title="_displayMode" ref="classMyScene.html#a53b8b43c74f584535b56f12589298a04" />
+                <section title="_displayWireframe" ref="classMyScene.html#a3120eeaf5a70b46a163b5140daaca82d" />
+                <section title="_normalsFlipped" ref="classMyScene.html#ad8609451844f7f32317678e66ebc48ee" />
+                <section title="_objects" ref="classMyScene.html#af652aa952b837a86aa1ae7392ce67db8" />
+                <section title="_radius" ref="classMyScene.html#a711e30a7d5a84e70acd9c623607533f6" />
+                <section title="_radiusIncr" ref="classMyScene.html#ab0bea34df9bdd5203bcf6ead822ee0c4" />
+                <section title="_radiusMax" ref="classMyScene.html#aba71c91a332e2ce9ffe4ed79089611ab" />
+                <section title="_radiusMin" ref="classMyScene.html#a1812c153076757914f96be0cf1ee7d63" />
+              </section>
+            </section>
+          </section>
+          <section title="File Members" ref="globals.html">
+            <section title="All" ref="globals.html" />
+            <section title="Functions" ref="globals_func.html" />
+            <section title="Typedefs" ref="globals_type.html" />
+            <section title="Macros" ref="globals_defs.html" />
+          </section>
+        </section>
+      </section>
+    </toc>
+    <keywords>
+      <keyword name="usage" id="main.cpp::usage" ref="main_8cpp.html#a1ad940455be56209415d328d78622715" />
+      <keyword name="main" id="main.cpp::main" ref="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" />
+      <keyword name="operator&lt;&lt;" id="my_object3d.cpp::operator&lt;&lt;" ref="my__object3d_8cpp.html#ae84f28dc392fc50e897f2150281c6db5" />
+      <keyword name="PI" id="my_object3d.h::PI" ref="my__object3d_8h.html#a598a3330b3c21701223ee0ca14316eca" />
+      <keyword name="operator&lt;&lt;" id="my_object3d.h::operator&lt;&lt;" ref="my__object3d_8h.html#ae84f28dc392fc50e897f2150281c6db5" />
+      <keyword name="Vertex" id="triMesh.h::Vertex" ref="triMesh_8h.html#ab68e11af2d2fafc83ac07bb0c2cd0254" />
+      <keyword name="Normal" id="triMesh.h::Normal" ref="triMesh_8h.html#a36460bbb80d099954f507c10d6d4dce9" />
+      <keyword name="Triangle" id="triMesh.h::Triangle" ref="triMesh_8h.html#a5b9ef839543e135c8a9ec252b1d64201" />
+      <keyword name="Cone" id="Cone" ref="classCone.html" />
+      <keyword name="Cone" id="Cone::Cone" ref="classCone.html#a6c402937b17b320a2a57ad0ff664f1dc" />
+      <keyword name="~Cone" id="Cone::~Cone" ref="classCone.html#af7d0a73eb5d2f5e4c0681cee99e80561" />
+      <keyword name="traceVertex" id="Cone::traceVertex" ref="classCone.html#ac1eb2a36357b66d25cd40bf22d66c7be" />
+      <keyword name="traceTrianglesHaut" id="Cone::traceTrianglesHaut" ref="classCone.html#a06aa186d4f65c7bfefc48f2f7a56aca4" />
+      <keyword name="traceTrianglesMilieu" id="Cone::traceTrianglesMilieu" ref="classCone.html#a5f79646eb53435a4a52f3c9e38858cf4" />
+      <keyword name="traceTrianglesBase" id="Cone::traceTrianglesBase" ref="classCone.html#ab800b2e9031b79265b11f8a2779bb6d2" />
+      <keyword name="TriMesh" id="TriMesh::TriMesh" ref="classTriMesh.html#a826986fcfb35b980cc02b99824f691f0" />
+      <keyword name="~TriMesh" id="TriMesh::~TriMesh" ref="classTriMesh.html#a30eb61f20aaf4d37a8185843980638ee" />
+      <keyword name="draw" id="TriMesh::draw" ref="classTriMesh.html#a16398a072c5f6b923d60931df6643838" />
+      <keyword name="drawNormals" id="TriMesh::drawNormals" ref="classTriMesh.html#ad4f59396283a880584e898f63a01670d" />
+      <keyword name="drawVertices" id="TriMesh::drawVertices" ref="classTriMesh.html#a74128459efb1828e4bb8a5c09b4f0c40" />
+      <keyword name="addVertex" id="TriMesh::addVertex" ref="classTriMesh.html#ae0d2c0bdf6b91931ee86aa51c8bfc29d" />
+      <keyword name="addVertex" id="TriMesh::addVertex" ref="classTriMesh.html#a78f595a1296f700c87454c0923b157cf" />
+      <keyword name="addTriangle" id="TriMesh::addTriangle" ref="classTriMesh.html#af42d53d768083eb29b591a712037fcef" />
+      <keyword name="addTriangle" id="TriMesh::addTriangle" ref="classTriMesh.html#a2cc40e62813ae3737ea8498fdba9ab1f" />
+      <keyword name="addNormalT" id="TriMesh::addNormalT" ref="classTriMesh.html#a32967a7d13c9cecd5ba93a89e0409f7d" />
+      <keyword name="addNormalV" id="TriMesh::addNormalV" ref="classTriMesh.html#a36f8783ffc98a97b5b022060609b7c55" />
+      <keyword name="getVertex" id="TriMesh::getVertex" ref="classTriMesh.html#aa939c68cb0c594b9747a5668eaa67a1d" />
+      <keyword name="toString" id="TriMesh::toString" ref="classTriMesh.html#a1b5ffabc6ca61838a769a0f94a7d0034" />
+      <keyword name="toOStream" id="TriMesh::toOStream" ref="classTriMesh.html#a1d6593d6800d384870c666f5754c3041" />
+      <keyword name="computeBoundingBox" id="TriMesh::computeBoundingBox" ref="classTriMesh.html#af2cb6957cb485045567e17c3ffb932c0" />
+      <keyword name="computeNormalsT" id="TriMesh::computeNormalsT" ref="classTriMesh.html#a7a0ccea06db5bee5972cf601bd48510a" />
+      <keyword name="computeNormalsV" id="TriMesh::computeNormalsV" ref="classTriMesh.html#a2afd756d3720ffa295ad29bab3d3a77e" />
+      <keyword name="normalize" id="TriMesh::normalize" ref="classTriMesh.html#a361e706dd2186cf6801097177b144bb6" />
+      <keyword name="Object3D" id="Object3D::Object3D" ref="classObject3D.html#ae3a1b17fb43ab59f5cf7b0ee21b9120b" />
+      <keyword name="~Object3D" id="Object3D::~Object3D" ref="classObject3D.html#a73b016a1aa7eb3be3c49671f3054565d" />
+      <keyword name="getName" id="Object3D::getName" ref="classObject3D.html#aa80515b56146b062e55d91c01cbbba02" />
+      <keyword name="setName" id="Object3D::setName" ref="classObject3D.html#abe17f09bc38e52115b56cddba2d536b8" />
+      <keyword name="getBoundingBoxCenter" id="Object3D::getBoundingBoxCenter" ref="classObject3D.html#a0f8f06be2cdbaac07e7f3de6143ffe85" />
+      <keyword name="m_x" id="Cone::m_x" ref="classCone.html#a180db0adb221051b3dd81b9cf8c264c0" />
+      <keyword name="m_y" id="Cone::m_y" ref="classCone.html#a298ce934ae9b4c17f10cb3d343f10260" />
+      <keyword name="m_z" id="Cone::m_z" ref="classCone.html#a72570a2f5b657caeebaae5ecaa78ffed" />
+      <keyword name="m_rayon" id="Cone::m_rayon" ref="classCone.html#a93d14e427c5737c61a62827d86245bbf" />
+      <keyword name="m_angle" id="Cone::m_angle" ref="classCone.html#a31f63de6bc3d3c35f0eff87f6497a06c" />
+      <keyword name="m_inc" id="Cone::m_inc" ref="classCone.html#afd3b252f3d2007db0bf51e94e89e4cf3" />
+      <keyword name="m_niveau" id="Cone::m_niveau" ref="classCone.html#a62fe2fdbc8163540705d9369e44b6733" />
+      <keyword name="_vertices" id="TriMesh::_vertices" ref="classTriMesh.html#ac8b70cd7c38760ae52b626d869cdcade" />
+      <keyword name="_triangles" id="TriMesh::_triangles" ref="classTriMesh.html#a59cdc5948dea9d5579311f3dbc34bde1" />
+      <keyword name="_normalsT" id="TriMesh::_normalsT" ref="classTriMesh.html#a8c30d4188c9532763e31dba7a542f14a" />
+      <keyword name="_normalsV" id="TriMesh::_normalsV" ref="classTriMesh.html#ad260f3f29ed0994c656a4affdfc82008" />
+      <keyword name="_name" id="Object3D::_name" ref="classObject3D.html#aeef6c2e09d0835fb66070aa217e2a43d" />
+      <keyword name="_bBoxMin" id="Object3D::_bBoxMin" ref="classObject3D.html#a7f30c09ab6671a937c35bd6281d91c17" />
+      <keyword name="_bBoxMax" id="Object3D::_bBoxMax" ref="classObject3D.html#a4ed5d3a72f81cd9d9607b04ca524eea6" />
+      <keyword name="_bBempty" id="Object3D::_bBempty" ref="classObject3D.html#a46cb707a35870d0e585ecb7674bb049c" />
+      <keyword name="extendBoundingBox" id="Object3D::extendBoundingBox" ref="classObject3D.html#a3b86fbd9b122140b1ed68461abb1e583" />
+      <keyword name="Cube" id="Cube" ref="classCube.html" />
+      <keyword name="Cube" id="Cube::Cube" ref="classCube.html#a06f3d86fb63e3aad08623610aa3c17b4" />
+      <keyword name="~Cube" id="Cube::~Cube" ref="classCube.html#a600d629a60344171d18ae77b3fb43912" />
+      <keyword name="TriMesh" id="TriMesh::TriMesh" ref="classTriMesh.html#a826986fcfb35b980cc02b99824f691f0" />
+      <keyword name="~TriMesh" id="TriMesh::~TriMesh" ref="classTriMesh.html#a30eb61f20aaf4d37a8185843980638ee" />
+      <keyword name="draw" id="TriMesh::draw" ref="classTriMesh.html#a16398a072c5f6b923d60931df6643838" />
+      <keyword name="drawNormals" id="TriMesh::drawNormals" ref="classTriMesh.html#ad4f59396283a880584e898f63a01670d" />
+      <keyword name="drawVertices" id="TriMesh::drawVertices" ref="classTriMesh.html#a74128459efb1828e4bb8a5c09b4f0c40" />
+      <keyword name="addVertex" id="TriMesh::addVertex" ref="classTriMesh.html#ae0d2c0bdf6b91931ee86aa51c8bfc29d" />
+      <keyword name="addVertex" id="TriMesh::addVertex" ref="classTriMesh.html#a78f595a1296f700c87454c0923b157cf" />
+      <keyword name="addTriangle" id="TriMesh::addTriangle" ref="classTriMesh.html#af42d53d768083eb29b591a712037fcef" />
+      <keyword name="addTriangle" id="TriMesh::addTriangle" ref="classTriMesh.html#a2cc40e62813ae3737ea8498fdba9ab1f" />
+      <keyword name="addNormalT" id="TriMesh::addNormalT" ref="classTriMesh.html#a32967a7d13c9cecd5ba93a89e0409f7d" />
+      <keyword name="addNormalV" id="TriMesh::addNormalV" ref="classTriMesh.html#a36f8783ffc98a97b5b022060609b7c55" />
+      <keyword name="getVertex" id="TriMesh::getVertex" ref="classTriMesh.html#aa939c68cb0c594b9747a5668eaa67a1d" />
+      <keyword name="toString" id="TriMesh::toString" ref="classTriMesh.html#a1b5ffabc6ca61838a769a0f94a7d0034" />
+      <keyword name="toOStream" id="TriMesh::toOStream" ref="classTriMesh.html#a1d6593d6800d384870c666f5754c3041" />
+      <keyword name="computeBoundingBox" id="TriMesh::computeBoundingBox" ref="classTriMesh.html#af2cb6957cb485045567e17c3ffb932c0" />
+      <keyword name="computeNormalsT" id="TriMesh::computeNormalsT" ref="classTriMesh.html#a7a0ccea06db5bee5972cf601bd48510a" />
+      <keyword name="computeNormalsV" id="TriMesh::computeNormalsV" ref="classTriMesh.html#a2afd756d3720ffa295ad29bab3d3a77e" />
+      <keyword name="normalize" id="TriMesh::normalize" ref="classTriMesh.html#a361e706dd2186cf6801097177b144bb6" />
+      <keyword name="Object3D" id="Object3D::Object3D" ref="classObject3D.html#ae3a1b17fb43ab59f5cf7b0ee21b9120b" />
+      <keyword name="~Object3D" id="Object3D::~Object3D" ref="classObject3D.html#a73b016a1aa7eb3be3c49671f3054565d" />
+      <keyword name="getName" id="Object3D::getName" ref="classObject3D.html#aa80515b56146b062e55d91c01cbbba02" />
+      <keyword name="setName" id="Object3D::setName" ref="classObject3D.html#abe17f09bc38e52115b56cddba2d536b8" />
+      <keyword name="getBoundingBoxCenter" id="Object3D::getBoundingBoxCenter" ref="classObject3D.html#a0f8f06be2cdbaac07e7f3de6143ffe85" />
+      <keyword name="extendBoundingBox" id="Object3D::extendBoundingBox" ref="classObject3D.html#a3b86fbd9b122140b1ed68461abb1e583" />
+      <keyword name="_vertices" id="TriMesh::_vertices" ref="classTriMesh.html#ac8b70cd7c38760ae52b626d869cdcade" />
+      <keyword name="_triangles" id="TriMesh::_triangles" ref="classTriMesh.html#a59cdc5948dea9d5579311f3dbc34bde1" />
+      <keyword name="_normalsT" id="TriMesh::_normalsT" ref="classTriMesh.html#a8c30d4188c9532763e31dba7a542f14a" />
+      <keyword name="_normalsV" id="TriMesh::_normalsV" ref="classTriMesh.html#ad260f3f29ed0994c656a4affdfc82008" />
+      <keyword name="_name" id="Object3D::_name" ref="classObject3D.html#aeef6c2e09d0835fb66070aa217e2a43d" />
+      <keyword name="_bBoxMin" id="Object3D::_bBoxMin" ref="classObject3D.html#a7f30c09ab6671a937c35bd6281d91c17" />
+      <keyword name="_bBoxMax" id="Object3D::_bBoxMax" ref="classObject3D.html#a4ed5d3a72f81cd9d9607b04ca524eea6" />
+      <keyword name="_bBempty" id="Object3D::_bBempty" ref="classObject3D.html#a46cb707a35870d0e585ecb7674bb049c" />
+      <keyword name="CubeCorner" id="CubeCorner" ref="classCubeCorner.html" />
+      <keyword name="CubeCorner" id="CubeCorner::CubeCorner" ref="classCubeCorner.html#a66a4ae599f5710baeec097abbcf9b494" />
+      <keyword name="~CubeCorner" id="CubeCorner::~CubeCorner" ref="classCubeCorner.html#a9c83af3bdb8ac0b9c2183b731e797d7e" />
+      <keyword name="TriMesh" id="TriMesh::TriMesh" ref="classTriMesh.html#a826986fcfb35b980cc02b99824f691f0" />
+      <keyword name="~TriMesh" id="TriMesh::~TriMesh" ref="classTriMesh.html#a30eb61f20aaf4d37a8185843980638ee" />
+      <keyword name="draw" id="TriMesh::draw" ref="classTriMesh.html#a16398a072c5f6b923d60931df6643838" />
+      <keyword name="drawNormals" id="TriMesh::drawNormals" ref="classTriMesh.html#ad4f59396283a880584e898f63a01670d" />
+      <keyword name="drawVertices" id="TriMesh::drawVertices" ref="classTriMesh.html#a74128459efb1828e4bb8a5c09b4f0c40" />
+      <keyword name="addVertex" id="TriMesh::addVertex" ref="classTriMesh.html#ae0d2c0bdf6b91931ee86aa51c8bfc29d" />
+      <keyword name="addVertex" id="TriMesh::addVertex" ref="classTriMesh.html#a78f595a1296f700c87454c0923b157cf" />
+      <keyword name="addTriangle" id="TriMesh::addTriangle" ref="classTriMesh.html#af42d53d768083eb29b591a712037fcef" />
+      <keyword name="addTriangle" id="TriMesh::addTriangle" ref="classTriMesh.html#a2cc40e62813ae3737ea8498fdba9ab1f" />
+      <keyword name="addNormalT" id="TriMesh::addNormalT" ref="classTriMesh.html#a32967a7d13c9cecd5ba93a89e0409f7d" />
+      <keyword name="addNormalV" id="TriMesh::addNormalV" ref="classTriMesh.html#a36f8783ffc98a97b5b022060609b7c55" />
+      <keyword name="getVertex" id="TriMesh::getVertex" ref="classTriMesh.html#aa939c68cb0c594b9747a5668eaa67a1d" />
+      <keyword name="toString" id="TriMesh::toString" ref="classTriMesh.html#a1b5ffabc6ca61838a769a0f94a7d0034" />
+      <keyword name="toOStream" id="TriMesh::toOStream" ref="classTriMesh.html#a1d6593d6800d384870c666f5754c3041" />
+      <keyword name="computeBoundingBox" id="TriMesh::computeBoundingBox" ref="classTriMesh.html#af2cb6957cb485045567e17c3ffb932c0" />
+      <keyword name="computeNormalsT" id="TriMesh::computeNormalsT" ref="classTriMesh.html#a7a0ccea06db5bee5972cf601bd48510a" />
+      <keyword name="computeNormalsV" id="TriMesh::computeNormalsV" ref="classTriMesh.html#a2afd756d3720ffa295ad29bab3d3a77e" />
+      <keyword name="normalize" id="TriMesh::normalize" ref="classTriMesh.html#a361e706dd2186cf6801097177b144bb6" />
+      <keyword name="Object3D" id="Object3D::Object3D" ref="classObject3D.html#ae3a1b17fb43ab59f5cf7b0ee21b9120b" />
+      <keyword name="~Object3D" id="Object3D::~Object3D" ref="classObject3D.html#a73b016a1aa7eb3be3c49671f3054565d" />
+      <keyword name="getName" id="Object3D::getName" ref="classObject3D.html#aa80515b56146b062e55d91c01cbbba02" />
+      <keyword name="setName" id="Object3D::setName" ref="classObject3D.html#abe17f09bc38e52115b56cddba2d536b8" />
+      <keyword name="getBoundingBoxCenter" id="Object3D::getBoundingBoxCenter" ref="classObject3D.html#a0f8f06be2cdbaac07e7f3de6143ffe85" />
+      <keyword name="extendBoundingBox" id="Object3D::extendBoundingBox" ref="classObject3D.html#a3b86fbd9b122140b1ed68461abb1e583" />
+      <keyword name="_vertices" id="TriMesh::_vertices" ref="classTriMesh.html#ac8b70cd7c38760ae52b626d869cdcade" />
+      <keyword name="_triangles" id="TriMesh::_triangles" ref="classTriMesh.html#a59cdc5948dea9d5579311f3dbc34bde1" />
+      <keyword name="_normalsT" id="TriMesh::_normalsT" ref="classTriMesh.html#a8c30d4188c9532763e31dba7a542f14a" />
+      <keyword name="_normalsV" id="TriMesh::_normalsV" ref="classTriMesh.html#ad260f3f29ed0994c656a4affdfc82008" />
+      <keyword name="_name" id="Object3D::_name" ref="classObject3D.html#aeef6c2e09d0835fb66070aa217e2a43d" />
+      <keyword name="_bBoxMin" id="Object3D::_bBoxMin" ref="classObject3D.html#a7f30c09ab6671a937c35bd6281d91c17" />
+      <keyword name="_bBoxMax" id="Object3D::_bBoxMax" ref="classObject3D.html#a4ed5d3a72f81cd9d9607b04ca524eea6" />
+      <keyword name="_bBempty" id="Object3D::_bBempty" ref="classObject3D.html#a46cb707a35870d0e585ecb7674bb049c" />
+      <keyword name="Cylinder" id="Cylinder" ref="classCylinder.html" />
+      <keyword name="traceVertex" id="Cylinder::traceVertex" ref="classCylinder.html#ab9f5ffdbf851d7c1d21d2e5467cc4853" />
+      <keyword name="traceTrianglesBase" id="Cylinder::traceTrianglesBase" ref="classCylinder.html#ac5cf510b34bb508ac99448515f234941" />
+      <keyword name="traceTrianglesCentre" id="Cylinder::traceTrianglesCentre" ref="classCylinder.html#a8c17d6a2edbfd6cc38fc4d6f46cc5ffd" />
+      <keyword name="traceTrianglesHaut" id="Cylinder::traceTrianglesHaut" ref="classCylinder.html#a9cdaa4730d300debba65e6db04fb2ac1" />
+      <keyword name="Cylinder" id="Cylinder::Cylinder" ref="classCylinder.html#a01dc978cb576f834b9545e43d4dad2a2" />
+      <keyword name="Cylinder" id="Cylinder::Cylinder" ref="classCylinder.html#a76d21abbae6081c79753575495f6ddbf" />
+      <keyword name="~Cylinder" id="Cylinder::~Cylinder" ref="classCylinder.html#a62b974fc969958cc05fa7d72cb5a4395" />
+      <keyword name="TriMesh" id="TriMesh::TriMesh" ref="classTriMesh.html#a826986fcfb35b980cc02b99824f691f0" />
+      <keyword name="~TriMesh" id="TriMesh::~TriMesh" ref="classTriMesh.html#a30eb61f20aaf4d37a8185843980638ee" />
+      <keyword name="draw" id="TriMesh::draw" ref="classTriMesh.html#a16398a072c5f6b923d60931df6643838" />
+      <keyword name="drawNormals" id="TriMesh::drawNormals" ref="classTriMesh.html#ad4f59396283a880584e898f63a01670d" />
+      <keyword name="drawVertices" id="TriMesh::drawVertices" ref="classTriMesh.html#a74128459efb1828e4bb8a5c09b4f0c40" />
+      <keyword name="addVertex" id="TriMesh::addVertex" ref="classTriMesh.html#ae0d2c0bdf6b91931ee86aa51c8bfc29d" />
+      <keyword name="addVertex" id="TriMesh::addVertex" ref="classTriMesh.html#a78f595a1296f700c87454c0923b157cf" />
+      <keyword name="addTriangle" id="TriMesh::addTriangle" ref="classTriMesh.html#af42d53d768083eb29b591a712037fcef" />
+      <keyword name="addTriangle" id="TriMesh::addTriangle" ref="classTriMesh.html#a2cc40e62813ae3737ea8498fdba9ab1f" />
+      <keyword name="addNormalT" id="TriMesh::addNormalT" ref="classTriMesh.html#a32967a7d13c9cecd5ba93a89e0409f7d" />
+      <keyword name="addNormalV" id="TriMesh::addNormalV" ref="classTriMesh.html#a36f8783ffc98a97b5b022060609b7c55" />
+      <keyword name="getVertex" id="TriMesh::getVertex" ref="classTriMesh.html#aa939c68cb0c594b9747a5668eaa67a1d" />
+      <keyword name="toString" id="TriMesh::toString" ref="classTriMesh.html#a1b5ffabc6ca61838a769a0f94a7d0034" />
+      <keyword name="toOStream" id="TriMesh::toOStream" ref="classTriMesh.html#a1d6593d6800d384870c666f5754c3041" />
+      <keyword name="computeBoundingBox" id="TriMesh::computeBoundingBox" ref="classTriMesh.html#af2cb6957cb485045567e17c3ffb932c0" />
+      <keyword name="computeNormalsT" id="TriMesh::computeNormalsT" ref="classTriMesh.html#a7a0ccea06db5bee5972cf601bd48510a" />
+      <keyword name="computeNormalsV" id="TriMesh::computeNormalsV" ref="classTriMesh.html#a2afd756d3720ffa295ad29bab3d3a77e" />
+      <keyword name="normalize" id="TriMesh::normalize" ref="classTriMesh.html#a361e706dd2186cf6801097177b144bb6" />
+      <keyword name="Object3D" id="Object3D::Object3D" ref="classObject3D.html#ae3a1b17fb43ab59f5cf7b0ee21b9120b" />
+      <keyword name="~Object3D" id="Object3D::~Object3D" ref="classObject3D.html#a73b016a1aa7eb3be3c49671f3054565d" />
+      <keyword name="getName" id="Object3D::getName" ref="classObject3D.html#aa80515b56146b062e55d91c01cbbba02" />
+      <keyword name="setName" id="Object3D::setName" ref="classObject3D.html#abe17f09bc38e52115b56cddba2d536b8" />
+      <keyword name="getBoundingBoxCenter" id="Object3D::getBoundingBoxCenter" ref="classObject3D.html#a0f8f06be2cdbaac07e7f3de6143ffe85" />
+      <keyword name="m_x" id="Cylinder::m_x" ref="classCylinder.html#afb3552c0aa984a31a63cad7d875eb109" />
+      <keyword name="m_y" id="Cylinder::m_y" ref="classCylinder.html#a8182ea5d5427a367b075cdee5cc97d5d" />
+      <keyword name="m_z" id="Cylinder::m_z" ref="classCylinder.html#a7d06af5f9916cc7c2a7d998932b818a5" />
+      <keyword name="m_rayon" id="Cylinder::m_rayon" ref="classCylinder.html#aded64871d09296c165afaad413806907" />
+      <keyword name="m_inc" id="Cylinder::m_inc" ref="classCylinder.html#a02b4f2408be47226fb05667fa66d1ebf" />
+      <keyword name="m_angle" id="Cylinder::m_angle" ref="classCylinder.html#ad5d0a1d9e683dc3f167fe1a4a165d543" />
+      <keyword name="m_niveau" id="Cylinder::m_niveau" ref="classCylinder.html#aeafb3f618b9b669d6729495b995d0bd8" />
+      <keyword name="_vertices" id="TriMesh::_vertices" ref="classTriMesh.html#ac8b70cd7c38760ae52b626d869cdcade" />
+      <keyword name="_triangles" id="TriMesh::_triangles" ref="classTriMesh.html#a59cdc5948dea9d5579311f3dbc34bde1" />
+      <keyword name="_normalsT" id="TriMesh::_normalsT" ref="classTriMesh.html#a8c30d4188c9532763e31dba7a542f14a" />
+      <keyword name="_normalsV" id="TriMesh::_normalsV" ref="classTriMesh.html#ad260f3f29ed0994c656a4affdfc82008" />
+      <keyword name="_name" id="Object3D::_name" ref="classObject3D.html#aeef6c2e09d0835fb66070aa217e2a43d" />
+      <keyword name="_bBoxMin" id="Object3D::_bBoxMin" ref="classObject3D.html#a7f30c09ab6671a937c35bd6281d91c17" />
+      <keyword name="_bBoxMax" id="Object3D::_bBoxMax" ref="classObject3D.html#a4ed5d3a72f81cd9d9607b04ca524eea6" />
+      <keyword name="_bBempty" id="Object3D::_bBempty" ref="classObject3D.html#a46cb707a35870d0e585ecb7674bb049c" />
+      <keyword name="extendBoundingBox" id="Object3D::extendBoundingBox" ref="classObject3D.html#a3b86fbd9b122140b1ed68461abb1e583" />
+      <keyword name="Disk" id="Disk" ref="classDisk.html" />
+      <keyword name="traceVertex" id="Disk::traceVertex" ref="classDisk.html#ad531e78dd9d9547edd93ec5af723c1a1" />
+      <keyword name="traceTriangles" id="Disk::traceTriangles" ref="classDisk.html#a45d3c7c2d7fc682b5b13bec84e401f26" />
+      <keyword name="Disk" id="Disk::Disk" ref="classDisk.html#a7b4e578f63bfbf395e1f6e24a0e43bf4" />
+      <keyword name="Disk" id="Disk::Disk" ref="classDisk.html#a8afbe078e9500868e7ba675756ee8b24" />
+      <keyword name="~Disk" id="Disk::~Disk" ref="classDisk.html#a3acdee0c3647086009b5dba33141ccfb" />
+      <keyword name="TriMesh" id="TriMesh::TriMesh" ref="classTriMesh.html#a826986fcfb35b980cc02b99824f691f0" />
+      <keyword name="~TriMesh" id="TriMesh::~TriMesh" ref="classTriMesh.html#a30eb61f20aaf4d37a8185843980638ee" />
+      <keyword name="draw" id="TriMesh::draw" ref="classTriMesh.html#a16398a072c5f6b923d60931df6643838" />
+      <keyword name="drawNormals" id="TriMesh::drawNormals" ref="classTriMesh.html#ad4f59396283a880584e898f63a01670d" />
+      <keyword name="drawVertices" id="TriMesh::drawVertices" ref="classTriMesh.html#a74128459efb1828e4bb8a5c09b4f0c40" />
+      <keyword name="addVertex" id="TriMesh::addVertex" ref="classTriMesh.html#ae0d2c0bdf6b91931ee86aa51c8bfc29d" />
+      <keyword name="addVertex" id="TriMesh::addVertex" ref="classTriMesh.html#a78f595a1296f700c87454c0923b157cf" />
+      <keyword name="addTriangle" id="TriMesh::addTriangle" ref="classTriMesh.html#af42d53d768083eb29b591a712037fcef" />
+      <keyword name="addTriangle" id="TriMesh::addTriangle" ref="classTriMesh.html#a2cc40e62813ae3737ea8498fdba9ab1f" />
+      <keyword name="addNormalT" id="TriMesh::addNormalT" ref="classTriMesh.html#a32967a7d13c9cecd5ba93a89e0409f7d" />
+      <keyword name="addNormalV" id="TriMesh::addNormalV" ref="classTriMesh.html#a36f8783ffc98a97b5b022060609b7c55" />
+      <keyword name="getVertex" id="TriMesh::getVertex" ref="classTriMesh.html#aa939c68cb0c594b9747a5668eaa67a1d" />
+      <keyword name="toString" id="TriMesh::toString" ref="classTriMesh.html#a1b5ffabc6ca61838a769a0f94a7d0034" />
+      <keyword name="toOStream" id="TriMesh::toOStream" ref="classTriMesh.html#a1d6593d6800d384870c666f5754c3041" />
+      <keyword name="computeBoundingBox" id="TriMesh::computeBoundingBox" ref="classTriMesh.html#af2cb6957cb485045567e17c3ffb932c0" />
+      <keyword name="computeNormalsT" id="TriMesh::computeNormalsT" ref="classTriMesh.html#a7a0ccea06db5bee5972cf601bd48510a" />
+      <keyword name="computeNormalsV" id="TriMesh::computeNormalsV" ref="classTriMesh.html#a2afd756d3720ffa295ad29bab3d3a77e" />
+      <keyword name="normalize" id="TriMesh::normalize" ref="classTriMesh.html#a361e706dd2186cf6801097177b144bb6" />
+      <keyword name="Object3D" id="Object3D::Object3D" ref="classObject3D.html#ae3a1b17fb43ab59f5cf7b0ee21b9120b" />
+      <keyword name="~Object3D" id="Object3D::~Object3D" ref="classObject3D.html#a73b016a1aa7eb3be3c49671f3054565d" />
+      <keyword name="getName" id="Object3D::getName" ref="classObject3D.html#aa80515b56146b062e55d91c01cbbba02" />
+      <keyword name="setName" id="Object3D::setName" ref="classObject3D.html#abe17f09bc38e52115b56cddba2d536b8" />
+      <keyword name="getBoundingBoxCenter" id="Object3D::getBoundingBoxCenter" ref="classObject3D.html#a0f8f06be2cdbaac07e7f3de6143ffe85" />
+      <keyword name="m_x" id="Disk::m_x" ref="classDisk.html#a14a393129bf8a689bb6d7024b9a3ef7d" />
+      <keyword name="m_y" id="Disk::m_y" ref="classDisk.html#afa7d7b82749906bcd15ba9f1f4410122" />
+      <keyword name="m_z" id="Disk::m_z" ref="classDisk.html#aae63e28508a1d6df14471a087ade3560" />
+      <keyword name="m_rayon" id="Disk::m_rayon" ref="classDisk.html#aca408b582ba386b8f3fc5e0f6c35dbe6" />
+      <keyword name="m_inc" id="Disk::m_inc" ref="classDisk.html#a3f143b476a077b41411803a064a8985e" />
+      <keyword name="m_angle" id="Disk::m_angle" ref="classDisk.html#aaaff81d4bd5fcea823095050a7f67a82" />
+      <keyword name="_vertices" id="TriMesh::_vertices" ref="classTriMesh.html#ac8b70cd7c38760ae52b626d869cdcade" />
+      <keyword name="_triangles" id="TriMesh::_triangles" ref="classTriMesh.html#a59cdc5948dea9d5579311f3dbc34bde1" />
+      <keyword name="_normalsT" id="TriMesh::_normalsT" ref="classTriMesh.html#a8c30d4188c9532763e31dba7a542f14a" />
+      <keyword name="_normalsV" id="TriMesh::_normalsV" ref="classTriMesh.html#ad260f3f29ed0994c656a4affdfc82008" />
+      <keyword name="_name" id="Object3D::_name" ref="classObject3D.html#aeef6c2e09d0835fb66070aa217e2a43d" />
+      <keyword name="_bBoxMin" id="Object3D::_bBoxMin" ref="classObject3D.html#a7f30c09ab6671a937c35bd6281d91c17" />
+      <keyword name="_bBoxMax" id="Object3D::_bBoxMax" ref="classObject3D.html#a4ed5d3a72f81cd9d9607b04ca524eea6" />
+      <keyword name="_bBempty" id="Object3D::_bBempty" ref="classObject3D.html#a46cb707a35870d0e585ecb7674bb049c" />
+      <keyword name="extendBoundingBox" id="Object3D::extendBoundingBox" ref="classObject3D.html#a3b86fbd9b122140b1ed68461abb1e583" />
+      <keyword name="DiskHole" id="DiskHole" ref="classDiskHole.html" />
+      <keyword name="traceVertex" id="DiskHole::traceVertex" ref="classDiskHole.html#a03f0e346f201b302e8e386d5b36680e8" />
+      <keyword name="traceTriangles" id="DiskHole::traceTriangles" ref="classDiskHole.html#accc50705c92dceeccfd9084cbf89d22e" />
+      <keyword name="DiskHole" id="DiskHole::DiskHole" ref="classDiskHole.html#a16545717dbcc2ad849a7d4adb5260355" />
+      <keyword name="DiskHole" id="DiskHole::DiskHole" ref="classDiskHole.html#a6e60e7638b60ca6ede03265e22da92cf" />
+      <keyword name="~DiskHole" id="DiskHole::~DiskHole" ref="classDiskHole.html#a41fc17455cd37c2b71cc29368e159bee" />
+      <keyword name="TriMesh" id="TriMesh::TriMesh" ref="classTriMesh.html#a826986fcfb35b980cc02b99824f691f0" />
+      <keyword name="~TriMesh" id="TriMesh::~TriMesh" ref="classTriMesh.html#a30eb61f20aaf4d37a8185843980638ee" />
+      <keyword name="draw" id="TriMesh::draw" ref="classTriMesh.html#a16398a072c5f6b923d60931df6643838" />
+      <keyword name="drawNormals" id="TriMesh::drawNormals" ref="classTriMesh.html#ad4f59396283a880584e898f63a01670d" />
+      <keyword name="drawVertices" id="TriMesh::drawVertices" ref="classTriMesh.html#a74128459efb1828e4bb8a5c09b4f0c40" />
+      <keyword name="addVertex" id="TriMesh::addVertex" ref="classTriMesh.html#ae0d2c0bdf6b91931ee86aa51c8bfc29d" />
+      <keyword name="addVertex" id="TriMesh::addVertex" ref="classTriMesh.html#a78f595a1296f700c87454c0923b157cf" />
+      <keyword name="addTriangle" id="TriMesh::addTriangle" ref="classTriMesh.html#af42d53d768083eb29b591a712037fcef" />
+      <keyword name="addTriangle" id="TriMesh::addTriangle" ref="classTriMesh.html#a2cc40e62813ae3737ea8498fdba9ab1f" />
+      <keyword name="addNormalT" id="TriMesh::addNormalT" ref="classTriMesh.html#a32967a7d13c9cecd5ba93a89e0409f7d" />
+      <keyword name="addNormalV" id="TriMesh::addNormalV" ref="classTriMesh.html#a36f8783ffc98a97b5b022060609b7c55" />
+      <keyword name="getVertex" id="TriMesh::getVertex" ref="classTriMesh.html#aa939c68cb0c594b9747a5668eaa67a1d" />
+      <keyword name="toString" id="TriMesh::toString" ref="classTriMesh.html#a1b5ffabc6ca61838a769a0f94a7d0034" />
+      <keyword name="toOStream" id="TriMesh::toOStream" ref="classTriMesh.html#a1d6593d6800d384870c666f5754c3041" />
+      <keyword name="computeBoundingBox" id="TriMesh::computeBoundingBox" ref="classTriMesh.html#af2cb6957cb485045567e17c3ffb932c0" />
+      <keyword name="computeNormalsT" id="TriMesh::computeNormalsT" ref="classTriMesh.html#a7a0ccea06db5bee5972cf601bd48510a" />
+      <keyword name="computeNormalsV" id="TriMesh::computeNormalsV" ref="classTriMesh.html#a2afd756d3720ffa295ad29bab3d3a77e" />
+      <keyword name="normalize" id="TriMesh::normalize" ref="classTriMesh.html#a361e706dd2186cf6801097177b144bb6" />
+      <keyword name="Object3D" id="Object3D::Object3D" ref="classObject3D.html#ae3a1b17fb43ab59f5cf7b0ee21b9120b" />
+      <keyword name="~Object3D" id="Object3D::~Object3D" ref="classObject3D.html#a73b016a1aa7eb3be3c49671f3054565d" />
+      <keyword name="getName" id="Object3D::getName" ref="classObject3D.html#aa80515b56146b062e55d91c01cbbba02" />
+      <keyword name="setName" id="Object3D::setName" ref="classObject3D.html#abe17f09bc38e52115b56cddba2d536b8" />
+      <keyword name="getBoundingBoxCenter" id="Object3D::getBoundingBoxCenter" ref="classObject3D.html#a0f8f06be2cdbaac07e7f3de6143ffe85" />
+      <keyword name="m_x" id="DiskHole::m_x" ref="classDiskHole.html#a5b849c169c43d2607fe6b902f5956133" />
+      <keyword name="m_y" id="DiskHole::m_y" ref="classDiskHole.html#a48ded0e5f8bb504e22462953d34c2d0b" />
+      <keyword name="m_z" id="DiskHole::m_z" ref="classDiskHole.html#a7d8da2dee8c85cd2a42c7a9ccd7efe39" />
+      <keyword name="m_rayon" id="DiskHole::m_rayon" ref="classDiskHole.html#aec7b3fcc599d622104a9abfbd4fd595b" />
+      <keyword name="m_inc" id="DiskHole::m_inc" ref="classDiskHole.html#ae24570d5ed188afea0ee4ad25d86cf44" />
+      <keyword name="m_angle" id="DiskHole::m_angle" ref="classDiskHole.html#a94f0715bd625559bf7531e74fb9bce81" />
+      <keyword name="_vertices" id="TriMesh::_vertices" ref="classTriMesh.html#ac8b70cd7c38760ae52b626d869cdcade" />
+      <keyword name="_triangles" id="TriMesh::_triangles" ref="classTriMesh.html#a59cdc5948dea9d5579311f3dbc34bde1" />
+      <keyword name="_normalsT" id="TriMesh::_normalsT" ref="classTriMesh.html#a8c30d4188c9532763e31dba7a542f14a" />
+      <keyword name="_normalsV" id="TriMesh::_normalsV" ref="classTriMesh.html#ad260f3f29ed0994c656a4affdfc82008" />
+      <keyword name="_name" id="Object3D::_name" ref="classObject3D.html#aeef6c2e09d0835fb66070aa217e2a43d" />
+      <keyword name="_bBoxMin" id="Object3D::_bBoxMin" ref="classObject3D.html#a7f30c09ab6671a937c35bd6281d91c17" />
+      <keyword name="_bBoxMax" id="Object3D::_bBoxMax" ref="classObject3D.html#a4ed5d3a72f81cd9d9607b04ca524eea6" />
+      <keyword name="_bBempty" id="Object3D::_bBempty" ref="classObject3D.html#a46cb707a35870d0e585ecb7674bb049c" />
+      <keyword name="extendBoundingBox" id="Object3D::extendBoundingBox" ref="classObject3D.html#a3b86fbd9b122140b1ed68461abb1e583" />
+      <keyword name="MyMainWindow" id="MyMainWindow" ref="classMyMainWindow.html" />
+      <keyword name="slotAbout" id="MyMainWindow::slotAbout" ref="classMyMainWindow.html#acbae9d2dda0f04dda1722c45606b8881" />
+      <keyword name="MyMainWindow" id="MyMainWindow::MyMainWindow" ref="classMyMainWindow.html#a695339a56877e536d37c63ceb88088f9" />
+      <keyword name="_ui" id="MyMainWindow::_ui" ref="classMyMainWindow.html#aa85150e2cec240e1522e6c0025939386" />
+      <keyword name="_myScene" id="MyMainWindow::_myScene" ref="classMyMainWindow.html#a0d7ebbd64ecf5e3e19d566c0ddfd6e6a" />
+      <keyword name="MyQGLViewer" id="MyQGLViewer" ref="classMyQGLViewer.html" />
+      <keyword name="MyQGLViewer" id="MyQGLViewer::MyQGLViewer" ref="classMyQGLViewer.html#aa2e94685fc91a2f4e0e4e909f079eb13" />
+      <keyword name="setMyScene" id="MyQGLViewer::setMyScene" ref="classMyQGLViewer.html#a8e959c24b6541e198de74a83a014c77e" />
+      <keyword name="init" id="MyQGLViewer::init" ref="classMyQGLViewer.html#af231a0313ce6839d6fcd5b1f0fbcc04d" />
+      <keyword name="draw" id="MyQGLViewer::draw" ref="classMyQGLViewer.html#a5119027de225936b837f689d0f7ecc1e" />
+      <keyword name="keyPressEvent" id="MyQGLViewer::keyPressEvent" ref="classMyQGLViewer.html#a85151895c53f940fda4e69b7805be7d6" />
+      <keyword name="_myScene" id="MyQGLViewer::_myScene" ref="classMyQGLViewer.html#afdd0d1f32bb1699b94b272413189607f" />
+      <keyword name="MyScene" id="MyScene" ref="classMyScene.html" />
+      <keyword name="slotSetCurrentObject" id="MyScene::slotSetCurrentObject" ref="classMyScene.html#a51fe7bb581b5ace63cea7fd6dec49ada" />
+      <keyword name="slotSetDisplayMode" id="MyScene::slotSetDisplayMode" ref="classMyScene.html#abe49f17d3e74e03a8df2bf66841cdd0f" />
+      <keyword name="slotSetRadius" id="MyScene::slotSetRadius" ref="classMyScene.html#ac1e81aa30f27b71638b774d9723d7e7a" />
+      <keyword name="slotSetWireframe" id="MyScene::slotSetWireframe" ref="classMyScene.html#ace3a90ce717fcdf20d1c6bc97255fb80" />
+      <keyword name="slotSetSmooth" id="MyScene::slotSetSmooth" ref="classMyScene.html#a743ac1b6720dff62a660b36458be618a" />
+      <keyword name="slotSetDisplayNormals" id="MyScene::slotSetDisplayNormals" ref="classMyScene.html#ad422ee6a76dca6ad7d1bac7da9d42fe3" />
+      <keyword name="slotSetFlipNormals" id="MyScene::slotSetFlipNormals" ref="classMyScene.html#ac9f701c50f43ff1e5c09b811b8d649c1" />
+      <keyword name="sigCurrentObjectChanged" id="MyScene::sigCurrentObjectChanged" ref="classMyScene.html#a3ef1135ffe93af395024dda7d00b9c1c" />
+      <keyword name="sigDisplayModeChanged" id="MyScene::sigDisplayModeChanged" ref="classMyScene.html#ae304d120bad0d657422a516575eb7b86" />
+      <keyword name="sigRadiusChanged" id="MyScene::sigRadiusChanged" ref="classMyScene.html#aa3948a6670bb04fc9ac89172d18575ce" />
+      <keyword name="sigWireframeChanged" id="MyScene::sigWireframeChanged" ref="classMyScene.html#a7a37834e7a3efeb4fe4be9c69bcade0d" />
+      <keyword name="sigSmoothChanged" id="MyScene::sigSmoothChanged" ref="classMyScene.html#a192763333c954d7a44abb9eb7382d3be" />
+      <keyword name="sigDisplayNormalsChanged" id="MyScene::sigDisplayNormalsChanged" ref="classMyScene.html#a03b09d59391e3558752ea40560bdb856" />
+      <keyword name="sigFlipNormalsChanged" id="MyScene::sigFlipNormalsChanged" ref="classMyScene.html#a20c130ec4789144432c6785f2df39e84" />
+      <keyword name="MyScene" id="MyScene::MyScene" ref="classMyScene.html#a6b67e5428ba302a5808661cd2bbb517c" />
+      <keyword name="~MyScene" id="MyScene::~MyScene" ref="classMyScene.html#a0e6e8660d77680f29de571fa2e966a64" />
+      <keyword name="setCurrentObject" id="MyScene::setCurrentObject" ref="classMyScene.html#a73d73f5a7ce4c3ba4878718fdd8951a7" />
+      <keyword name="currentObject" id="MyScene::currentObject" ref="classMyScene.html#a223e11b9e24ae03887645ec396c2729a" />
+      <keyword name="setDisplayMode" id="MyScene::setDisplayMode" ref="classMyScene.html#a77e9102cef13e8bde68a8f799ee3604d" />
+      <keyword name="displayMode" id="MyScene::displayMode" ref="classMyScene.html#afb791beceea5de9f0dc8fb47b5ec76c8" />
+      <keyword name="setRadius" id="MyScene::setRadius" ref="classMyScene.html#abfbf9297e676d8a5601040d62f8733cf" />
+      <keyword name="radius" id="MyScene::radius" ref="classMyScene.html#aeedf698dbf5c3cf8f7c4cbc22036a57e" />
+      <keyword name="radiusMin" id="MyScene::radiusMin" ref="classMyScene.html#add386630678eee06fc1aa28ca937cf73" />
+      <keyword name="radiusMax" id="MyScene::radiusMax" ref="classMyScene.html#a59c4d9a72e36fae1c23cc6bdfcbe60ac" />
+      <keyword name="radiusIncr" id="MyScene::radiusIncr" ref="classMyScene.html#a782e87414a79c87ff17778c2c6c6d183" />
+      <keyword name="init" id="MyScene::init" ref="classMyScene.html#ab4f8f47610059e0eaaf07601a8225691" />
+      <keyword name="draw" id="MyScene::draw" ref="classMyScene.html#a11c35160110cfedb595e405077564bd7" />
+      <keyword name="addObject" id="MyScene::addObject" ref="classMyScene.html#ac831be74049ad54603badd0fef4d3b71" />
+      <keyword name="keyPressEvent" id="MyScene::keyPressEvent" ref="classMyScene.html#a9ba290c04395ddb516325e2c23bbac7d" />
+      <keyword name="_objects" id="MyScene::_objects" ref="classMyScene.html#af652aa952b837a86aa1ae7392ce67db8" />
+      <keyword name="_currentObject" id="MyScene::_currentObject" ref="classMyScene.html#a29e1f44881eb2c4bbbe1008b95da5388" />
+      <keyword name="_radius" id="MyScene::_radius" ref="classMyScene.html#a711e30a7d5a84e70acd9c623607533f6" />
+      <keyword name="_displayMode" id="MyScene::_displayMode" ref="classMyScene.html#a53b8b43c74f584535b56f12589298a04" />
+      <keyword name="_normalsFlipped" id="MyScene::_normalsFlipped" ref="classMyScene.html#ad8609451844f7f32317678e66ebc48ee" />
+      <keyword name="_displayWireframe" id="MyScene::_displayWireframe" ref="classMyScene.html#a3120eeaf5a70b46a163b5140daaca82d" />
+      <keyword name="_radiusMin" id="MyScene::_radiusMin" ref="classMyScene.html#a1812c153076757914f96be0cf1ee7d63" />
+      <keyword name="_radiusMax" id="MyScene::_radiusMax" ref="classMyScene.html#aba71c91a332e2ce9ffe4ed79089611ab" />
+      <keyword name="_radiusIncr" id="MyScene::_radiusIncr" ref="classMyScene.html#ab0bea34df9bdd5203bcf6ead822ee0c4" />
+      <keyword name="WIREFRAME" id="MyScene::WIREFRAME" ref="classMyScene.html#a3f8ef7370a3e75fc5f278703cbcfa8dda9522de35cfc340248e61351c071409d2" />
+      <keyword name="SMOOTH" id="MyScene::SMOOTH" ref="classMyScene.html#a3f8ef7370a3e75fc5f278703cbcfa8dda495d6276ea59a2af6cb3111c7d5751a4" />
+      <keyword name="NORMALS" id="MyScene::NORMALS" ref="classMyScene.html#a3f8ef7370a3e75fc5f278703cbcfa8dda00a32d4e085ae0a3b578dd69a6d042ca" />
+      <keyword name="Object3D" id="Object3D" ref="classObject3D.html" />
+      <keyword name="Object3D" id="Object3D::Object3D" ref="classObject3D.html#ae3a1b17fb43ab59f5cf7b0ee21b9120b" />
+      <keyword name="~Object3D" id="Object3D::~Object3D" ref="classObject3D.html#a73b016a1aa7eb3be3c49671f3054565d" />
+      <keyword name="getName" id="Object3D::getName" ref="classObject3D.html#aa80515b56146b062e55d91c01cbbba02" />
+      <keyword name="setName" id="Object3D::setName" ref="classObject3D.html#abe17f09bc38e52115b56cddba2d536b8" />
+      <keyword name="draw" id="Object3D::draw" ref="classObject3D.html#a684fd3d4f083db533f855430e97d19f7" />
+      <keyword name="drawNormals" id="Object3D::drawNormals" ref="classObject3D.html#a821f2ce108f100575befb2355cd3cd0f" />
+      <keyword name="getBoundingBoxCenter" id="Object3D::getBoundingBoxCenter" ref="classObject3D.html#a0f8f06be2cdbaac07e7f3de6143ffe85" />
+      <keyword name="toString" id="Object3D::toString" ref="classObject3D.html#a1847587421f8a45650632dc4358f163f" />
+      <keyword name="toOStream" id="Object3D::toOStream" ref="classObject3D.html#aa98582d326ed1d3d8987f44a542efa65" />
+      <keyword name="extendBoundingBox" id="Object3D::extendBoundingBox" ref="classObject3D.html#a3b86fbd9b122140b1ed68461abb1e583" />
+      <keyword name="_name" id="Object3D::_name" ref="classObject3D.html#aeef6c2e09d0835fb66070aa217e2a43d" />
+      <keyword name="_bBoxMin" id="Object3D::_bBoxMin" ref="classObject3D.html#a7f30c09ab6671a937c35bd6281d91c17" />
+      <keyword name="_bBoxMax" id="Object3D::_bBoxMax" ref="classObject3D.html#a4ed5d3a72f81cd9d9607b04ca524eea6" />
+      <keyword name="_bBempty" id="Object3D::_bBempty" ref="classObject3D.html#a46cb707a35870d0e585ecb7674bb049c" />
+      <keyword name="operator&lt;&lt;" id="Object3D::operator&lt;&lt;" ref="classObject3D.html#ae84f28dc392fc50e897f2150281c6db5" />
+      <keyword name="Pyramid" id="Pyramid" ref="classPyramid.html" />
+      <keyword name="Pyramid" id="Pyramid::Pyramid" ref="classPyramid.html#aa78baa6faa1c3fbcca510e8ddf37de49" />
+      <keyword name="~Pyramid" id="Pyramid::~Pyramid" ref="classPyramid.html#a4312cdd103b0794609354fccdc969092" />
+      <keyword name="TriMesh" id="TriMesh::TriMesh" ref="classTriMesh.html#a826986fcfb35b980cc02b99824f691f0" />
+      <keyword name="~TriMesh" id="TriMesh::~TriMesh" ref="classTriMesh.html#a30eb61f20aaf4d37a8185843980638ee" />
+      <keyword name="draw" id="TriMesh::draw" ref="classTriMesh.html#a16398a072c5f6b923d60931df6643838" />
+      <keyword name="drawNormals" id="TriMesh::drawNormals" ref="classTriMesh.html#ad4f59396283a880584e898f63a01670d" />
+      <keyword name="drawVertices" id="TriMesh::drawVertices" ref="classTriMesh.html#a74128459efb1828e4bb8a5c09b4f0c40" />
+      <keyword name="addVertex" id="TriMesh::addVertex" ref="classTriMesh.html#ae0d2c0bdf6b91931ee86aa51c8bfc29d" />
+      <keyword name="addVertex" id="TriMesh::addVertex" ref="classTriMesh.html#a78f595a1296f700c87454c0923b157cf" />
+      <keyword name="addTriangle" id="TriMesh::addTriangle" ref="classTriMesh.html#af42d53d768083eb29b591a712037fcef" />
+      <keyword name="addTriangle" id="TriMesh::addTriangle" ref="classTriMesh.html#a2cc40e62813ae3737ea8498fdba9ab1f" />
+      <keyword name="addNormalT" id="TriMesh::addNormalT" ref="classTriMesh.html#a32967a7d13c9cecd5ba93a89e0409f7d" />
+      <keyword name="addNormalV" id="TriMesh::addNormalV" ref="classTriMesh.html#a36f8783ffc98a97b5b022060609b7c55" />
+      <keyword name="getVertex" id="TriMesh::getVertex" ref="classTriMesh.html#aa939c68cb0c594b9747a5668eaa67a1d" />
+      <keyword name="toString" id="TriMesh::toString" ref="classTriMesh.html#a1b5ffabc6ca61838a769a0f94a7d0034" />
+      <keyword name="toOStream" id="TriMesh::toOStream" ref="classTriMesh.html#a1d6593d6800d384870c666f5754c3041" />
+      <keyword name="computeBoundingBox" id="TriMesh::computeBoundingBox" ref="classTriMesh.html#af2cb6957cb485045567e17c3ffb932c0" />
+      <keyword name="computeNormalsT" id="TriMesh::computeNormalsT" ref="classTriMesh.html#a7a0ccea06db5bee5972cf601bd48510a" />
+      <keyword name="computeNormalsV" id="TriMesh::computeNormalsV" ref="classTriMesh.html#a2afd756d3720ffa295ad29bab3d3a77e" />
+      <keyword name="normalize" id="TriMesh::normalize" ref="classTriMesh.html#a361e706dd2186cf6801097177b144bb6" />
+      <keyword name="Object3D" id="Object3D::Object3D" ref="classObject3D.html#ae3a1b17fb43ab59f5cf7b0ee21b9120b" />
+      <keyword name="~Object3D" id="Object3D::~Object3D" ref="classObject3D.html#a73b016a1aa7eb3be3c49671f3054565d" />
+      <keyword name="getName" id="Object3D::getName" ref="classObject3D.html#aa80515b56146b062e55d91c01cbbba02" />
+      <keyword name="setName" id="Object3D::setName" ref="classObject3D.html#abe17f09bc38e52115b56cddba2d536b8" />
+      <keyword name="getBoundingBoxCenter" id="Object3D::getBoundingBoxCenter" ref="classObject3D.html#a0f8f06be2cdbaac07e7f3de6143ffe85" />
+      <keyword name="extendBoundingBox" id="Object3D::extendBoundingBox" ref="classObject3D.html#a3b86fbd9b122140b1ed68461abb1e583" />
+      <keyword name="_vertices" id="TriMesh::_vertices" ref="classTriMesh.html#ac8b70cd7c38760ae52b626d869cdcade" />
+      <keyword name="_triangles" id="TriMesh::_triangles" ref="classTriMesh.html#a59cdc5948dea9d5579311f3dbc34bde1" />
+      <keyword name="_normalsT" id="TriMesh::_normalsT" ref="classTriMesh.html#a8c30d4188c9532763e31dba7a542f14a" />
+      <keyword name="_normalsV" id="TriMesh::_normalsV" ref="classTriMesh.html#ad260f3f29ed0994c656a4affdfc82008" />
+      <keyword name="_name" id="Object3D::_name" ref="classObject3D.html#aeef6c2e09d0835fb66070aa217e2a43d" />
+      <keyword name="_bBoxMin" id="Object3D::_bBoxMin" ref="classObject3D.html#a7f30c09ab6671a937c35bd6281d91c17" />
+      <keyword name="_bBoxMax" id="Object3D::_bBoxMax" ref="classObject3D.html#a4ed5d3a72f81cd9d9607b04ca524eea6" />
+      <keyword name="_bBempty" id="Object3D::_bBempty" ref="classObject3D.html#a46cb707a35870d0e585ecb7674bb049c" />
+      <keyword name="Sphere" id="Sphere" ref="classSphere.html" />
+      <keyword name="traceVertex" id="Sphere::traceVertex" ref="classSphere.html#ad2ed60a8436aff897ed7562e384799a4" />
+      <keyword name="traceTrianglesHaut" id="Sphere::traceTrianglesHaut" ref="classSphere.html#a94ed99831def4365f499982dac39828c" />
+      <keyword name="traceTrianglesCentre" id="Sphere::traceTrianglesCentre" ref="classSphere.html#a4e1827fcb4b00f9be9f8e6a24cff2213" />
+      <keyword name="traceTrianglesBas" id="Sphere::traceTrianglesBas" ref="classSphere.html#ae711e17778007305a44ea51a9ad8c66c" />
+      <keyword name="Sphere" id="Sphere::Sphere" ref="classSphere.html#a890a63ff583cb88e7ec4e840b4ef5eb9" />
+      <keyword name="Sphere" id="Sphere::Sphere" ref="classSphere.html#a0f052b24f8fec4885a2a7ba8542062f2" />
+      <keyword name="~Sphere" id="Sphere::~Sphere" ref="classSphere.html#acde2697064cbc2c64ea34aed1b3efac7" />
+      <keyword name="TriMesh" id="TriMesh::TriMesh" ref="classTriMesh.html#a826986fcfb35b980cc02b99824f691f0" />
+      <keyword name="~TriMesh" id="TriMesh::~TriMesh" ref="classTriMesh.html#a30eb61f20aaf4d37a8185843980638ee" />
+      <keyword name="draw" id="TriMesh::draw" ref="classTriMesh.html#a16398a072c5f6b923d60931df6643838" />
+      <keyword name="drawNormals" id="TriMesh::drawNormals" ref="classTriMesh.html#ad4f59396283a880584e898f63a01670d" />
+      <keyword name="drawVertices" id="TriMesh::drawVertices" ref="classTriMesh.html#a74128459efb1828e4bb8a5c09b4f0c40" />
+      <keyword name="addVertex" id="TriMesh::addVertex" ref="classTriMesh.html#ae0d2c0bdf6b91931ee86aa51c8bfc29d" />
+      <keyword name="addVertex" id="TriMesh::addVertex" ref="classTriMesh.html#a78f595a1296f700c87454c0923b157cf" />
+      <keyword name="addTriangle" id="TriMesh::addTriangle" ref="classTriMesh.html#af42d53d768083eb29b591a712037fcef" />
+      <keyword name="addTriangle" id="TriMesh::addTriangle" ref="classTriMesh.html#a2cc40e62813ae3737ea8498fdba9ab1f" />
+      <keyword name="addNormalT" id="TriMesh::addNormalT" ref="classTriMesh.html#a32967a7d13c9cecd5ba93a89e0409f7d" />
+      <keyword name="addNormalV" id="TriMesh::addNormalV" ref="classTriMesh.html#a36f8783ffc98a97b5b022060609b7c55" />
+      <keyword name="getVertex" id="TriMesh::getVertex" ref="classTriMesh.html#aa939c68cb0c594b9747a5668eaa67a1d" />
+      <keyword name="toString" id="TriMesh::toString" ref="classTriMesh.html#a1b5ffabc6ca61838a769a0f94a7d0034" />
+      <keyword name="toOStream" id="TriMesh::toOStream" ref="classTriMesh.html#a1d6593d6800d384870c666f5754c3041" />
+      <keyword name="computeBoundingBox" id="TriMesh::computeBoundingBox" ref="classTriMesh.html#af2cb6957cb485045567e17c3ffb932c0" />
+      <keyword name="computeNormalsT" id="TriMesh::computeNormalsT" ref="classTriMesh.html#a7a0ccea06db5bee5972cf601bd48510a" />
+      <keyword name="computeNormalsV" id="TriMesh::computeNormalsV" ref="classTriMesh.html#a2afd756d3720ffa295ad29bab3d3a77e" />
+      <keyword name="normalize" id="TriMesh::normalize" ref="classTriMesh.html#a361e706dd2186cf6801097177b144bb6" />
+      <keyword name="Object3D" id="Object3D::Object3D" ref="classObject3D.html#ae3a1b17fb43ab59f5cf7b0ee21b9120b" />
+      <keyword name="~Object3D" id="Object3D::~Object3D" ref="classObject3D.html#a73b016a1aa7eb3be3c49671f3054565d" />
+      <keyword name="getName" id="Object3D::getName" ref="classObject3D.html#aa80515b56146b062e55d91c01cbbba02" />
+      <keyword name="setName" id="Object3D::setName" ref="classObject3D.html#abe17f09bc38e52115b56cddba2d536b8" />
+      <keyword name="getBoundingBoxCenter" id="Object3D::getBoundingBoxCenter" ref="classObject3D.html#a0f8f06be2cdbaac07e7f3de6143ffe85" />
+      <keyword name="m_x" id="Sphere::m_x" ref="classSphere.html#a7dad96f088fc9ae9537bc5b3f062b9d4" />
+      <keyword name="m_y" id="Sphere::m_y" ref="classSphere.html#aa2e7b4ff8af08b119efe7bf343d5aee2" />
+      <keyword name="m_z" id="Sphere::m_z" ref="classSphere.html#a8e9ca5b4c842c9fb57e0aeeded5eb283" />
+      <keyword name="m_rayon" id="Sphere::m_rayon" ref="classSphere.html#ae51a8ec43e3e460999c3f5ccb8abab9f" />
+      <keyword name="m_inc" id="Sphere::m_inc" ref="classSphere.html#a00cba9e294db5b2eee9fd58e47543a12" />
+      <keyword name="m_angle_theta" id="Sphere::m_angle_theta" ref="classSphere.html#ad814fe96b90fa65d43fe85dc30215aa2" />
+      <keyword name="m_angle_phi" id="Sphere::m_angle_phi" ref="classSphere.html#ace6cb9faed15bc4ba45e86d3405267c8" />
+      <keyword name="m_niveau" id="Sphere::m_niveau" ref="classSphere.html#a6813ceccd3cbf34c76c484f9c9565ed3" />
+      <keyword name="_vertices" id="TriMesh::_vertices" ref="classTriMesh.html#ac8b70cd7c38760ae52b626d869cdcade" />
+      <keyword name="_triangles" id="TriMesh::_triangles" ref="classTriMesh.html#a59cdc5948dea9d5579311f3dbc34bde1" />
+      <keyword name="_normalsT" id="TriMesh::_normalsT" ref="classTriMesh.html#a8c30d4188c9532763e31dba7a542f14a" />
+      <keyword name="_normalsV" id="TriMesh::_normalsV" ref="classTriMesh.html#ad260f3f29ed0994c656a4affdfc82008" />
+      <keyword name="_name" id="Object3D::_name" ref="classObject3D.html#aeef6c2e09d0835fb66070aa217e2a43d" />
+      <keyword name="_bBoxMin" id="Object3D::_bBoxMin" ref="classObject3D.html#a7f30c09ab6671a937c35bd6281d91c17" />
+      <keyword name="_bBoxMax" id="Object3D::_bBoxMax" ref="classObject3D.html#a4ed5d3a72f81cd9d9607b04ca524eea6" />
+      <keyword name="_bBempty" id="Object3D::_bBempty" ref="classObject3D.html#a46cb707a35870d0e585ecb7674bb049c" />
+      <keyword name="extendBoundingBox" id="Object3D::extendBoundingBox" ref="classObject3D.html#a3b86fbd9b122140b1ed68461abb1e583" />
+      <keyword name="TriMesh" id="TriMesh" ref="classTriMesh.html" />
+      <keyword name="TriMesh" id="TriMesh::TriMesh" ref="classTriMesh.html#a826986fcfb35b980cc02b99824f691f0" />
+      <keyword name="~TriMesh" id="TriMesh::~TriMesh" ref="classTriMesh.html#a30eb61f20aaf4d37a8185843980638ee" />
+      <keyword name="draw" id="TriMesh::draw" ref="classTriMesh.html#a16398a072c5f6b923d60931df6643838" />
+      <keyword name="drawNormals" id="TriMesh::drawNormals" ref="classTriMesh.html#ad4f59396283a880584e898f63a01670d" />
+      <keyword name="drawVertices" id="TriMesh::drawVertices" ref="classTriMesh.html#a74128459efb1828e4bb8a5c09b4f0c40" />
+      <keyword name="addVertex" id="TriMesh::addVertex" ref="classTriMesh.html#ae0d2c0bdf6b91931ee86aa51c8bfc29d" />
+      <keyword name="addVertex" id="TriMesh::addVertex" ref="classTriMesh.html#a78f595a1296f700c87454c0923b157cf" />
+      <keyword name="addTriangle" id="TriMesh::addTriangle" ref="classTriMesh.html#af42d53d768083eb29b591a712037fcef" />
+      <keyword name="addTriangle" id="TriMesh::addTriangle" ref="classTriMesh.html#a2cc40e62813ae3737ea8498fdba9ab1f" />
+      <keyword name="addNormalT" id="TriMesh::addNormalT" ref="classTriMesh.html#a32967a7d13c9cecd5ba93a89e0409f7d" />
+      <keyword name="addNormalV" id="TriMesh::addNormalV" ref="classTriMesh.html#a36f8783ffc98a97b5b022060609b7c55" />
+      <keyword name="getVertex" id="TriMesh::getVertex" ref="classTriMesh.html#aa939c68cb0c594b9747a5668eaa67a1d" />
+      <keyword name="toString" id="TriMesh::toString" ref="classTriMesh.html#a1b5ffabc6ca61838a769a0f94a7d0034" />
+      <keyword name="toOStream" id="TriMesh::toOStream" ref="classTriMesh.html#a1d6593d6800d384870c666f5754c3041" />
+      <keyword name="computeBoundingBox" id="TriMesh::computeBoundingBox" ref="classTriMesh.html#af2cb6957cb485045567e17c3ffb932c0" />
+      <keyword name="computeNormalsT" id="TriMesh::computeNormalsT" ref="classTriMesh.html#a7a0ccea06db5bee5972cf601bd48510a" />
+      <keyword name="computeNormalsV" id="TriMesh::computeNormalsV" ref="classTriMesh.html#a2afd756d3720ffa295ad29bab3d3a77e" />
+      <keyword name="normalize" id="TriMesh::normalize" ref="classTriMesh.html#a361e706dd2186cf6801097177b144bb6" />
+      <keyword name="Object3D" id="Object3D::Object3D" ref="classObject3D.html#ae3a1b17fb43ab59f5cf7b0ee21b9120b" />
+      <keyword name="~Object3D" id="Object3D::~Object3D" ref="classObject3D.html#a73b016a1aa7eb3be3c49671f3054565d" />
+      <keyword name="getName" id="Object3D::getName" ref="classObject3D.html#aa80515b56146b062e55d91c01cbbba02" />
+      <keyword name="setName" id="Object3D::setName" ref="classObject3D.html#abe17f09bc38e52115b56cddba2d536b8" />
+      <keyword name="getBoundingBoxCenter" id="Object3D::getBoundingBoxCenter" ref="classObject3D.html#a0f8f06be2cdbaac07e7f3de6143ffe85" />
+      <keyword name="_vertices" id="TriMesh::_vertices" ref="classTriMesh.html#ac8b70cd7c38760ae52b626d869cdcade" />
+      <keyword name="_triangles" id="TriMesh::_triangles" ref="classTriMesh.html#a59cdc5948dea9d5579311f3dbc34bde1" />
+      <keyword name="_normalsT" id="TriMesh::_normalsT" ref="classTriMesh.html#a8c30d4188c9532763e31dba7a542f14a" />
+      <keyword name="_normalsV" id="TriMesh::_normalsV" ref="classTriMesh.html#ad260f3f29ed0994c656a4affdfc82008" />
+      <keyword name="_name" id="Object3D::_name" ref="classObject3D.html#aeef6c2e09d0835fb66070aa217e2a43d" />
+      <keyword name="_bBoxMin" id="Object3D::_bBoxMin" ref="classObject3D.html#a7f30c09ab6671a937c35bd6281d91c17" />
+      <keyword name="_bBoxMax" id="Object3D::_bBoxMax" ref="classObject3D.html#a4ed5d3a72f81cd9d9607b04ca524eea6" />
+      <keyword name="_bBempty" id="Object3D::_bBempty" ref="classObject3D.html#a46cb707a35870d0e585ecb7674bb049c" />
+      <keyword name="extendBoundingBox" id="Object3D::extendBoundingBox" ref="classObject3D.html#a3b86fbd9b122140b1ed68461abb1e583" />
+    </keywords>
+    <files>
+      <file>tabs.css</file>
+      <file>tab_a.png</file>
+      <file>tab_b.png</file>
+      <file>tab_h.png</file>
+      <file>tab_s.png</file>
+      <file>nav_h.png</file>
+      <file>nav_f.png</file>
+      <file>bc_s.png</file>
+      <file>doxygen.png</file>
+      <file>closed.png</file>
+      <file>open.png</file>
+      <file>bdwn.png</file>
+      <file>sync_on.png</file>
+      <file>sync_off.png</file>
+      <file>doxygen.css</file>
+      <file>main_8cpp_source.html</file>
+      <file>my__main__window_8cpp_source.html</file>
+      <file>my__main__window_8h_source.html</file>
+      <file>my__object3d_8cpp_source.html</file>
+      <file>my__object3d_8h_source.html</file>
+      <file>my__qglviewer_8cpp_source.html</file>
+      <file>my__qglviewer_8h_source.html</file>
+      <file>my__scene_8cpp_source.html</file>
+      <file>my__scene_8h_source.html</file>
+      <file>cone_8cpp_source.html</file>
+      <file>cone_8h_source.html</file>
+      <file>cube_8cpp_source.html</file>
+      <file>cube_8h_source.html</file>
+      <file>cubecorner_8cpp_source.html</file>
+      <file>cubecorner_8h_source.html</file>
+      <file>cylinder_8cpp_source.html</file>
+      <file>cylinder_8h_source.html</file>
+      <file>disk_8cpp_source.html</file>
+      <file>disk_8h_source.html</file>
+      <file>diskhole_8cpp_source.html</file>
+      <file>diskhole_8h_source.html</file>
+      <file>pyramid_8cpp_source.html</file>
+      <file>pyramid_8h_source.html</file>
+      <file>sphere_8cpp_source.html</file>
+      <file>sphere_8h_source.html</file>
+      <file>triMesh_8cpp_source.html</file>
+      <file>triMesh_8h_source.html</file>
+      <file>main_8cpp.html</file>
+      <file>main_8cpp__incl.png</file>
+      <file>my__main__window_8cpp.html</file>
+      <file>my__main__window_8cpp__incl.png</file>
+      <file>my__main__window_8h.html</file>
+      <file>my__main__window_8h__incl.png</file>
+      <file>my__main__window_8h__dep__incl.png</file>
+      <file>my__object3d_8cpp.html</file>
+      <file>my__object3d_8cpp__incl.png</file>
+      <file>my__object3d_8cpp_ae84f28dc392fc50e897f2150281c6db5_cgraph.png</file>
+      <file>my__object3d_8h.html</file>
+      <file>my__object3d_8h__incl.png</file>
+      <file>my__object3d_8h__dep__incl.png</file>
+      <file>my__object3d_8h_ae84f28dc392fc50e897f2150281c6db5_cgraph.png</file>
+      <file>my__qglviewer_8cpp.html</file>
+      <file>my__qglviewer_8cpp__incl.png</file>
+      <file>my__qglviewer_8h.html</file>
+      <file>my__qglviewer_8h__incl.png</file>
+      <file>my__qglviewer_8h__dep__incl.png</file>
+      <file>my__scene_8cpp.html</file>
+      <file>my__scene_8cpp__incl.png</file>
+      <file>my__scene_8h.html</file>
+      <file>my__scene_8h__incl.png</file>
+      <file>my__scene_8h__dep__incl.png</file>
+      <file>cone_8cpp.html</file>
+      <file>cone_8cpp__incl.png</file>
+      <file>cone_8h.html</file>
+      <file>cone_8h__incl.png</file>
+      <file>cone_8h__dep__incl.png</file>
+      <file>cube_8cpp.html</file>
+      <file>cube_8cpp__incl.png</file>
+      <file>cube_8h.html</file>
+      <file>cube_8h__incl.png</file>
+      <file>cube_8h__dep__incl.png</file>
+      <file>cubecorner_8cpp.html</file>
+      <file>cubecorner_8cpp__incl.png</file>
+      <file>cubecorner_8h.html</file>
+      <file>cubecorner_8h__incl.png</file>
+      <file>cubecorner_8h__dep__incl.png</file>
+      <file>cylinder_8cpp.html</file>
+      <file>cylinder_8cpp__incl.png</file>
+      <file>cylinder_8h.html</file>
+      <file>cylinder_8h__incl.png</file>
+      <file>cylinder_8h__dep__incl.png</file>
+      <file>disk_8cpp.html</file>
+      <file>disk_8cpp__incl.png</file>
+      <file>disk_8h.html</file>
+      <file>disk_8h__incl.png</file>
+      <file>disk_8h__dep__incl.png</file>
+      <file>diskhole_8cpp.html</file>
+      <file>diskhole_8cpp__incl.png</file>
+      <file>diskhole_8h.html</file>
+      <file>diskhole_8h__incl.png</file>
+      <file>diskhole_8h__dep__incl.png</file>
+      <file>pyramid_8cpp.html</file>
+      <file>pyramid_8cpp__incl.png</file>
+      <file>pyramid_8h.html</file>
+      <file>pyramid_8h__incl.png</file>
+      <file>pyramid_8h__dep__incl.png</file>
+      <file>sphere_8cpp.html</file>
+      <file>sphere_8cpp__incl.png</file>
+      <file>sphere_8h.html</file>
+      <file>sphere_8h__incl.png</file>
+      <file>sphere_8h__dep__incl.png</file>
+      <file>triMesh_8cpp.html</file>
+      <file>triMesh_8cpp__incl.png</file>
+      <file>triMesh_8h.html</file>
+      <file>triMesh_8h__incl.png</file>
+      <file>triMesh_8h__dep__incl.png</file>
+      <file>classCone.html</file>
+      <file>classCone__inherit__graph.png</file>
+      <file>classCone__coll__graph.png</file>
+      <file>classCone_a6c402937b17b320a2a57ad0ff664f1dc_cgraph.png</file>
+      <file>classCone_af7d0a73eb5d2f5e4c0681cee99e80561_cgraph.png</file>
+      <file>classCone_ab800b2e9031b79265b11f8a2779bb6d2_cgraph.png</file>
+      <file>classCone_a06aa186d4f65c7bfefc48f2f7a56aca4_cgraph.png</file>
+      <file>classCone_a5f79646eb53435a4a52f3c9e38858cf4_cgraph.png</file>
+      <file>classCone_ac1eb2a36357b66d25cd40bf22d66c7be_cgraph.png</file>
+      <file>classCone-members.html</file>
+      <file>classCube.html</file>
+      <file>classCube__inherit__graph.png</file>
+      <file>classCube__coll__graph.png</file>
+      <file>classCube_a06f3d86fb63e3aad08623610aa3c17b4_cgraph.png</file>
+      <file>classCube-members.html</file>
+      <file>classCubeCorner.html</file>
+      <file>classCubeCorner__inherit__graph.png</file>
+      <file>classCubeCorner__coll__graph.png</file>
+      <file>classCubeCorner_a66a4ae599f5710baeec097abbcf9b494_cgraph.png</file>
+      <file>classCubeCorner-members.html</file>
+      <file>classCylinder.html</file>
+      <file>classCylinder__inherit__graph.png</file>
+      <file>classCylinder__coll__graph.png</file>
+      <file>classCylinder_a76d21abbae6081c79753575495f6ddbf_cgraph.png</file>
+      <file>classCylinder_ac5cf510b34bb508ac99448515f234941_cgraph.png</file>
+      <file>classCylinder_a8c17d6a2edbfd6cc38fc4d6f46cc5ffd_cgraph.png</file>
+      <file>classCylinder_a9cdaa4730d300debba65e6db04fb2ac1_cgraph.png</file>
+      <file>classCylinder_ab9f5ffdbf851d7c1d21d2e5467cc4853_cgraph.png</file>
+      <file>classCylinder-members.html</file>
+      <file>classDisk.html</file>
+      <file>classDisk__inherit__graph.png</file>
+      <file>classDisk__coll__graph.png</file>
+      <file>classDisk_a8afbe078e9500868e7ba675756ee8b24_cgraph.png</file>
+      <file>classDisk_a45d3c7c2d7fc682b5b13bec84e401f26_cgraph.png</file>
+      <file>classDisk_ad531e78dd9d9547edd93ec5af723c1a1_cgraph.png</file>
+      <file>classDisk-members.html</file>
+      <file>classDiskHole.html</file>
+      <file>classDiskHole__inherit__graph.png</file>
+      <file>classDiskHole__coll__graph.png</file>
+      <file>classDiskHole_a6e60e7638b60ca6ede03265e22da92cf_cgraph.png</file>
+      <file>classDiskHole_accc50705c92dceeccfd9084cbf89d22e_cgraph.png</file>
+      <file>classDiskHole_a03f0e346f201b302e8e386d5b36680e8_cgraph.png</file>
+      <file>classDiskHole-members.html</file>
+      <file>classMyMainWindow.html</file>
+      <file>classMyMainWindow__inherit__graph.png</file>
+      <file>classMyMainWindow__coll__graph.png</file>
+      <file>classMyMainWindow_a695339a56877e536d37c63ceb88088f9_cgraph.png</file>
+      <file>classMyMainWindow-members.html</file>
+      <file>classMyQGLViewer.html</file>
+      <file>classMyQGLViewer__inherit__graph.png</file>
+      <file>classMyQGLViewer__coll__graph.png</file>
+      <file>classMyQGLViewer-members.html</file>
+      <file>classMyScene.html</file>
+      <file>classMyScene__inherit__graph.png</file>
+      <file>classMyScene__coll__graph.png</file>
+      <file>classMyScene_a782e87414a79c87ff17778c2c6c6d183_cgraph.png</file>
+      <file>classMyScene_abfbf9297e676d8a5601040d62f8733cf_cgraph.png</file>
+      <file>classMyScene-members.html</file>
+      <file>classObject3D.html</file>
+      <file>classObject3D__inherit__graph.png</file>
+      <file>classObject3D_abe17f09bc38e52115b56cddba2d536b8_cgraph.png</file>
+      <file>classObject3D-members.html</file>
+      <file>classPyramid.html</file>
+      <file>classPyramid__inherit__graph.png</file>
+      <file>classPyramid__coll__graph.png</file>
+      <file>classPyramid_aa78baa6faa1c3fbcca510e8ddf37de49_cgraph.png</file>
+      <file>classPyramid-members.html</file>
+      <file>classSphere.html</file>
+      <file>classSphere__inherit__graph.png</file>
+      <file>classSphere__coll__graph.png</file>
+      <file>classSphere_a0f052b24f8fec4885a2a7ba8542062f2_cgraph.png</file>
+      <file>classSphere_ae711e17778007305a44ea51a9ad8c66c_cgraph.png</file>
+      <file>classSphere_a4e1827fcb4b00f9be9f8e6a24cff2213_cgraph.png</file>
+      <file>classSphere_a94ed99831def4365f499982dac39828c_cgraph.png</file>
+      <file>classSphere_ad2ed60a8436aff897ed7562e384799a4_cgraph.png</file>
+      <file>classSphere-members.html</file>
+      <file>classTriMesh.html</file>
+      <file>classTriMesh__inherit__graph.png</file>
+      <file>classTriMesh__coll__graph.png</file>
+      <file>classTriMesh_a2cc40e62813ae3737ea8498fdba9ab1f_cgraph.png</file>
+      <file>classTriMesh_ae0d2c0bdf6b91931ee86aa51c8bfc29d_cgraph.png</file>
+      <file>classTriMesh_a78f595a1296f700c87454c0923b157cf_cgraph.png</file>
+      <file>classTriMesh_af2cb6957cb485045567e17c3ffb932c0_cgraph.png</file>
+      <file>classTriMesh_a7a0ccea06db5bee5972cf601bd48510a_cgraph.png</file>
+      <file>classTriMesh_a2afd756d3720ffa295ad29bab3d3a77e_cgraph.png</file>
+      <file>classTriMesh_a361e706dd2186cf6801097177b144bb6_cgraph.png</file>
+      <file>classTriMesh_a1d6593d6800d384870c666f5754c3041_cgraph.png</file>
+      <file>classTriMesh-members.html</file>
+      <file>graph_legend.png</file>
+      <file>graph_legend.html</file>
+      <file>dir_645ec83fa4e243a732144956da80a200.html</file>
+      <file>index.html</file>
+      <file>annotated.html</file>
+      <file>classes.html</file>
+      <file>hierarchy.html</file>
+      <file>inherits.html</file>
+      <file>inherit_graph_0.png</file>
+      <file>inherit_graph_1.png</file>
+      <file>inherit_graph_2.png</file>
+      <file>inherit_graph_3.png</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_vars.html</file>
+      <file>functions_vars.html</file>
+      <file>functions_enum.html</file>
+      <file>functions_eval.html</file>
+      <file>functions_eval.html</file>
+      <file>functions_eval.html</file>
+      <file>functions_rela.html</file>
+      <file>files.html</file>
+      <file>globals.html</file>
+      <file>globals.html</file>
+      <file>globals.html</file>
+      <file>globals.html</file>
+      <file>globals.html</file>
+      <file>globals.html</file>
+      <file>globals.html</file>
+      <file>globals_func.html</file>
+      <file>globals_func.html</file>
+      <file>globals_func.html</file>
+      <file>globals_type.html</file>
+      <file>globals_type.html</file>
+      <file>globals_type.html</file>
+      <file>globals_defs.html</file>
+    </files>
+  </filterSection>
+</QtHelpProject>

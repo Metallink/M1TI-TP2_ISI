@@ -35,7 +35,7 @@ void Cone::traceTrianglesMilieu() {
     for(int niveau = 0; niveau<(m_niveau-1); niveau++){
 
         for (int i = 0; i<m_inc; i++) {
-
+            // voir schema pour explication
             point1Bas = i%m_inc+m_inc*niveau+1;
             point2Bas = i%m_inc+m_inc*(niveau+1)+1;
             pointHaut = (i+1)%m_inc+m_inc*niveau+1;

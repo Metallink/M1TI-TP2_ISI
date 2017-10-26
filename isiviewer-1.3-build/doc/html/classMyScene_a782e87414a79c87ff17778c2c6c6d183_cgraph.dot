@@ -1,0 +1,31 @@
+digraph "MyScene::radiusIncr"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="MyScene::radiusIncr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="MyScene::addObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMyScene.html#ac831be74049ad54603badd0fef4d3b71"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="MyScene::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMyScene.html#a11c35160110cfedb595e405077564bd7"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="MyScene::init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMyScene.html#ab4f8f47610059e0eaaf07601a8225691"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="MyScene::keyPressEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMyScene.html#a9ba290c04395ddb516325e2c23bbac7d"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="MyScene::radius",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMyScene.html#aeedf698dbf5c3cf8f7c4cbc22036a57e"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="MyScene::slotSetCurrentObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMyScene.html#a51fe7bb581b5ace63cea7fd6dec49ada"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="MyScene::slotSetDisplayMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMyScene.html#abe49f17d3e74e03a8df2bf66841cdd0f"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="MyScene::slotSetDisplayNormals",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMyScene.html#ad422ee6a76dca6ad7d1bac7da9d42fe3"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="MyScene::slotSetFlipNormals",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMyScene.html#ac9f701c50f43ff1e5c09b811b8d649c1"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="MyScene::slotSetRadius",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMyScene.html#ac1e81aa30f27b71638b774d9723d7e7a"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="MyScene::slotSetSmooth",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMyScene.html#a743ac1b6720dff62a660b36458be618a"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="MyScene::slotSetWireframe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMyScene.html#ace3a90ce717fcdf20d1c6bc97255fb80"];
+}
