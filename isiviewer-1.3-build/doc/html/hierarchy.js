@@ -8,8 +8,11 @@ var hierarchy =
         [ "Cylinder", "classCylinder.html", null ],
         [ "Disk", "classDisk.html", null ],
         [ "DiskHole", "classDiskHole.html", null ],
+        [ "Func_surface", "classFunc__surface.html", null ],
+        [ "off_loader", "classoff__loader.html", null ],
         [ "Pyramid", "classPyramid.html", null ],
-        [ "Sphere", "classSphere.html", null ]
+        [ "Sphere", "classSphere.html", null ],
+        [ "Torus", "classTorus.html", null ]
       ] ]
     ] ],
     [ "QGLViewer", null, [

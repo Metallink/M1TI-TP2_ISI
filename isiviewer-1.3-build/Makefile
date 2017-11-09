@@ -531,6 +531,60 @@ objects/diskhole.cpp.s:
 	$(MAKE) -f CMakeFiles/isiviewer.dir/build.make CMakeFiles/isiviewer.dir/objects/diskhole.cpp.s
 .PHONY : objects/diskhole.cpp.s
 
+objects/func_surface.o: objects/func_surface.cpp.o
+
+.PHONY : objects/func_surface.o
+
+# target to build an object file
+objects/func_surface.cpp.o:
+	$(MAKE) -f CMakeFiles/isiviewer.dir/build.make CMakeFiles/isiviewer.dir/objects/func_surface.cpp.o
+.PHONY : objects/func_surface.cpp.o
+
+objects/func_surface.i: objects/func_surface.cpp.i
+
+.PHONY : objects/func_surface.i
+
+# target to preprocess a source file
+objects/func_surface.cpp.i:
+	$(MAKE) -f CMakeFiles/isiviewer.dir/build.make CMakeFiles/isiviewer.dir/objects/func_surface.cpp.i
+.PHONY : objects/func_surface.cpp.i
+
+objects/func_surface.s: objects/func_surface.cpp.s
+
+.PHONY : objects/func_surface.s
+
+# target to generate assembly for a file
+objects/func_surface.cpp.s:
+	$(MAKE) -f CMakeFiles/isiviewer.dir/build.make CMakeFiles/isiviewer.dir/objects/func_surface.cpp.s
+.PHONY : objects/func_surface.cpp.s
+
+objects/off_loader.o: objects/off_loader.cpp.o
+
+.PHONY : objects/off_loader.o
+
+# target to build an object file
+objects/off_loader.cpp.o:
+	$(MAKE) -f CMakeFiles/isiviewer.dir/build.make CMakeFiles/isiviewer.dir/objects/off_loader.cpp.o
+.PHONY : objects/off_loader.cpp.o
+
+objects/off_loader.i: objects/off_loader.cpp.i
+
+.PHONY : objects/off_loader.i
+
+# target to preprocess a source file
+objects/off_loader.cpp.i:
+	$(MAKE) -f CMakeFiles/isiviewer.dir/build.make CMakeFiles/isiviewer.dir/objects/off_loader.cpp.i
+.PHONY : objects/off_loader.cpp.i
+
+objects/off_loader.s: objects/off_loader.cpp.s
+
+.PHONY : objects/off_loader.s
+
+# target to generate assembly for a file
+objects/off_loader.cpp.s:
+	$(MAKE) -f CMakeFiles/isiviewer.dir/build.make CMakeFiles/isiviewer.dir/objects/off_loader.cpp.s
+.PHONY : objects/off_loader.cpp.s
+
 objects/pyramid.o: objects/pyramid.cpp.o
 
 .PHONY : objects/pyramid.o
@@ -584,6 +638,33 @@ objects/sphere.s: objects/sphere.cpp.s
 objects/sphere.cpp.s:
 	$(MAKE) -f CMakeFiles/isiviewer.dir/build.make CMakeFiles/isiviewer.dir/objects/sphere.cpp.s
 .PHONY : objects/sphere.cpp.s
+
+objects/torus.o: objects/torus.cpp.o
+
+.PHONY : objects/torus.o
+
+# target to build an object file
+objects/torus.cpp.o:
+	$(MAKE) -f CMakeFiles/isiviewer.dir/build.make CMakeFiles/isiviewer.dir/objects/torus.cpp.o
+.PHONY : objects/torus.cpp.o
+
+objects/torus.i: objects/torus.cpp.i
+
+.PHONY : objects/torus.i
+
+# target to preprocess a source file
+objects/torus.cpp.i:
+	$(MAKE) -f CMakeFiles/isiviewer.dir/build.make CMakeFiles/isiviewer.dir/objects/torus.cpp.i
+.PHONY : objects/torus.cpp.i
+
+objects/torus.s: objects/torus.cpp.s
+
+.PHONY : objects/torus.s
+
+# target to generate assembly for a file
+objects/torus.cpp.s:
+	$(MAKE) -f CMakeFiles/isiviewer.dir/build.make CMakeFiles/isiviewer.dir/objects/torus.cpp.s
+.PHONY : objects/torus.cpp.s
 
 objects/triMesh.o: objects/triMesh.cpp.o
 
@@ -665,12 +746,21 @@ help:
 	@echo "... objects/diskhole.o"
 	@echo "... objects/diskhole.i"
 	@echo "... objects/diskhole.s"
+	@echo "... objects/func_surface.o"
+	@echo "... objects/func_surface.i"
+	@echo "... objects/func_surface.s"
+	@echo "... objects/off_loader.o"
+	@echo "... objects/off_loader.i"
+	@echo "... objects/off_loader.s"
 	@echo "... objects/pyramid.o"
 	@echo "... objects/pyramid.i"
 	@echo "... objects/pyramid.s"
 	@echo "... objects/sphere.o"
 	@echo "... objects/sphere.i"
 	@echo "... objects/sphere.s"
+	@echo "... objects/torus.o"
+	@echo "... objects/torus.i"
+	@echo "... objects/torus.s"
 	@echo "... objects/triMesh.o"
 	@echo "... objects/triMesh.i"
 	@echo "... objects/triMesh.s"

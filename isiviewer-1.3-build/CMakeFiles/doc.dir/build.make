@@ -73,6 +73,9 @@ html/index.html: /home/shinji/Bureau/ISI/TP2/isiviewer-1.3/objects/diskhole.cpp
 html/index.html: /home/shinji/Bureau/ISI/TP2/isiviewer-1.3/objects/cylinder.cpp
 html/index.html: /home/shinji/Bureau/ISI/TP2/isiviewer-1.3/objects/cone.cpp
 html/index.html: /home/shinji/Bureau/ISI/TP2/isiviewer-1.3/objects/sphere.cpp
+html/index.html: /home/shinji/Bureau/ISI/TP2/isiviewer-1.3/objects/torus.cpp
+html/index.html: /home/shinji/Bureau/ISI/TP2/isiviewer-1.3/objects/func_surface.cpp
+html/index.html: /home/shinji/Bureau/ISI/TP2/isiviewer-1.3/objects/off_loader.cpp
 html/index.html: /home/shinji/Bureau/ISI/TP2/isiviewer-1.3/Doxyfile.in
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/shinji/Bureau/ISI/TP2/isiviewer-1.3-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating HTML documentation"
 	/usr/bin/doxygen /home/shinji/Bureau/ISI/TP2/isiviewer-1.3-build/Doxyfile

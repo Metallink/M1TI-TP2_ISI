@@ -92,4 +92,25 @@ digraph "main.cpp"
   Node39 [label="objects/sphere.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sphere_8h.html"];
   Node39 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node39 -> Node35 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node40 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node40 [label="objects/torus.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$torus_8h.html"];
+  Node40 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node40 -> Node35 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node41 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node41 [label="objects/func_surface.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$func__surface_8h.html"];
+  Node41 -> Node35 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node41 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node42 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node42 [label="objects/off_loader.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$off__loader_8h.html"];
+  Node42 -> Node25 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node42 -> Node43 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node43 [label="ctime",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node42 -> Node44 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node44 [label="fstream",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node42 -> Node45 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node45 [label="string.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node42 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node42 -> Node35 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node46 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node46 [label="tclap/CmdLine.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
 }

@@ -45,5 +45,20 @@ digraph "objects/triMesh.h"
   Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node18 [label="objects/sphere.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sphere_8cpp.html"];
   Node1 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node19 [label="objects/triMesh.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$triMesh_8cpp.html"];
+  Node19 [label="objects/torus.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$torus_8h.html"];
+  Node19 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="objects/torus.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$torus_8cpp.html"];
+  Node1 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="objects/func_surface.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$func__surface_8h.html"];
+  Node21 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="objects/func_surface.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$func__surface_8cpp.html"];
+  Node1 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="objects/off_loader.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$off__loader_8h.html"];
+  Node23 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="objects/off_loader.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$off__loader_8cpp.html"];
+  Node1 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="objects/triMesh.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$triMesh_8cpp.html"];
 }

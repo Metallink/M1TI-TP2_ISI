@@ -25,6 +25,9 @@
 #include "objects/torus.h"
 #include "objects/func_surface.h"
 #include "objects/off_loader.h"
+#include <tclap/CmdLine.h>
+
+using namespace std;
 
 /**
 * Program usage
@@ -43,34 +46,66 @@ int main(int argc, char *argv[]){
     // Parse program arguments here
     // with the tclap library
     // http://tclap.sourceforge.net/manual.html
-    //
+    // if (cmd == yolo)
 
-    // initialize my custom 3D scene
-    float objectRadius = 1.;
-    QPointer<MyScene> myScene = new MyScene(objectRadius);
 
-    //add simple objects
-    myScene->addObject(new Cube());
-    myScene->addObject(new Pyramid());
-    myScene->addObject(new CubeCorner());
-    myScene->addObject(new Disk(20));
-    myScene->addObject(new DiskHole(1.f,20));
-    myScene->addObject(new Cylinder(20));
-    myScene->addObject(new Cone(20));
-    myScene->addObject(new Sphere(20));
-    myScene->addObject(new Torus(50));
+    try {
 
-    // add surface functions
-    myScene->addObject(new Func_surface(50, 50, -M_PI, M_PI, -M_PI, M_PI, func_expcos)); //avec pointeur vers func_expcos
-    myScene->addObject(new Func_surface(50, 50, -M_PI, M_PI, -M_PI, M_PI, autre_func_math));
-    // add user defined OFF files
-    myScene->addObject(new off_loader());
+        TCLAP::CmdLine cmd("Command description message", ' ', "0.9");
+        TCLAP::ValueArg<std::string> nomFichierArg("","off","chargement des fichiers OFF",true,"data/fichier.off","string");
+        TCLAP::MultiArg<std::string> nomFichierArgMulti("", "", "chargement de multiples fichiers OFF", false,"string");
 
-    // initialize my custom main window
-    QPointer<MyMainWindow> myMainWindow = new MyMainWindow(myScene);
-    // display the window
-    myMainWindow->show();
-    // enter in the main loop
-    return app.exec();
+        cmd.add(nomFichierArg);
+        cmd.add(nomFichierArgMulti);
+        cmd.parse(argc, argv);
+
+        // initialize my custom 3D scene
+        float objectRadius = 1.;
+        QPointer<MyScene> myScene = new MyScene(objectRadius);
+
+        //add simple objects
+        myScene->addObject(new Cube());
+        myScene->addObject(new Pyramid());
+        myScene->addObject(new CubeCorner());
+        myScene->addObject(new Disk(20));
+        myScene->addObject(new DiskHole(1.f,20));
+        myScene->addObject(new Cylinder(20));
+        myScene->addObject(new Cone(20));
+        myScene->addObject(new Sphere(20));
+        myScene->addObject(new Torus(50));
+
+        // add surface functions
+        myScene->addObject(new Func_surface(50, 50, -M_PI, M_PI, -M_PI, M_PI, func_expcos)); //avec pointeur vers func_expcos
+        myScene->addObject(new Func_surface(50, 50, -M_PI, M_PI, -M_PI, M_PI, autre_func_math));
+
+        // add user defined OFF files
+        string nomFichier;
+        vector<string> nomFichierBuff = nomFichierArgMulti.getValue();
+        vector<string>tabNomFichier;
+
+       tabNomFichier.push_back(nomFichierArg.getValue());
+        for (int i=0; i<nomFichierBuff.size(); i++) {
+
+            tabNomFichier.push_back(nomFichierBuff[i]);
+        }
+
+        for(int i=0; i<tabNomFichier.size(); i++) {
+
+            nomFichier = tabNomFichier[i];
+            myScene->addObject(new off_loader(nomFichier));
+        }
+        //myScene->addObject(new off_loader("data/aircraft.off"));
+
+        // initialize my custom main window
+        QPointer<MyMainWindow> myMainWindow = new MyMainWindow(myScene);
+        // display the window
+        myMainWindow->show();
+        // enter in the main loop
+        return app.exec();
+
+    } catch(TCLAP::ArgException &e) {
+        std::cerr << "error: " << e.error() << " for arg " << e.argId() << std::endl;
+    }
 }
+
 

@@ -455,6 +455,78 @@ CMakeFiles/isiviewer.dir/objects/sphere.cpp.o.provides: CMakeFiles/isiviewer.dir
 CMakeFiles/isiviewer.dir/objects/sphere.cpp.o.provides.build: CMakeFiles/isiviewer.dir/objects/sphere.cpp.o
 
 
+CMakeFiles/isiviewer.dir/objects/torus.cpp.o: CMakeFiles/isiviewer.dir/flags.make
+CMakeFiles/isiviewer.dir/objects/torus.cpp.o: /home/shinji/Bureau/ISI/TP2/isiviewer-1.3/objects/torus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shinji/Bureau/ISI/TP2/isiviewer-1.3-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/isiviewer.dir/objects/torus.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isiviewer.dir/objects/torus.cpp.o -c /home/shinji/Bureau/ISI/TP2/isiviewer-1.3/objects/torus.cpp
+
+CMakeFiles/isiviewer.dir/objects/torus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isiviewer.dir/objects/torus.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shinji/Bureau/ISI/TP2/isiviewer-1.3/objects/torus.cpp > CMakeFiles/isiviewer.dir/objects/torus.cpp.i
+
+CMakeFiles/isiviewer.dir/objects/torus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isiviewer.dir/objects/torus.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shinji/Bureau/ISI/TP2/isiviewer-1.3/objects/torus.cpp -o CMakeFiles/isiviewer.dir/objects/torus.cpp.s
+
+CMakeFiles/isiviewer.dir/objects/torus.cpp.o.requires:
+
+.PHONY : CMakeFiles/isiviewer.dir/objects/torus.cpp.o.requires
+
+CMakeFiles/isiviewer.dir/objects/torus.cpp.o.provides: CMakeFiles/isiviewer.dir/objects/torus.cpp.o.requires
+	$(MAKE) -f CMakeFiles/isiviewer.dir/build.make CMakeFiles/isiviewer.dir/objects/torus.cpp.o.provides.build
+.PHONY : CMakeFiles/isiviewer.dir/objects/torus.cpp.o.provides
+
+CMakeFiles/isiviewer.dir/objects/torus.cpp.o.provides.build: CMakeFiles/isiviewer.dir/objects/torus.cpp.o
+
+
+CMakeFiles/isiviewer.dir/objects/func_surface.cpp.o: CMakeFiles/isiviewer.dir/flags.make
+CMakeFiles/isiviewer.dir/objects/func_surface.cpp.o: /home/shinji/Bureau/ISI/TP2/isiviewer-1.3/objects/func_surface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shinji/Bureau/ISI/TP2/isiviewer-1.3-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/isiviewer.dir/objects/func_surface.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isiviewer.dir/objects/func_surface.cpp.o -c /home/shinji/Bureau/ISI/TP2/isiviewer-1.3/objects/func_surface.cpp
+
+CMakeFiles/isiviewer.dir/objects/func_surface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isiviewer.dir/objects/func_surface.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shinji/Bureau/ISI/TP2/isiviewer-1.3/objects/func_surface.cpp > CMakeFiles/isiviewer.dir/objects/func_surface.cpp.i
+
+CMakeFiles/isiviewer.dir/objects/func_surface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isiviewer.dir/objects/func_surface.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shinji/Bureau/ISI/TP2/isiviewer-1.3/objects/func_surface.cpp -o CMakeFiles/isiviewer.dir/objects/func_surface.cpp.s
+
+CMakeFiles/isiviewer.dir/objects/func_surface.cpp.o.requires:
+
+.PHONY : CMakeFiles/isiviewer.dir/objects/func_surface.cpp.o.requires
+
+CMakeFiles/isiviewer.dir/objects/func_surface.cpp.o.provides: CMakeFiles/isiviewer.dir/objects/func_surface.cpp.o.requires
+	$(MAKE) -f CMakeFiles/isiviewer.dir/build.make CMakeFiles/isiviewer.dir/objects/func_surface.cpp.o.provides.build
+.PHONY : CMakeFiles/isiviewer.dir/objects/func_surface.cpp.o.provides
+
+CMakeFiles/isiviewer.dir/objects/func_surface.cpp.o.provides.build: CMakeFiles/isiviewer.dir/objects/func_surface.cpp.o
+
+
+CMakeFiles/isiviewer.dir/objects/off_loader.cpp.o: CMakeFiles/isiviewer.dir/flags.make
+CMakeFiles/isiviewer.dir/objects/off_loader.cpp.o: /home/shinji/Bureau/ISI/TP2/isiviewer-1.3/objects/off_loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shinji/Bureau/ISI/TP2/isiviewer-1.3-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/isiviewer.dir/objects/off_loader.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isiviewer.dir/objects/off_loader.cpp.o -c /home/shinji/Bureau/ISI/TP2/isiviewer-1.3/objects/off_loader.cpp
+
+CMakeFiles/isiviewer.dir/objects/off_loader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isiviewer.dir/objects/off_loader.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shinji/Bureau/ISI/TP2/isiviewer-1.3/objects/off_loader.cpp > CMakeFiles/isiviewer.dir/objects/off_loader.cpp.i
+
+CMakeFiles/isiviewer.dir/objects/off_loader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isiviewer.dir/objects/off_loader.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shinji/Bureau/ISI/TP2/isiviewer-1.3/objects/off_loader.cpp -o CMakeFiles/isiviewer.dir/objects/off_loader.cpp.s
+
+CMakeFiles/isiviewer.dir/objects/off_loader.cpp.o.requires:
+
+.PHONY : CMakeFiles/isiviewer.dir/objects/off_loader.cpp.o.requires
+
+CMakeFiles/isiviewer.dir/objects/off_loader.cpp.o.provides: CMakeFiles/isiviewer.dir/objects/off_loader.cpp.o.requires
+	$(MAKE) -f CMakeFiles/isiviewer.dir/build.make CMakeFiles/isiviewer.dir/objects/off_loader.cpp.o.provides.build
+.PHONY : CMakeFiles/isiviewer.dir/objects/off_loader.cpp.o.provides
+
+CMakeFiles/isiviewer.dir/objects/off_loader.cpp.o.provides.build: CMakeFiles/isiviewer.dir/objects/off_loader.cpp.o
+
+
 # Object files for target isiviewer
 isiviewer_OBJECTS = \
 "CMakeFiles/isiviewer.dir/moc_my_main_window.cxx.o" \
@@ -472,7 +544,10 @@ isiviewer_OBJECTS = \
 "CMakeFiles/isiviewer.dir/objects/diskhole.cpp.o" \
 "CMakeFiles/isiviewer.dir/objects/cylinder.cpp.o" \
 "CMakeFiles/isiviewer.dir/objects/cone.cpp.o" \
-"CMakeFiles/isiviewer.dir/objects/sphere.cpp.o"
+"CMakeFiles/isiviewer.dir/objects/sphere.cpp.o" \
+"CMakeFiles/isiviewer.dir/objects/torus.cpp.o" \
+"CMakeFiles/isiviewer.dir/objects/func_surface.cpp.o" \
+"CMakeFiles/isiviewer.dir/objects/off_loader.cpp.o"
 
 # External object files for target isiviewer
 isiviewer_EXTERNAL_OBJECTS =
@@ -493,6 +568,9 @@ isiviewer: CMakeFiles/isiviewer.dir/objects/diskhole.cpp.o
 isiviewer: CMakeFiles/isiviewer.dir/objects/cylinder.cpp.o
 isiviewer: CMakeFiles/isiviewer.dir/objects/cone.cpp.o
 isiviewer: CMakeFiles/isiviewer.dir/objects/sphere.cpp.o
+isiviewer: CMakeFiles/isiviewer.dir/objects/torus.cpp.o
+isiviewer: CMakeFiles/isiviewer.dir/objects/func_surface.cpp.o
+isiviewer: CMakeFiles/isiviewer.dir/objects/off_loader.cpp.o
 isiviewer: CMakeFiles/isiviewer.dir/build.make
 isiviewer: /usr/lib/x86_64-linux-gnu/libQtOpenGL.so
 isiviewer: /usr/lib/x86_64-linux-gnu/libQtGui.so
@@ -501,7 +579,7 @@ isiviewer: /usr/lib/x86_64-linux-gnu/libQtCore.so
 isiviewer: /usr/lib/x86_64-linux-gnu/libGLU.so
 isiviewer: /usr/lib/x86_64-linux-gnu/libGL.so
 isiviewer: CMakeFiles/isiviewer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shinji/Bureau/ISI/TP2/isiviewer-1.3-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable isiviewer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shinji/Bureau/ISI/TP2/isiviewer-1.3-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable isiviewer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/isiviewer.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/cmake -E create_symlink /home/shinji/Bureau/ISI/TP2/isiviewer-1.3/data /home/shinji/Bureau/ISI/TP2/isiviewer-1.3-build/data
 
@@ -526,6 +604,9 @@ CMakeFiles/isiviewer.dir/requires: CMakeFiles/isiviewer.dir/objects/diskhole.cpp
 CMakeFiles/isiviewer.dir/requires: CMakeFiles/isiviewer.dir/objects/cylinder.cpp.o.requires
 CMakeFiles/isiviewer.dir/requires: CMakeFiles/isiviewer.dir/objects/cone.cpp.o.requires
 CMakeFiles/isiviewer.dir/requires: CMakeFiles/isiviewer.dir/objects/sphere.cpp.o.requires
+CMakeFiles/isiviewer.dir/requires: CMakeFiles/isiviewer.dir/objects/torus.cpp.o.requires
+CMakeFiles/isiviewer.dir/requires: CMakeFiles/isiviewer.dir/objects/func_surface.cpp.o.requires
+CMakeFiles/isiviewer.dir/requires: CMakeFiles/isiviewer.dir/objects/off_loader.cpp.o.requires
 
 .PHONY : CMakeFiles/isiviewer.dir/requires
 

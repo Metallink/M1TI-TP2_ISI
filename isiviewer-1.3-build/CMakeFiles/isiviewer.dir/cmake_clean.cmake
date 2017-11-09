@@ -18,6 +18,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/isiviewer.dir/objects/cylinder.cpp.o"
   "CMakeFiles/isiviewer.dir/objects/cone.cpp.o"
   "CMakeFiles/isiviewer.dir/objects/sphere.cpp.o"
+  "CMakeFiles/isiviewer.dir/objects/torus.cpp.o"
+  "CMakeFiles/isiviewer.dir/objects/func_surface.cpp.o"
+  "CMakeFiles/isiviewer.dir/objects/off_loader.cpp.o"
   "isiviewer.pdb"
   "isiviewer"
 )

@@ -17,8 +17,11 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/shinji/Bureau/ISI/TP2/isiviewer-1.3/objects/cylinder.cpp" "/home/shinji/Bureau/ISI/TP2/isiviewer-1.3-build/CMakeFiles/isiviewer.dir/objects/cylinder.cpp.o"
   "/home/shinji/Bureau/ISI/TP2/isiviewer-1.3/objects/disk.cpp" "/home/shinji/Bureau/ISI/TP2/isiviewer-1.3-build/CMakeFiles/isiviewer.dir/objects/disk.cpp.o"
   "/home/shinji/Bureau/ISI/TP2/isiviewer-1.3/objects/diskhole.cpp" "/home/shinji/Bureau/ISI/TP2/isiviewer-1.3-build/CMakeFiles/isiviewer.dir/objects/diskhole.cpp.o"
+  "/home/shinji/Bureau/ISI/TP2/isiviewer-1.3/objects/func_surface.cpp" "/home/shinji/Bureau/ISI/TP2/isiviewer-1.3-build/CMakeFiles/isiviewer.dir/objects/func_surface.cpp.o"
+  "/home/shinji/Bureau/ISI/TP2/isiviewer-1.3/objects/off_loader.cpp" "/home/shinji/Bureau/ISI/TP2/isiviewer-1.3-build/CMakeFiles/isiviewer.dir/objects/off_loader.cpp.o"
   "/home/shinji/Bureau/ISI/TP2/isiviewer-1.3/objects/pyramid.cpp" "/home/shinji/Bureau/ISI/TP2/isiviewer-1.3-build/CMakeFiles/isiviewer.dir/objects/pyramid.cpp.o"
   "/home/shinji/Bureau/ISI/TP2/isiviewer-1.3/objects/sphere.cpp" "/home/shinji/Bureau/ISI/TP2/isiviewer-1.3-build/CMakeFiles/isiviewer.dir/objects/sphere.cpp.o"
+  "/home/shinji/Bureau/ISI/TP2/isiviewer-1.3/objects/torus.cpp" "/home/shinji/Bureau/ISI/TP2/isiviewer-1.3-build/CMakeFiles/isiviewer.dir/objects/torus.cpp.o"
   "/home/shinji/Bureau/ISI/TP2/isiviewer-1.3/objects/triMesh.cpp" "/home/shinji/Bureau/ISI/TP2/isiviewer-1.3-build/CMakeFiles/isiviewer.dir/objects/triMesh.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
