@@ -44,8 +44,8 @@ DiskHole::DiskHole (float rayon, int inc) {
     // on ajoute l'origine des cercles en (0,0,0)
     addVertex(m_x,m_y,m_z);
 
-    // la valeur de résolution doit être d'au minimum 4 et au plus inc
-    m_inc = inc < 4 ? 4 : inc;
+    // la valeur de résolution doit être d'au minimum 20 et au plus inc
+    m_inc = inc < 20 ? 20 : inc;
 
     /* ===== construction du premier disque, le plus petit ====== */
 

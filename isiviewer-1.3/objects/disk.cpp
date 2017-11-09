@@ -34,8 +34,8 @@ Disk::Disk (int inc) {
     m_z = 0.f;
     m_rayon = 1.f;
 
-    // la valeur de résolution doit être d'au minimum 4 et au plus inc
-    m_inc = inc < 4 ? 4 : inc;
+    // la valeur de résolution doit être d'au minimum 20 et au plus inc
+    m_inc = inc < 20 ? 20 : inc;
 
     m_angle = ((2*M_PI)/m_inc);
 

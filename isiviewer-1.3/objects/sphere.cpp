@@ -83,8 +83,8 @@ Sphere::Sphere (int inc) {
     m_z = 1.f;
     m_rayon = 1.f;
 
-    // la valeur de résolution doit être d'au minimum 4 et au plus inc
-    m_inc = inc < 4 ? 4 : inc;
+    // la valeur de résolution doit être d'au minimum 20 et au plus inc
+    m_inc = inc < 20 ? 20 : inc;
 
     // pour la sphere nous avons besoin de 2 angles theta et phi qui varient respecivement entre -2pi/2pi et -pi/pi
     m_angle_theta = ((2*M_PI)/m_inc);

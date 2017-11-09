@@ -73,8 +73,8 @@ Cone::Cone (int inc) {
     m_y = 0.f;
     m_z = 1.f;
     m_rayon = 0.25f;
-    // la valeur de résolution doit être d'au minimum 4 et au plus inc
-    m_inc = inc < 4 ? 4 : inc;
+    // la valeur de résolution doit être d'au minimum 20 et au plus inc
+    m_inc = inc < 20 ? 20 : inc;
     // je considere qu'il y a 4 "niveaux" dans ce polygone
     m_niveau = 4;
     m_angle = ((2*M_PI)/m_inc);
