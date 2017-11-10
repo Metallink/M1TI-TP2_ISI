@@ -23,5 +23,8 @@ var hierarchy =
     ] ],
     [ "QObject", null, [
       [ "MyScene", "classMyScene.html", null ]
+    ] ],
+    [ "StdOutput", null, [
+      [ "MyOutput", "classMyOutput.html", null ]
     ] ]
 ];

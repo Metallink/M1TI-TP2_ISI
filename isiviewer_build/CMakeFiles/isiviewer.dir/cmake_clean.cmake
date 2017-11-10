@@ -1,4 +1,4 @@
-file(REMOVE_RECURSE
+FILE(REMOVE_RECURSE
   "ui_my_gui_form.h"
   "moc_my_main_window.cxx"
   "moc_my_scene.cxx"
@@ -26,6 +26,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
-  include(CMakeFiles/isiviewer.dir/cmake_clean_${lang}.cmake OPTIONAL)
-endforeach()
+FOREACH(lang CXX)
+  INCLUDE(CMakeFiles/isiviewer.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

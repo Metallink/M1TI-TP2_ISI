@@ -118,7 +118,6 @@ void TriMesh::computeNormalsV(float angle_threshold){
              addNormalV(n);
          }
      }
-
 }
 
 double TriMesh::normalize(){

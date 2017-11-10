@@ -31,19 +31,19 @@ Func_surface::Func_surface(int nbx, int nby, float minx, float maxx, float miny,
     m_miny = miny;
     m_maxy = maxy;
 
-    float tailleTriangle = 2*M_PI/50;
+    float unCarre = 2*M_PI/50;//un carrée de mon quadrillage
 
 
-    for(float i=m_minx; i<m_maxx;i+=tailleTriangle) {
+    for(float i=m_minx; i<m_maxx; i+=unCarre) { //on parcourt le quadrillage de longueur 2PI et de largeur 2PI pour créer les sommets
 
-        for(float j=m_miny; j<m_maxy;j+=tailleTriangle) {
+        for(float j=m_miny; j<m_maxy; j+=unCarre) {
 
             float pointZ = pointeur(i, j);
             this->addVertex(i/m_maxx,j/m_maxy,pointZ);
         }
     }
 
-    for (int m = 0; m<49; m++) {
+    for (int m = 0; m<49; m++) { //création des carrées qui composent mon quadrillage en faisant les carrées grâce à deux triangles chacun
 
         for (int n = 0; n<49; n++) {
 

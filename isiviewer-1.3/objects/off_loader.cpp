@@ -5,14 +5,12 @@ using namespace std;
 off_loader::off_loader(std::string cheminAcces) {
 
     _name="Off_loader";
-    int i=0, j=0;
 
+    int i=0, j=0;
 
     char recupCoordxVt[20];
     char recupCoordyVt[20];
     char recupCoordzVt[20];
-
-
 
     std::string identifiantOFF;
     long double CoordxVt;
@@ -32,7 +30,7 @@ off_loader::off_loader(std::string cheminAcces) {
 
 
     if (myfile.is_open()) {
-        if (myfile) {
+        if (myfile) { //on parcourt le fichier pour récupérer la valeur de la vertex la plus élevée
 
             myfile>>identifiantOFF;
             if((identifiantOFF.compare("OFF"))==0) { // on vérifie que que la 1ere ligne contienne OFF
@@ -116,7 +114,7 @@ off_loader::off_loader(std::string cheminAcces) {
     CoordyVt=0;
     CoordzVt=0;
 
-    if (myfile2.is_open()) {
+    if (myfile2.is_open()) { //On reparcourt le même fichier pour créer les vertexs et les triangles
         if (myfile2) {
 
             myfile2>>identifiantOFF;
@@ -134,7 +132,7 @@ off_loader::off_loader(std::string cheminAcces) {
 
 
 
-                    for(int k=0;k<20;k++) {
+                    for(int k=0;k<20;k++) { //on réinitialise les variables de type char
 
                         if(recupCoordxVt[k]=='.') {
                             recupCoordxVt[k]=',';
@@ -175,6 +173,14 @@ off_loader::off_loader(std::string cheminAcces) {
 
                 for(int ii=0;ii<nbFaces;ii++) {
                     myfile2>>pointInutile>>premierPointTriangle>>deuxiemePointTriangle>>troisiemePointTriangle;
+
+                    if (pointInutile > 3) {
+
+                        cout << "Vous avez chargé un fichier OFF de polygones à plus de 3 sommets" << endl;
+                        myfile.close();
+                        exit(1);
+
+                    }
 
                     this->addTriangle(premierPointTriangle,deuxiemePointTriangle,troisiemePointTriangle);
                 }

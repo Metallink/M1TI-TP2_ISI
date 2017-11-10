@@ -90,14 +90,14 @@ int main(int argc, char *argv[]){
         myScene->addObject(new Func_surface(50, 50, -M_PI, M_PI, -M_PI, M_PI, func_expcos)); //avec pointeur vers func_expcos
         myScene->addObject(new Func_surface(50, 50, -M_PI, M_PI, -M_PI, M_PI, autre_func_math));
 
-        if(argc!=1)
-        {
+        if(argc!=1) { // si on précise en argument un nom de fichier OFF
+
             // add user defined OFF files
             string nomFichier;
             vector<string> nomFichierBuff = nomFichierArgMulti.getValue();
             vector<string>tabNomFichier;
 
-           tabNomFichier.push_back(nomFichierArg.getValue());
+           tabNomFichier.push_back(nomFichierArg.getValue()); // on récupére dans un tableau tous les noms de fichier OFF passé en ligne de commande
 
             for (int i=0; i<nomFichierBuff.size(); i++) {
 

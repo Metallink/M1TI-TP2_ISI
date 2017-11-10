@@ -13,8 +13,6 @@ CubeCorner::CubeCorner() : TriMesh() {
         {5,6,2},{7,2,6},{5,9,6},{8,6,9},{9,2,8},{7,8,2}};
 
 
-
-
     //--- Fill vertices and triangles vectors
 
     // Fill vertices vector
@@ -25,11 +23,6 @@ CubeCorner::CubeCorner() : TriMesh() {
     for (int i=0; i<18; ++i)
         this->addTriangle(t[i][0], t[i][1] ,t[i][2]);
 
-
-
         computeNormalsT();  // to be fixed
         computeNormalsV();  // to be fixed
-
-
-
 }
