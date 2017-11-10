@@ -27,18 +27,30 @@
 #include "objects/off_loader.h"
 #include <tclap/CmdLine.h>
 
+
 using namespace std;
 
 /**
 * Program usage
 * Should be handled with the tclap library
 */
-void usage(char* name){
-    cout<< "usage: " << name << " [options]" <<endl;
-    cout<< "options:" <<endl;
-    cout<< "  -h, --help                 shows this message" <<endl;
-    cout<< "  --off file                 loads OFF file" <<endl;
-}
+
+class MyOutput : public TCLAP::StdOutput
+{
+    public:
+
+
+        virtual void usage(TCLAP::CmdLineInterface& _cmd) override
+        {
+            cout<< "usage: " << "isiviewer-1.3" << " [options]" <<endl;
+            cout<< "options:" <<endl;
+            cout<< "  -h, --help                 shows this message" <<endl;
+            cout<< "  --off file                 loads OFF file" <<endl;
+        }
+
+
+};
+
 
 int main(int argc, char *argv[]){
     QApplication app(argc, argv);
@@ -46,13 +58,13 @@ int main(int argc, char *argv[]){
     // Parse program arguments here
     // with the tclap library
     // http://tclap.sourceforge.net/manual.html
-    // if (cmd == yolo)
-
 
     try {
 
-        TCLAP::CmdLine cmd("Command description message", ' ', "0.9");
-        TCLAP::ValueArg<std::string> nomFichierArg("","off","chargement des fichiers OFF",true,"data/fichier.off","string");
+        TCLAP::CmdLine cmd("", ' ', "0.9");
+        MyOutput my;
+        cmd.setOutput(&my);
+        TCLAP::ValueArg<std::string> nomFichierArg("","off","chargement des fichiers OFF",false,"data/fichier.off","string");
         TCLAP::MultiArg<std::string> nomFichierArgMulti("", "", "chargement de multiples fichiers OFF", false,"string");
 
         cmd.add(nomFichierArg);
@@ -78,23 +90,28 @@ int main(int argc, char *argv[]){
         myScene->addObject(new Func_surface(50, 50, -M_PI, M_PI, -M_PI, M_PI, func_expcos)); //avec pointeur vers func_expcos
         myScene->addObject(new Func_surface(50, 50, -M_PI, M_PI, -M_PI, M_PI, autre_func_math));
 
-        // add user defined OFF files
-        string nomFichier;
-        vector<string> nomFichierBuff = nomFichierArgMulti.getValue();
-        vector<string>tabNomFichier;
+        if(argc!=1)
+        {
+            // add user defined OFF files
+            string nomFichier;
+            vector<string> nomFichierBuff = nomFichierArgMulti.getValue();
+            vector<string>tabNomFichier;
 
-       tabNomFichier.push_back(nomFichierArg.getValue());
-        for (int i=0; i<nomFichierBuff.size(); i++) {
+           tabNomFichier.push_back(nomFichierArg.getValue());
 
-            tabNomFichier.push_back(nomFichierBuff[i]);
+            for (int i=0; i<nomFichierBuff.size(); i++) {
+
+                tabNomFichier.push_back(nomFichierBuff[i]);
+            }
+
+            for(int i=0; i<tabNomFichier.size(); i++) {
+
+                nomFichier = tabNomFichier[i];
+                myScene->addObject(new off_loader(nomFichier));
+            }
+
         }
 
-        for(int i=0; i<tabNomFichier.size(); i++) {
-
-            nomFichier = tabNomFichier[i];
-            myScene->addObject(new off_loader(nomFichier));
-        }
-        //myScene->addObject(new off_loader("data/aircraft.off"));
 
         // initialize my custom main window
         QPointer<MyMainWindow> myMainWindow = new MyMainWindow(myScene);
@@ -104,7 +121,7 @@ int main(int argc, char *argv[]){
         return app.exec();
 
     } catch(TCLAP::ArgException &e) {
-        std::cerr << "error: " << e.error() << " for arg " << e.argId() << std::endl;
+        std::cerr << "Erreur" << std::endl;
     }
 }
 

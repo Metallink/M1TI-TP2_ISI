@@ -17,7 +17,7 @@ void Cylinder::traceTrianglesBase() {
 
     for(int i = 0; i<m_inc; i++){
 
-        addTriangle(0.f,i%m_inc+1,(i+1)%m_inc+1);
+        addTriangle(0.f,(i+1)%m_inc+1,i%m_inc+1);
     }
 }
 
@@ -32,12 +32,12 @@ void Cylinder::traceTrianglesCentre () {
             p1 = (i % m_inc + m_inc * niveau + 1);
             p2 = i % m_inc + m_inc * (niveau + 1) + 1;
             p3 = ((i+1) % m_inc + m_inc * niveau + 1);
-            addTriangle(p1, p2, p3);
+            addTriangle(p1, p3, p2);
 
             p1 = (i % m_inc + m_inc * (niveau + 1) + 1);
             p2 = ((i + 1) % m_inc + m_inc * (niveau + 1) + 1);
             p3 = ((i + 1) % m_inc + m_inc * niveau + 1);
-            addTriangle(p1, p2, p3);
+            addTriangle(p1, p3, p2);
         }
     }
 }
@@ -51,7 +51,7 @@ void Cylinder::traceTrianglesHaut() {
 
     for(int i = 0; i<m_inc; i++){
 
-        addTriangle(centre,(i+1)%m_inc+rangeSommets,i%m_inc+rangeSommets);
+        addTriangle(centre,i%m_inc+rangeSommets,(i+1)%m_inc+rangeSommets);
     }
 }
 

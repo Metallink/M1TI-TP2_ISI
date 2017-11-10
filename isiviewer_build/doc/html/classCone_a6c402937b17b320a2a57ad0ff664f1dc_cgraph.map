@@ -1,0 +1,13 @@
+<map id="Cone::Cone" name="Cone::Cone">
+<area shape="rect" id="node2" href="$classTriMesh.html#ae0d2c0bdf6b91931ee86aa51c8bfc29d" title="TriMesh::addVertex" alt="" coords="388,20,524,46"/>
+<area shape="rect" id="node4" href="$classTriMesh.html#a7a0ccea06db5bee5972cf601bd48510a" title="TriMesh::computeNormalsT" alt="" coords="148,96,332,122"/>
+<area shape="rect" id="node6" href="$classTriMesh.html#a2afd756d3720ffa295ad29bab3d3a77e" title="TriMesh::computeNormalsV" alt="" coords="147,146,333,173"/>
+<area shape="rect" id="node8" href="$classCone.html#ab800b2e9031b79265b11f8a2779bb6d2" title="Cone::traceTrianglesBase" alt="" coords="153,197,327,224"/>
+<area shape="rect" id="node10" href="$classCone.html#a06aa186d4f65c7bfefc48f2f7a56aca4" title="Cone::traceTrianglesHaut" alt="" coords="155,248,325,274"/>
+<area shape="rect" id="node11" href="$classCone.html#a5f79646eb53435a4a52f3c9e38858cf4" title="Cone::traceTrianglesMilieu" alt="" coords="151,298,329,325"/>
+<area shape="rect" id="node12" href="$classCone.html#ac1eb2a36357b66d25cd40bf22d66c7be" title="Cone::traceVertex" alt="" coords="176,45,304,72"/>
+<area shape="rect" id="node3" href="$classObject3D.html#a3b86fbd9b122140b1ed68461abb1e583" title="Object3D::extendBoundingBox" alt="" coords="579,20,781,46"/>
+<area shape="rect" id="node5" href="$classTriMesh.html#a32967a7d13c9cecd5ba93a89e0409f7d" title="TriMesh::addNormalT" alt="" coords="382,96,530,122"/>
+<area shape="rect" id="node7" href="$classTriMesh.html#a36f8783ffc98a97b5b022060609b7c55" title="TriMesh::addNormalV" alt="" coords="381,146,531,173"/>
+<area shape="rect" id="node9" href="$classTriMesh.html#af42d53d768083eb29b591a712037fcef" title="TriMesh::addTriangle" alt="" coords="384,248,528,274"/>
+</map>

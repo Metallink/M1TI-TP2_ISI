@@ -32,7 +32,7 @@ Func_surface::Func_surface(int nbx, int nby, float minx, float maxx, float miny,
     m_maxy = maxy;
 
     float tailleTriangle = 2*M_PI/50;
-    //float pointZ;
+
 
     for(float i=m_minx; i<m_maxx;i+=tailleTriangle) {
 
@@ -47,7 +47,7 @@ Func_surface::Func_surface(int nbx, int nby, float minx, float maxx, float miny,
 
         for (int n = 0; n<49; n++) {
 
-            this->addTriangle(m+n*m_nbx, (m+1)+n*m_nbx, (m+1)+(n+1)*m_nbx);
+            this->addTriangle(m+n*m_nbx, (m+1)+(n+1)*m_nbx, (m+1)+n*m_nbx);
             this->addTriangle(m+n*m_nbx, m+(n+1)*m_nbx, (m+1)+(n+1)*m_nbx);
         }
     }

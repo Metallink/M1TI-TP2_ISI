@@ -60,7 +60,7 @@ void Cone::traceTrianglesBase() {
     for(int i = 0; i<m_inc; i++){
 
         // trace triangles du cercle de base: ici triangle (201,150,151) (201,151,152) etc...
-        addTriangle(centre,i%m_inc+rangeSommets,(i+1)%m_inc+rangeSommets);
+        addTriangle(centre,(i+1)%m_inc+rangeSommets,i%m_inc+rangeSommets);
     }
 }
 

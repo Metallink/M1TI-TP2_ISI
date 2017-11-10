@@ -22,7 +22,7 @@ Torus::Torus (int inc) {
     for(int ii=0; ii<m_inc; ii++) {
         for(int jj=0; jj<m_inc; jj++){
 
-            this->addTriangle(ii+jj*(m_inc+1), (ii+1)+jj*(m_inc+1),(ii+1)+(jj+1)*(m_inc+1));
+            this->addTriangle(ii+jj*(m_inc+1),(ii+1)+(jj+1)*(m_inc+1), (ii+1)+jj*(m_inc+1));
             this->addTriangle(ii+jj*(m_inc+1), ii+(jj+1)*(m_inc+1),(ii+1)+(jj+1)*(m_inc+1));
         }
     }

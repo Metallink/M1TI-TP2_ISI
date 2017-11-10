@@ -52,22 +52,30 @@ void TriMesh::computeNormalsT(){
 
   // v1, v2, v3 sont les 3 sommets du triangle ABC
   // u et v sont les vecteurs AB et AC
-  Vertex v1, v2, v3, u, v, normale;
+  Vertex v1, v2, v3, u, v;
+  Normal n;
+
+
 
   // nous parcourous l'ensemble des triangles et calculons pour chaque triangle sa normale
+
   for (int i=0; i<_triangles.size(); i++) {
 
-      v1 = _vertices[_triangles[i][0]]; // A
-      v2 = _vertices[_triangles[i][1]]; // B
-      v3 = _vertices[_triangles[i][2]]; // C
 
-      u = v2-v1; // AB = coord(B)-coord(A)
-      v = v3-v1; // AC = coord(C)-coord(A)
+
+          v1 = _vertices[_triangles[i][0]]; // A
+          v2 = _vertices[_triangles[i][1]]; // B
+          v3 = _vertices[_triangles[i][2]]; // C
+
+          u = v2-v3; // AB = coord(B)-coord(A)
+          v = v2-v1; // AC = coord(C)-coord(A)
+
+
 
       // la normale de u et v est le produit vectorielle de u et v
-      normale = glm::cross(u,v); // comme indiqué sur le sujet du TP, nous utilisons la fonction cross de glm
-      glm::normalize(normale); // on normalise
-      this->addNormalT(normale);
+      // comme indiqué sur le sujet du TP, nous utilisons la fonction cross de glm
+      n=glm::normalize(glm::cross(u,v)); // on normalise
+      this->addNormalT(n);
   }
 }
 
@@ -81,15 +89,35 @@ void TriMesh::computeNormalsV(float angle_threshold){
   // Only normals whose angle with the current triangle normal
   // is below the angle_threshold is taken into account.
 
-  // Replace code below
 
-  Normal n(1,1,1);
 
-  for(unsigned int t=0; t<_triangles.size(); ++t) {
-      addNormalV(n);
-      addNormalV(n);
-      addNormalV(n);
-    }
+  Normal n(0,0,0);
+     int nbDiv=0;
+     int s;
+     for(unsigned int i=0; i<_triangles.size(); i++){//parcours tous les triangles
+         for(unsigned int v=0; v<3; v++) {//parcours les sommets de chaque triangles
+             nbDiv=0;
+             n[0]=1;
+             n[1]=1;
+             n[2]=1;
+             s = _triangles[i][v];
+             for(unsigned int t=0; t<_triangles.size(); t++){//cherche les triangles voisins à ce sommet
+                 if  (s==_triangles[t][0] || s==_triangles[t][1] || s==_triangles[t][2]) {
+                         if (glm::dot(_normalsT[t], _normalsT[i]) > cos((angle_threshold*M_PI)/180)  ) {
+                         n[0] = n[0] + _normalsT[t][0];
+                         n[1] = n[1] + _normalsT[t][1];
+                         n[2] = n[2] + _normalsT[t][2];
+                         nbDiv++;
+                     }
+                 }
+             }
+             n[0] = n[0]/nbDiv;
+             n[1] = n[1]/nbDiv;
+             n[2] = n[2]/nbDiv;
+             glm::normalize(n);
+             addNormalV(n);
+         }
+     }
 
 }
 

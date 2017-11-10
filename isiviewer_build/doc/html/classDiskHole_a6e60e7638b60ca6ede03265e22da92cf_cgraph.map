@@ -1,0 +1,11 @@
+<map id="DiskHole::DiskHole" name="DiskHole::DiskHole">
+<area shape="rect" id="node2" href="$classTriMesh.html#ae0d2c0bdf6b91931ee86aa51c8bfc29d" title="TriMesh::addVertex" alt="" coords="433,10,569,36"/>
+<area shape="rect" id="node4" href="$classTriMesh.html#a7a0ccea06db5bee5972cf601bd48510a" title="TriMesh::computeNormalsT" alt="" coords="193,86,377,112"/>
+<area shape="rect" id="node6" href="$classTriMesh.html#a2afd756d3720ffa295ad29bab3d3a77e" title="TriMesh::computeNormalsV" alt="" coords="193,136,378,163"/>
+<area shape="rect" id="node8" href="$classDiskHole.html#accc50705c92dceeccfd9084cbf89d22e" title="DiskHole::traceTriangles" alt="" coords="202,187,369,214"/>
+<area shape="rect" id="node10" href="$classDiskHole.html#a03f0e346f201b302e8e386d5b36680e8" title="DiskHole::traceVertex" alt="" coords="210,35,361,62"/>
+<area shape="rect" id="node3" href="$classObject3D.html#a3b86fbd9b122140b1ed68461abb1e583" title="Object3D::extendBoundingBox" alt="" coords="625,10,826,36"/>
+<area shape="rect" id="node5" href="$classTriMesh.html#a32967a7d13c9cecd5ba93a89e0409f7d" title="TriMesh::addNormalT" alt="" coords="427,86,575,112"/>
+<area shape="rect" id="node7" href="$classTriMesh.html#a36f8783ffc98a97b5b022060609b7c55" title="TriMesh::addNormalV" alt="" coords="427,136,576,163"/>
+<area shape="rect" id="node9" href="$classTriMesh.html#af42d53d768083eb29b591a712037fcef" title="TriMesh::addTriangle" alt="" coords="429,187,573,214"/>
+</map>
