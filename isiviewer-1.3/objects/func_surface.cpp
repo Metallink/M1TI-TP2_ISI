@@ -31,10 +31,10 @@ Func_surface::Func_surface(int nbx, int nby, float minx, float maxx, float miny,
     m_miny = miny;
     m_maxy = maxy;
 
-    float unCarre = 2*M_PI/50;//un carrée de mon quadrillage
+    float unCarre = 2*M_PI/50;//un élément de mon quadrillage
 
 
-    for(float i=m_minx; i<m_maxx; i+=unCarre) { //on parcourt le quadrillage de longueur 2PI et de largeur 2PI pour créer les sommets
+    for(float i=m_minx; i<m_maxx; i+=unCarre) { //On parcourt le quadrillage de longueur 2PI et de largeur 2PI pour créer les sommets.
 
         for(float j=m_miny; j<m_maxy; j+=unCarre) {
 
@@ -43,9 +43,10 @@ Func_surface::Func_surface(int nbx, int nby, float minx, float maxx, float miny,
         }
     }
 
-    for (int m = 0; m<49; m++) { //création des carrées qui composent mon quadrillage en faisant les carrées grâce à deux triangles chacun
+    //Création des carrées qui composent mon quadrillage en créant des carrées à partir de deux triangles.
+    for (int m = 0; m<49; m++) { //Parcours des points sur l'axe x.
 
-        for (int n = 0; n<49; n++) {
+        for (int n = 0; n<49; n++) { //Parcours des points sur l'axe y.
 
             this->addTriangle(m+n*m_nbx, (m+1)+(n+1)*m_nbx, (m+1)+n*m_nbx);
             this->addTriangle(m+n*m_nbx, m+(n+1)*m_nbx, (m+1)+(n+1)*m_nbx);

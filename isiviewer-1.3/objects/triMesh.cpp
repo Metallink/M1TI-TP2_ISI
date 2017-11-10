@@ -92,26 +92,26 @@ void TriMesh::computeNormalsV(float angle_threshold){
 
 
   Normal n(0,0,0);
-     int nbDiv=0;
-     int s;
+     int nbDiv=0;//Le dividende qui permet de stocker le nombre de triangles adjacents à un certain triangle.
+     int s; //Une vertex d'un triangle.
      for(unsigned int i=0; i<_triangles.size(); i++){//parcours tous les triangles
          for(unsigned int v=0; v<3; v++) {//parcours les sommets de chaque triangles
-             nbDiv=0;
+             nbDiv=0;// Réinitialisation du nombre de triangles voisins.
              n[0]=1;
              n[1]=1;
              n[2]=1;
              s = _triangles[i][v];
-             for(unsigned int t=0; t<_triangles.size(); t++){//cherche les triangles voisins à ce sommet
+             for(unsigned int t=0; t<_triangles.size(); t++){ //cherche les triangles voisins à ce sommet
                  if  (s==_triangles[t][0] || s==_triangles[t][1] || s==_triangles[t][2]) {
-                         if (glm::dot(_normalsT[t], _normalsT[i]) > cos((angle_threshold*M_PI)/180)  ) {
-                         n[0] = n[0] + _normalsT[t][0];
-                         n[1] = n[1] + _normalsT[t][1];
+                         if (glm::dot(_normalsT[t], _normalsT[i]) > cos((angle_threshold*M_PI)/180)  ) { //Si le produit scalaire de deux angles est inférieur au radiant de 70 degrés
+                         n[0] = n[0] + _normalsT[t][0];                                             //alors on additionne les points de la normale du triangle adjacent avec
+                         n[1] = n[1] + _normalsT[t][1];                                             //les points d'une normale initialisée à (1,1,1).
                          n[2] = n[2] + _normalsT[t][2];
-                         nbDiv++;
+                         nbDiv++; //Nombre de triangles adjacents par rapport au triangle qu'on a sélectionné dans la première boucle for.
                      }
                  }
              }
-             n[0] = n[0]/nbDiv;
+             n[0] = n[0]/nbDiv;//On fait la moyenne des normales des triangles voisins.
              n[1] = n[1]/nbDiv;
              n[2] = n[2]/nbDiv;
              glm::normalize(n);

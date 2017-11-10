@@ -10,7 +10,7 @@ Torus::Torus (int inc) {
     float angle= 2*M_PI/m_inc;
 
 
-    for(float i=0; i<2*M_PI; i+=angle) { //création des vertexs à partir de la fonction mathématique pour faire le torus
+    for(float i=0; i<2*M_PI; i+=angle) { //création des vertexs à partir de la fonction mathématique pour faire un torus
 
         for(float j=0; j<2*M_PI; j+=angle) {
 
@@ -22,7 +22,7 @@ Torus::Torus (int inc) {
     }
 
 
-    for(int ii=0; ii<m_inc; ii++) {
+    for(int ii=0; ii<m_inc; ii++) { //création des triangles
 
         for(int jj=0; jj<m_inc; jj++){
 

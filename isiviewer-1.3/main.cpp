@@ -40,7 +40,7 @@ class MyOutput : public TCLAP::StdOutput
     public:
 
 
-        virtual void usage(TCLAP::CmdLineInterface& _cmd) override
+        virtual void usage(TCLAP::CmdLineInterface& _cmd) override //Permets de changer l'option help définie par défaut par la librairie TCLAP.
         {
             cout<< "usage: " << "isiviewer-1.3" << " [options]" <<endl;
             cout<< "options:" <<endl;
@@ -63,7 +63,7 @@ int main(int argc, char *argv[]){
 
         TCLAP::CmdLine cmd("", ' ', "0.9");
         MyOutput my;
-        cmd.setOutput(&my);
+        cmd.setOutput(&my); // Permets de lier la fonction redéfinie usage avec la variable cmd.
         TCLAP::ValueArg<std::string> nomFichierArg("","off","chargement des fichiers OFF",false,"data/fichier.off","string");
         TCLAP::MultiArg<std::string> nomFichierArgMulti("", "", "chargement de multiples fichiers OFF", false,"string");
 
@@ -97,7 +97,7 @@ int main(int argc, char *argv[]){
             vector<string> nomFichierBuff = nomFichierArgMulti.getValue();
             vector<string>tabNomFichier;
 
-           tabNomFichier.push_back(nomFichierArg.getValue()); // on récupére dans un tableau tous les noms de fichier OFF passé en ligne de commande
+           tabNomFichier.push_back(nomFichierArg.getValue()); // on récupère dans un tableau tous les noms de fichiers OFF passé en ligne de commande
 
             for (int i=0; i<nomFichierBuff.size(); i++) {
 

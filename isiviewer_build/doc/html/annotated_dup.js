@@ -8,6 +8,7 @@ var annotated_dup =
     [ "DiskHole", "classDiskHole.html", "classDiskHole" ],
     [ "Func_surface", "classFunc__surface.html", "classFunc__surface" ],
     [ "MyMainWindow", "classMyMainWindow.html", "classMyMainWindow" ],
+    [ "MyOutput", "classMyOutput.html", "classMyOutput" ],
     [ "MyQGLViewer", "classMyQGLViewer.html", "classMyQGLViewer" ],
     [ "MyScene", "classMyScene.html", "classMyScene" ],
     [ "Object3D", "classObject3D.html", "classObject3D" ],

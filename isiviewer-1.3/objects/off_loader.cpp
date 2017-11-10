@@ -37,7 +37,7 @@ off_loader::off_loader(std::string cheminAcces) {
 
 
 
-                myfile>>nbVecteurs>>nbFaces>>nbEdges;
+                myfile>>nbVecteurs>>nbFaces>>nbEdges; //lecture de la deuxième ligne du fichier.off et récupération des données qu'elle contient
 
 
 
@@ -47,7 +47,7 @@ off_loader::off_loader(std::string cheminAcces) {
 
 
 
-                    for(int k=0;k<20;k++) {
+                    for(int k=0;k<20;k++) { //on remplace les points par des virgules pour pouvoir faire le transtypage des variables char en long double
 
                         if(recupCoordxVt[k]=='.') {
                             recupCoordxVt[k]=',';
@@ -156,7 +156,7 @@ off_loader::off_loader(std::string cheminAcces) {
                         }
                     }
 
-                    CoordxVt = strtold (recupCoordxVt, NULL);
+                    CoordxVt = strtold (recupCoordxVt, NULL);//transtypage d'une variable char en long double
                     CoordyVt = strtold (recupCoordyVt, NULL);
                     CoordzVt = strtold (recupCoordzVt, NULL);
 

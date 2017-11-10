@@ -6,7 +6,7 @@
     <filterAttribute>doxygen</filterAttribute>
     <toc>
       <section title="ISIviewer 2006-2013" ref="index.html">
-        <section title="Classes">
+        <section title="Classes" ref="annotated.html">
           <section title="Class List" ref="annotated.html">
             <section title="Cone" ref="classCone.html">
               <section title="Cone" ref="classCone.html#a6c402937b17b320a2a57ad0ff664f1dc" />
@@ -1124,22 +1124,6 @@
       <file>bdwn.png</file>
       <file>sync_on.png</file>
       <file>sync_off.png</file>
-      <file>ftv2blank.png</file>
-      <file>ftv2doc.png</file>
-      <file>ftv2folderclosed.png</file>
-      <file>ftv2folderopen.png</file>
-      <file>ftv2ns.png</file>
-      <file>ftv2mo.png</file>
-      <file>ftv2cl.png</file>
-      <file>ftv2lastnode.png</file>
-      <file>ftv2link.png</file>
-      <file>ftv2mlastnode.png</file>
-      <file>ftv2mnode.png</file>
-      <file>ftv2node.png</file>
-      <file>ftv2plastnode.png</file>
-      <file>ftv2pnode.png</file>
-      <file>ftv2vertline.png</file>
-      <file>ftv2splitbar.png</file>
       <file>doxygen.css</file>
       <file>main_8cpp_source.html</file>
       <file>my__main__window_8cpp_source.html</file>
@@ -1263,6 +1247,7 @@
       <file>classCone__inherit__graph.png</file>
       <file>classCone__coll__graph.png</file>
       <file>classCone_a6c402937b17b320a2a57ad0ff664f1dc_cgraph.png</file>
+      <file>classCone_af7d0a73eb5d2f5e4c0681cee99e80561_cgraph.png</file>
       <file>classCone_ab800b2e9031b79265b11f8a2779bb6d2_cgraph.png</file>
       <file>classCone_a06aa186d4f65c7bfefc48f2f7a56aca4_cgraph.png</file>
       <file>classCone_a5f79646eb53435a4a52f3c9e38858cf4_cgraph.png</file>
@@ -1305,6 +1290,7 @@
       <file>classFunc__surface__inherit__graph.png</file>
       <file>classFunc__surface__coll__graph.png</file>
       <file>classFunc__surface_a24bfd47f798281bc50d0dc7dda4ccd2b_cgraph.png</file>
+      <file>classFunc__surface_a6c829f06ab48b5045cb955209b90e4cb_cgraph.png</file>
       <file>classFunc__surface-members.html</file>
       <file>classMyMainWindow.html</file>
       <file>classMyMainWindow__inherit__graph.png</file>
@@ -1322,10 +1308,12 @@
       <file>classMyScene.html</file>
       <file>classMyScene__inherit__graph.png</file>
       <file>classMyScene__coll__graph.png</file>
+      <file>classMyScene_a782e87414a79c87ff17778c2c6c6d183_cgraph.png</file>
       <file>classMyScene_abfbf9297e676d8a5601040d62f8733cf_cgraph.png</file>
       <file>classMyScene-members.html</file>
       <file>classObject3D.html</file>
       <file>classObject3D__inherit__graph.png</file>
+      <file>classObject3D_abe17f09bc38e52115b56cddba2d536b8_cgraph.png</file>
       <file>classObject3D-members.html</file>
       <file>classoff__loader.html</file>
       <file>classoff__loader__inherit__graph.png</file>
@@ -1365,7 +1353,6 @@
       <file>graph_legend.png</file>
       <file>graph_legend.html</file>
       <file>dir_645ec83fa4e243a732144956da80a200.html</file>
-      <file>dir_645ec83fa4e243a732144956da80a200_dep.png</file>
       <file>index.html</file>
       <file>annotated.html</file>
       <file>classes.html</file>
